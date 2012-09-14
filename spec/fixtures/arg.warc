@@ -1,0 +1,267 @@
+WARC/1.0
+WARC-Type: warcinfo
+Content-Type: application/warc-fields
+WARC-Date: 2012-09-14T03:08:05Z
+WARC-Record-ID: <urn:uuid:CE171A3B-FF47-4859-89DA-A03ADEB37334>
+WARC-Filename: arg.warc
+WARC-Block-Digest: sha1:RFDKLAAA6JWB4XZXWKVLNVFPTDLFTPSK
+Content-Length: 270
+
+software: Wget/1.14 (darwin10.8.0)
+format: WARC File Format 1.0
+conformsTo: http://bibnum.bnf.fr/WARC/WARC_ISO_28500_version1_latestdraft.pdf
+robots: classic
+wget-arguments: "http://www.antoineroygobeil.com/" "--mirror" "--warc-file=arg" "--no-warc-compression" 
+
+
+
+WARC/1.0
+WARC-Type: request
+WARC-Target-URI: http://www.antoineroygobeil.com/
+Content-Type: application/http;msgtype=request
+WARC-Date: 2012-09-14T03:08:05Z
+WARC-Record-ID: <urn:uuid:01D6037B-E36C-44C1-9731-8E75CC8996CD>
+WARC-IP-Address: 64.34.145.145
+WARC-Warcinfo-ID: <urn:uuid:CE171A3B-FF47-4859-89DA-A03ADEB37334>
+WARC-Block-Digest: sha1:L5UPLOIIBXTVUBQI26LL2C2PC2RXQUAB
+Content-Length: 125
+
+GET / HTTP/1.1
+User-Agent: Wget/1.14 (darwin10.8.0)
+Accept: */*
+Host: www.antoineroygobeil.com
+Connection: Keep-Alive
+
+
+
+WARC/1.0
+WARC-Type: response
+WARC-Record-ID: <urn:uuid:DC635649-820F-4A26-89C8-3ED1FB5398ED>
+WARC-Warcinfo-ID: <urn:uuid:CE171A3B-FF47-4859-89DA-A03ADEB37334>
+WARC-Concurrent-To: <urn:uuid:01D6037B-E36C-44C1-9731-8E75CC8996CD>
+WARC-Target-URI: http://www.antoineroygobeil.com/
+WARC-Date: 2012-09-14T03:08:05Z
+WARC-IP-Address: 64.34.145.145
+WARC-Block-Digest: sha1:KALWHSW57TQKVJVZPLKTV7ZO24QN3BAH
+WARC-Payload-Digest: sha1:SWVIXMD24OCGFYUOH5CPVJW3HPW2TPJT
+Content-Type: application/http;msgtype=response
+Content-Length: 803
+
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 14 Sep 2012 03:08:05 GMT
+Server: Apache/2.2.11 (Ubuntu) PHP/5.2.6-3ubuntu4.6 with Suhosin-Patch mod_ssl/2.2.11 OpenSSL/0.9.8g Phusion_Passenger/2.2.5
+Location: http://antoineroygobeil.com/
+Vary: Accept-Encoding
+Content-Length: 420
+Keep-Alive: timeout=15, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="http://antoineroygobeil.com/">here</a>.</p>
+<hr>
+<address>Apache/2.2.11 (Ubuntu) PHP/5.2.6-3ubuntu4.6 with Suhosin-Patch mod_ssl/2.2.11 OpenSSL/0.9.8g Phusion_Passenger/2.2.5 Server at www.antoineroygobeil.com Port 80</address>
+</body></html>
+
+
+WARC/1.0
+WARC-Type: request
+WARC-Target-URI: http://antoineroygobeil.com/
+Content-Type: application/http;msgtype=request
+WARC-Date: 2012-09-14T03:08:05Z
+WARC-Record-ID: <urn:uuid:5641209D-F1AF-46D1-8A41-CBDB746C40D1>
+WARC-IP-Address: 64.34.145.145
+WARC-Warcinfo-ID: <urn:uuid:CE171A3B-FF47-4859-89DA-A03ADEB37334>
+WARC-Block-Digest: sha1:LGO6T275AU573ZMIRCECF4Z6ZEX7RVTM
+Content-Length: 121
+
+GET / HTTP/1.1
+User-Agent: Wget/1.14 (darwin10.8.0)
+Accept: */*
+Host: antoineroygobeil.com
+Connection: Keep-Alive
+
+
+
+WARC/1.0
+WARC-Type: response
+WARC-Record-ID: <urn:uuid:CD7AF690-EBA5-4071-BC9D-EDAD854D57D6>
+WARC-Warcinfo-ID: <urn:uuid:CE171A3B-FF47-4859-89DA-A03ADEB37334>
+WARC-Concurrent-To: <urn:uuid:5641209D-F1AF-46D1-8A41-CBDB746C40D1>
+WARC-Target-URI: http://antoineroygobeil.com/
+WARC-Date: 2012-09-14T03:08:05Z
+WARC-IP-Address: 64.34.145.145
+WARC-Block-Digest: sha1:TABLB7DABQVOYHUK3E2CEFJ7LIHGTCV2
+WARC-Payload-Digest: sha1:H62OXGS6ICUKWEIZFIS3Z4L6EWMT54K2
+Content-Type: application/http;msgtype=response
+Content-Length: 4795
+
+HTTP/1.1 200 OK
+Date: Fri, 14 Sep 2012 03:08:05 GMT
+Server: Apache/2.2.11 (Ubuntu) PHP/5.2.6-3ubuntu4.6 with Suhosin-Patch mod_ssl/2.2.11 OpenSSL/0.9.8g Phusion_Passenger/2.2.5
+Last-Modified: Thu, 23 Aug 2012 02:52:11 GMT
+Accept-Ranges: bytes
+Content-Length: 4404
+Vary: Accept-Encoding
+Keep-Alive: timeout=15, max=99
+Connection: Keep-Alive
+Content-Type: text/html; charset=utf-8
+
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class='no-js' lang='en'>
+  <!--<![endif]-->
+  <head>
+    <meta charset='utf-8' />
+    <title>Antoine Roy-Gobeil</title>
+    <meta content="Antoine Roy-Gobeil's webpage and blog" name='description' />
+    <meta content='Antoine Roy-Gobeil' name='author' />
+    <meta content='nanoc 3.4.0' name='generator' />
+    <link href='http://antoineroygobeil.com/blog.xml' rel='alternate' title="Antoine Roy-Gobeil's blog" type='application/atom+xml' />
+    <meta content='width=device-width' name='viewport' />
+    <link href='/assets/css/style-cb0d0dfd528.css' rel='stylesheet' type='text/css' />
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400itlalic|Cabin:400' rel='stylesheet' />
+    <script src='/assets/js/vendor/modernizr-cb5f7134b69.js'></script>
+  </head>
+  <body>
+    <!--[if lt IE 7 ]>
+      <p class='chromeframe'>
+        Your browser is <em>ancient!</em>
+        <a href="http://browsehappy.com/">Upgrade to a different browser</a> or
+        <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a>
+        to experience this site.
+      </p>
+    <![endif]-->
+    <div class='container'>
+      <header>
+  <h1><a href="/">Antoine Roy-Gobeil</a></h1>
+	  <p class="presentation">
+      <strong>Hello.</strong>
+	    My name is Antoine Roy-Gobeil. I am currently a PhD candidate
+	    in <a href="http://www.physics.mcgill.ca">physics at McGill University</a>. I am passionate about science, technology
+	    <abbr title="and">&amp;</abbr>
+	    software. In my free time I enjoy basketball, cinema <abbr title="and">&amp;</abbr> video games.	
+	  </p>
+</header>
+      <div id='main-content'>
+        
+          <article class="hentry" itemscope itemtype="http://schema.org/BlogPosting" lang="en">
+        	<header>
+        		<p class="meta">
+        			
+        			<time datetime="2012-08-12T00:40:00Z">
+        			  <span class="day">11</span>
+        			  <span class="month">August</span>
+        			  <span class="year">2012</span>
+        			</time>
+        		</p>
+        		<h1 class="entry-title" itemprop="name"><a href="/blog/2012/08/11/a-place-to-call-home/">A place to call home</a></h1>
+        	</header>
+        	
+        	<div class="entry-content" itemprop="description">
+        	<p>I have been postponing this day for too much time already. It was about time I had a small place to call home on the web!</p>
+        
+        <p>Much to my regret, I have been doing many small projects over the years for which I kept almost no traces. I hope to make this blog a beautiful place to look back at stuff I did.</p>
+        
+        <p>In the process, I hope to make the internet a better place. I am sometimes surprised by the lack of information, documentation or tutorial I can find online on particular topics. Yet, to this day, I haven't published anything useful on the internet. I figured starting a blog was the right thing to do. Therefore, from this day forward, I intend to blog about the stuff I wished would have been on Google but wasn't. I hope it may be of some help to fellow web travellers like me.</p>	
+        	</div>
+        	
+        	<footer>
+        		
+        	</footer>
+        </article>
+      </div>
+      <footer>
+      <p>Copyright 2012  • Antoine Roy-Gobeil</p>
+      <img src="/assets/img/portrait_182px_circle.jpg" alt="Portrait of Antoine Roy-Gobeil - Summer 2012"/>
+      </footer>
+    </div>
+    <script src='//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+    <script type='text/javascript'>
+      //<![CDATA[
+        window.jQuery || document.write('<script src="/js/vendor/jquery.js"><\/script>')
+      //]]>
+    </script>
+    <script src='/assets/js/application-cb4c5a72106.js'></script>
+    <script type='text/javascript'>
+      //<![CDATA[
+        var _gaq=[['_setAccount','UA-34075505-1'],['_trackPageview']];
+        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+        s.parentNode.insertBefore(g,s)}(document,'script'));
+      //]]>
+    </script>
+  </body>
+</html>
+
+
+WARC/1.0
+WARC-Type: resource
+WARC-Record-ID: <urn:uuid:5D799C11-D46C-4AC8-B598-5DC9F4205C6E>
+WARC-Warcinfo-ID: <urn:uuid:CE171A3B-FF47-4859-89DA-A03ADEB37334>
+WARC-Target-URI: metadata://gnu.org/software/wget/warc/MANIFEST.txt
+WARC-Date: 2012-09-14T03:08:05Z
+WARC-Block-Digest: sha1:Y2K6QTLHURLM7GPHWC7RCMQJXJMADJAA
+Content-Type: text/plain
+Content-Length: 48
+
+<urn:uuid:CE171A3B-FF47-4859-89DA-A03ADEB37334>
+
+
+WARC/1.0
+WARC-Type: resource
+WARC-Record-ID: <urn:uuid:5D799C11-D46C-4AC8-B598-5DC9F4205C6E>
+WARC-Warcinfo-ID: <urn:uuid:CE171A3B-FF47-4859-89DA-A03ADEB37334>
+WARC-Target-URI: metadata://gnu.org/software/wget/warc/wget_arguments.txt
+WARC-Date: 2012-09-14T03:08:05Z
+WARC-Block-Digest: sha1:IVTUDTXVSYCNFXVTELIUWCVCLXYXY5CF
+Content-Type: text/plain
+Content-Length: 89
+
+"http://www.antoineroygobeil.com/" "--mirror" "--warc-file=arg" "--no-warc-compression" 
+
+
+WARC/1.0
+WARC-Type: resource
+WARC-Record-ID: <urn:uuid:984565DE-4E6E-4443-97C5-25235CC91140>
+WARC-Warcinfo-ID: <urn:uuid:CE171A3B-FF47-4859-89DA-A03ADEB37334>
+WARC-Concurrent-To: <urn:uuid:5D799C11-D46C-4AC8-B598-5DC9F4205C6E>
+WARC-Target-URI: metadata://gnu.org/software/wget/warc/wget.log
+WARC-Date: 2012-09-14T03:08:05Z
+WARC-Block-Digest: sha1:CRKHZFN5I63JL5CBW4MKF3UBV3A2GQF3
+Content-Type: text/plain
+Content-Length: 987
+
+Opening WARC file ‘arg.warc’.
+
+--2012-09-13 23:08:05--  http://www.antoineroygobeil.com/
+Resolving www.antoineroygobeil.com... 64.34.145.145
+Connecting to www.antoineroygobeil.com|64.34.145.145|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://antoineroygobeil.com/ [following]
+
+     0K                                                       100% 50.1M=0s
+
+--2012-09-13 23:08:05--  http://antoineroygobeil.com/
+Resolving antoineroygobeil.com... 64.34.145.145
+Reusing existing connection to www.antoineroygobeil.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 4404 (4.3K) [text/html]
+Saving to: ‘www.antoineroygobeil.com/index.html’
+
+     0K ....                                                  100% 2.27M=0.002s
+
+2012-09-13 23:08:05 (2.27 MB/s) - ‘www.antoineroygobeil.com/index.html’ saved [4404/4404]
+
+FINISHED --2012-09-13 23:08:05--
+Total wall clock time: 0.2s
+Downloaded: 1 files, 4.3K in 0.002s (2.27 MB/s)
+
+

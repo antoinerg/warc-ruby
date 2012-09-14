@@ -2,18 +2,22 @@ require 'pathname'
 
 module Warc
   class File
-    attr_reader :file_handle, :parser
+    include Enumerable
+    attr_reader :path, :parser
     
     def initialize(path)
-      @file_handle = ::File.new(path)
-      @parser = Warc::Parser.new(self)
+      @path = path
+      @parser = Warc::Reader.new(path)
     end
     
-    def each_record(&block)
-      while record = @parser.next_record
-        yield(record)
-      end
+    def each &block  
+      @parser.each_record do |record|
+        if block_given?
+          block.call record
+        else  
+          yield record
+        end
+      end  
     end
-    
   end
 end

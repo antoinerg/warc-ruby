@@ -6,32 +6,29 @@ describe Warc::File do
   end
 end
 
-describe Warc::Parser do
+describe Warc::Reader do
   context "single entry" do
   before(:each) do
     @warc=Warc::File.new(fixture('criterion.warc'))
+    @record = @warc.first
   end
   
-  it "should read all headers" do
-    @warc.parser.next_record.header.length.should eq(7)
+  it "should parse all headers" do
+    @record.header.length.should eq(7)
   end
   
   it "should read key value from header" do
-     @warc.parser.next_record.header["content-length"].should eq("258")
+     @record.header["content-length"].should eq("258")
   end
   end
   
   context "multiples entries" do
     before(:each) do
-      @warc=Warc::File.new(fixture('fiscalitefrg.warc'))
+      @warc=Warc::File.new(fixture('frg.warc'))
     end
     
-    it "should iterate through record" do
-      total = 0
-      @warc.each_record do |p|
-        total = total+1
-      end
-      total.should eq (112)
+    it "should find all record" do
+      @warc.count.should eq 56
     end
     
   end  

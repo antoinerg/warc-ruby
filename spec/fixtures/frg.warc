@@ -1,17 +1,17 @@
 WARC/1.0
 WARC-Type: warcinfo
 Content-Type: application/warc-fields
-WARC-Date: 2012-09-14T02:28:27Z
-WARC-Record-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
-WARC-Filename: fiscalitefrg.warc
-WARC-Block-Digest: sha1:ENLGE2LVLX4G6E2DDZZQJUS7LB3DUO7W
-Content-Length: 275
+WARC-Date: 2012-09-14T02:55:21Z
+WARC-Record-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
+WARC-Filename: frg.warc
+WARC-Block-Digest: sha1:FLD6VS53XVS5BL3RMH5R3B2X6QE6SRF5
+Content-Length: 266
 
 software: Wget/1.14 (darwin10.8.0)
 format: WARC File Format 1.0
 conformsTo: http://bibnum.bnf.fr/WARC/WARC_ISO_28500_version1_latestdraft.pdf
 robots: classic
-wget-arguments: "http://www.fiscalitefrg.com/" "--mirror" "--warc-file=fiscalitefrg" "--no-warc-compression" 
+wget-arguments: "http://www.fiscalitefrg.com/" "--mirror" "--warc-file=frg" "--no-warc-compression" 
 
 
 
@@ -19,10 +19,10 @@ WARC/1.0
 WARC-Type: request
 WARC-Target-URI: http://www.fiscalitefrg.com/
 Content-Type: application/http;msgtype=request
-WARC-Date: 2012-09-14T02:28:28Z
-WARC-Record-ID: <urn:uuid:F9B6DB2D-638E-4C5A-9474-0BA6110F31C0>
+WARC-Date: 2012-09-14T02:55:22Z
+WARC-Record-ID: <urn:uuid:0E1A9DE9-FE86-476F-ADF0-EB8DB17BFE70>
 WARC-IP-Address: 64.34.145.145
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
 WARC-Block-Digest: sha1:QXRKXPN5S42Q7ERNVFIHGAPM2NNAATUL
 Content-Length: 121
 
@@ -36,19 +36,19 @@ Connection: Keep-Alive
 
 WARC/1.0
 WARC-Type: response
-WARC-Record-ID: <urn:uuid:F8A898B6-979C-45E8-B5EF-E58AD9D4B90F>
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
-WARC-Concurrent-To: <urn:uuid:F9B6DB2D-638E-4C5A-9474-0BA6110F31C0>
+WARC-Record-ID: <urn:uuid:2DEED5DB-6141-4D68-9ADF-E148C11DEC21>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
+WARC-Concurrent-To: <urn:uuid:0E1A9DE9-FE86-476F-ADF0-EB8DB17BFE70>
 WARC-Target-URI: http://www.fiscalitefrg.com/
-WARC-Date: 2012-09-14T02:28:28Z
+WARC-Date: 2012-09-14T02:55:22Z
 WARC-IP-Address: 64.34.145.145
-WARC-Block-Digest: sha1:HHBCEKIPISAYW2H4JRIRIZREA2K7GVGY
+WARC-Block-Digest: sha1:YCWFEEUGN4PJTAYINJKIVMSIA4M6OOO3
 WARC-Payload-Digest: sha1:VREG6BXJDE2KDRY644IVP5J6N6VAK7ZE
 Content-Type: application/http;msgtype=response
 Content-Length: 5654
 
 HTTP/1.1 200 OK
-Date: Fri, 14 Sep 2012 02:28:28 GMT
+Date: Fri, 14 Sep 2012 02:55:22 GMT
 Server: Apache/2.2.11 (Ubuntu) PHP/5.2.6-3ubuntu4.6 with Suhosin-Patch mod_ssl/2.2.11 OpenSSL/0.9.8g Phusion_Passenger/2.2.5
 Last-Modified: Mon, 09 May 2011 00:38:02 GMT
 ETag: "633ca-146c-4a2cd0d4d2e80"
@@ -190,10 +190,10 @@ WARC/1.0
 WARC-Type: request
 WARC-Target-URI: http://www.fiscalitefrg.com/robots.txt
 Content-Type: application/http;msgtype=request
-WARC-Date: 2012-09-14T02:28:28Z
-WARC-Record-ID: <urn:uuid:482AEF10-B106-4787-8005-08EA4522FD96>
+WARC-Date: 2012-09-14T02:55:22Z
+WARC-Record-ID: <urn:uuid:43E64A9F-B54D-41F9-8598-5F5FD6A4C6F9>
 WARC-IP-Address: 64.34.145.145
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
 WARC-Block-Digest: sha1:J4M5IPNR7GI4I4GYPR22NVR3XCO6BPKZ
 Content-Length: 131
 
@@ -207,19 +207,19 @@ Connection: Keep-Alive
 
 WARC/1.0
 WARC-Type: response
-WARC-Record-ID: <urn:uuid:BCDB8C94-CDEC-4C71-ACCB-6A72D2038443>
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
-WARC-Concurrent-To: <urn:uuid:482AEF10-B106-4787-8005-08EA4522FD96>
+WARC-Record-ID: <urn:uuid:50F1F237-5D9A-46B6-ADF3-F2EF62DEE90A>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
+WARC-Concurrent-To: <urn:uuid:43E64A9F-B54D-41F9-8598-5F5FD6A4C6F9>
 WARC-Target-URI: http://www.fiscalitefrg.com/robots.txt
-WARC-Date: 2012-09-14T02:28:28Z
+WARC-Date: 2012-09-14T02:55:22Z
 WARC-IP-Address: 64.34.145.145
-WARC-Block-Digest: sha1:VZHIXPIQUZ7OEYIVVNI27QSJLBFTYOBK
+WARC-Block-Digest: sha1:K5P53PIS2HJD756GKQVIFWSFN6C5OU7E
 WARC-Payload-Digest: sha1:GB2XQG7WPB2DBQ7WFNG7Y6FFNOSFMGKF
 Content-Type: application/http;msgtype=response
 Content-Length: 721
 
 HTTP/1.1 404 Not Found
-Date: Fri, 14 Sep 2012 02:28:28 GMT
+Date: Fri, 14 Sep 2012 02:55:22 GMT
 Server: Apache/2.2.11 (Ubuntu) PHP/5.2.6-3ubuntu4.6 with Suhosin-Patch mod_ssl/2.2.11 OpenSSL/0.9.8g Phusion_Passenger/2.2.5
 Vary: Accept-Encoding
 Content-Length: 387
@@ -242,10 +242,10 @@ WARC/1.0
 WARC-Type: request
 WARC-Target-URI: http://www.fiscalitefrg.com/accueil.xml
 Content-Type: application/http;msgtype=request
-WARC-Date: 2012-09-14T02:28:28Z
-WARC-Record-ID: <urn:uuid:8B0B1CFE-FB26-4E61-BD8C-9E5223D10E3F>
+WARC-Date: 2012-09-14T02:55:22Z
+WARC-Record-ID: <urn:uuid:A728954F-47AA-4BD1-8961-FB2474ED3B99>
 WARC-IP-Address: 64.34.145.145
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
 WARC-Block-Digest: sha1:PL4ABS5CDPZEKNMNMYQZCV2K5P6MJVHP
 Content-Length: 171
 
@@ -260,19 +260,19 @@ Connection: Keep-Alive
 
 WARC/1.0
 WARC-Type: response
-WARC-Record-ID: <urn:uuid:0D52EF2E-ADC6-4F2F-A969-54B6EA3CF361>
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
-WARC-Concurrent-To: <urn:uuid:8B0B1CFE-FB26-4E61-BD8C-9E5223D10E3F>
+WARC-Record-ID: <urn:uuid:F9D67000-265C-4755-8B4B-84C75E141599>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
+WARC-Concurrent-To: <urn:uuid:A728954F-47AA-4BD1-8961-FB2474ED3B99>
 WARC-Target-URI: http://www.fiscalitefrg.com/accueil.xml
-WARC-Date: 2012-09-14T02:28:28Z
+WARC-Date: 2012-09-14T02:55:22Z
 WARC-IP-Address: 64.34.145.145
-WARC-Block-Digest: sha1:DFL7ZV7KJV2MOMR3SQSESI5DPMMKINWF
+WARC-Block-Digest: sha1:JTLTF4CGKXSIYYGL6A5X5BKWM3CXKG56
 WARC-Payload-Digest: sha1:34R3PL2GFEY5GIK2CROENJCQPY4GP3BC
 Content-Type: application/http;msgtype=response
 Content-Length: 1085
 
 HTTP/1.1 200 OK
-Date: Fri, 14 Sep 2012 02:28:28 GMT
+Date: Fri, 14 Sep 2012 02:55:22 GMT
 Server: Apache/2.2.11 (Ubuntu) PHP/5.2.6-3ubuntu4.6 with Suhosin-Patch mod_ssl/2.2.11 OpenSSL/0.9.8g Phusion_Passenger/2.2.5
 Last-Modified: Mon, 09 May 2011 00:37:55 GMT
 ETag: "633b0-2b6-4a2cd0ce25ec0"
@@ -307,10 +307,10 @@ WARC/1.0
 WARC-Type: request
 WARC-Target-URI: http://www.fiscalitefrg.com/css/app.css
 Content-Type: application/http;msgtype=request
-WARC-Date: 2012-09-14T02:28:28Z
-WARC-Record-ID: <urn:uuid:F3092813-0DD3-4ACE-897F-74B65638027F>
+WARC-Date: 2012-09-14T02:55:22Z
+WARC-Record-ID: <urn:uuid:F035D291-CA86-4EA2-8E12-135C9A0006E7>
 WARC-IP-Address: 64.34.145.145
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
 WARC-Block-Digest: sha1:M4LVE6UG3ON74AEUOEGOFBLLX5ESMAOP
 Content-Length: 171
 
@@ -325,19 +325,19 @@ Connection: Keep-Alive
 
 WARC/1.0
 WARC-Type: response
-WARC-Record-ID: <urn:uuid:370E2D1C-7F7B-4E7B-B2E3-FE67D900CBB7>
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
-WARC-Concurrent-To: <urn:uuid:F3092813-0DD3-4ACE-897F-74B65638027F>
+WARC-Record-ID: <urn:uuid:B2BEE734-50E4-4858-8190-7437353794BD>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
+WARC-Concurrent-To: <urn:uuid:F035D291-CA86-4EA2-8E12-135C9A0006E7>
 WARC-Target-URI: http://www.fiscalitefrg.com/css/app.css
-WARC-Date: 2012-09-14T02:28:28Z
+WARC-Date: 2012-09-14T02:55:22Z
 WARC-IP-Address: 64.34.145.145
-WARC-Block-Digest: sha1:NKAZZIPHR7BUUO4YRN2LLXJAWIEIRHBL
+WARC-Block-Digest: sha1:HVPNT65HL3Z2A7TAZU3XBAVRVC3FRWU2
 WARC-Payload-Digest: sha1:27GKNCDHG4B42ZM6ONTYA2TOPZ3FVEOD
 Content-Type: application/http;msgtype=response
 Content-Length: 5290
 
 HTTP/1.1 200 OK
-Date: Fri, 14 Sep 2012 02:28:28 GMT
+Date: Fri, 14 Sep 2012 02:55:22 GMT
 Server: Apache/2.2.11 (Ubuntu) PHP/5.2.6-3ubuntu4.6 with Suhosin-Patch mod_ssl/2.2.11 OpenSSL/0.9.8g Phusion_Passenger/2.2.5
 Last-Modified: Mon, 09 May 2011 00:37:55 GMT
 ETag: "633b4-1328-4a2cd0ce25ec0"
@@ -353,10 +353,10 @@ WARC/1.0
 WARC-Type: request
 WARC-Target-URI: http://www.fiscalitefrg.com/js/app.js
 Content-Type: application/http;msgtype=request
-WARC-Date: 2012-09-14T02:28:28Z
-WARC-Record-ID: <urn:uuid:B930BB46-061D-4593-82C0-84661FD88C09>
+WARC-Date: 2012-09-14T02:55:22Z
+WARC-Record-ID: <urn:uuid:78D44DB4-F287-4CA6-9AF0-20D5A3D09762>
 WARC-IP-Address: 64.34.145.145
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
 WARC-Block-Digest: sha1:Z643AQ7FWD6IZ7Y3VQPB7K6OZCHE25VS
 Content-Length: 169
 
@@ -371,19 +371,19 @@ Connection: Keep-Alive
 
 WARC/1.0
 WARC-Type: response
-WARC-Record-ID: <urn:uuid:32FDE201-1E88-45B6-BA36-EF8440A9CF3C>
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
-WARC-Concurrent-To: <urn:uuid:B930BB46-061D-4593-82C0-84661FD88C09>
+WARC-Record-ID: <urn:uuid:0A7B0F39-62AC-472A-AFA9-2BC8B3B324DB>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
+WARC-Concurrent-To: <urn:uuid:78D44DB4-F287-4CA6-9AF0-20D5A3D09762>
 WARC-Target-URI: http://www.fiscalitefrg.com/js/app.js
-WARC-Date: 2012-09-14T02:28:28Z
+WARC-Date: 2012-09-14T02:55:22Z
 WARC-IP-Address: 64.34.145.145
-WARC-Block-Digest: sha1:XQXUBJ7YGY7GLHFZUHPGOLGF7PIWOS7K
+WARC-Block-Digest: sha1:2NXFFVQJ5LDMQRNATRNOTCYUUZB3STFT
 WARC-Payload-Digest: sha1:ZO3MAIMGU5QT3FTTSRYWXKJQHKLPEQMY
 Content-Type: application/http;msgtype=response
 Content-Length: 87631
 
 HTTP/1.1 200 OK
-Date: Fri, 14 Sep 2012 02:28:28 GMT
+Date: Fri, 14 Sep 2012 02:55:22 GMT
 Server: Apache/2.2.11 (Ubuntu) PHP/5.2.6-3ubuntu4.6 with Suhosin-Patch mod_ssl/2.2.11 OpenSSL/0.9.8g Phusion_Passenger/2.2.5
 Last-Modified: Mon, 09 May 2011 00:38:03 GMT
 ETag: "633cd-154bd-4a2cd0d5c70c0"
@@ -407,10 +407,10 @@ WARC/1.0
 WARC-Type: request
 WARC-Target-URI: http://www.fiscalitefrg.com/img/fiscalitefrg_logo.png
 Content-Type: application/http;msgtype=request
-WARC-Date: 2012-09-14T02:28:29Z
-WARC-Record-ID: <urn:uuid:8621F443-FFF8-4EC9-9A34-8D46D31EE3A5>
+WARC-Date: 2012-09-14T02:55:23Z
+WARC-Record-ID: <urn:uuid:6A2154D8-7112-44B9-A39A-58F251762991>
 WARC-IP-Address: 64.34.145.145
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
 WARC-Block-Digest: sha1:AHWS7Y53S2472Y7HKCPS36T3HEEKUED3
 Content-Length: 185
 
@@ -425,19 +425,19 @@ Connection: Keep-Alive
 
 WARC/1.0
 WARC-Type: response
-WARC-Record-ID: <urn:uuid:729F4247-6192-458A-A3BB-BC55DC2AC391>
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
-WARC-Concurrent-To: <urn:uuid:8621F443-FFF8-4EC9-9A34-8D46D31EE3A5>
+WARC-Record-ID: <urn:uuid:A53B8B1E-0324-4226-BAD7-358A52D50917>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
+WARC-Concurrent-To: <urn:uuid:6A2154D8-7112-44B9-A39A-58F251762991>
 WARC-Target-URI: http://www.fiscalitefrg.com/img/fiscalitefrg_logo.png
-WARC-Date: 2012-09-14T02:28:29Z
+WARC-Date: 2012-09-14T02:55:23Z
 WARC-IP-Address: 64.34.145.145
-WARC-Block-Digest: sha1:IUUPJF3RR4IOLVF4DLQHDTQ3Q3MA6GMK
+WARC-Block-Digest: sha1:ACWZ632WMIVKTVEW3ICGKTJESZPB7C57
 WARC-Payload-Digest: sha1:5KKCVNDYJY7JBCIMJ7H6YLU3X7TXX5OL
 Content-Type: application/http;msgtype=response
 Content-Length: 17550
 
 HTTP/1.1 200 OK
-Date: Fri, 14 Sep 2012 02:28:29 GMT
+Date: Fri, 14 Sep 2012 02:55:23 GMT
 Server: Apache/2.2.11 (Ubuntu) PHP/5.2.6-3ubuntu4.6 with Suhosin-Patch mod_ssl/2.2.11 OpenSSL/0.9.8g Phusion_Passenger/2.2.5
 Last-Modified: Mon, 09 May 2011 00:38:00 GMT
 ETag: "633bc-430a-4a2cd0d2eaa00"
@@ -545,10 +545,10 @@ WARC/1.0
 WARC-Type: request
 WARC-Target-URI: http://www.fiscalitefrg.com/index.html
 Content-Type: application/http;msgtype=request
-WARC-Date: 2012-09-14T02:28:29Z
-WARC-Record-ID: <urn:uuid:9C50F63E-9721-4467-8F2C-39A0B4D2036A>
+WARC-Date: 2012-09-14T02:55:23Z
+WARC-Record-ID: <urn:uuid:0077EBE9-6C31-4435-BF80-B1E64E02B0B0>
 WARC-IP-Address: 64.34.145.145
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
 WARC-Block-Digest: sha1:DWKFFWUKJCYYVIJHJ6Y7P4VCM3QVOU4G
 Content-Length: 170
 
@@ -563,19 +563,19 @@ Connection: Keep-Alive
 
 WARC/1.0
 WARC-Type: response
-WARC-Record-ID: <urn:uuid:773D31F8-00C0-400C-B790-19E762209D9A>
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
-WARC-Concurrent-To: <urn:uuid:9C50F63E-9721-4467-8F2C-39A0B4D2036A>
+WARC-Record-ID: <urn:uuid:6B343C34-3809-4A56-9CC8-4266389D1815>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
+WARC-Concurrent-To: <urn:uuid:0077EBE9-6C31-4435-BF80-B1E64E02B0B0>
 WARC-Target-URI: http://www.fiscalitefrg.com/index.html
-WARC-Date: 2012-09-14T02:28:29Z
+WARC-Date: 2012-09-14T02:55:23Z
 WARC-IP-Address: 64.34.145.145
-WARC-Block-Digest: sha1:RHPRSKPKNL5LSLKILFZC4F24CN7HKA5P
+WARC-Block-Digest: sha1:2WANGGFJHE4ZHR7OYJ6DLPBLYPDU4AJR
 WARC-Payload-Digest: sha1:VREG6BXJDE2KDRY644IVP5J6N6VAK7ZE
 Content-Type: application/http;msgtype=response
 Content-Length: 5653
 
 HTTP/1.1 200 OK
-Date: Fri, 14 Sep 2012 02:28:29 GMT
+Date: Fri, 14 Sep 2012 02:55:23 GMT
 Server: Apache/2.2.11 (Ubuntu) PHP/5.2.6-3ubuntu4.6 with Suhosin-Patch mod_ssl/2.2.11 OpenSSL/0.9.8g Phusion_Passenger/2.2.5
 Last-Modified: Mon, 09 May 2011 00:38:02 GMT
 ETag: "633ca-146c-4a2cd0d4d2e80"
@@ -717,10 +717,10 @@ WARC/1.0
 WARC-Type: request
 WARC-Target-URI: http://www.fiscalitefrg.com/services.html
 Content-Type: application/http;msgtype=request
-WARC-Date: 2012-09-14T02:28:29Z
-WARC-Record-ID: <urn:uuid:53FFD29E-CAA7-47AB-91D5-1EA858B644D3>
+WARC-Date: 2012-09-14T02:55:23Z
+WARC-Record-ID: <urn:uuid:450B7F93-791E-4056-89B0-9A5FA52B7FFE>
 WARC-IP-Address: 64.34.145.145
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
 WARC-Block-Digest: sha1:3FUIU2AYWK6ZMTW6UMGX4GLNBOUFPS4G
 Content-Length: 173
 
@@ -735,19 +735,19 @@ Connection: Keep-Alive
 
 WARC/1.0
 WARC-Type: response
-WARC-Record-ID: <urn:uuid:181111FC-2DD6-4EA6-936C-06264052A604>
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
-WARC-Concurrent-To: <urn:uuid:53FFD29E-CAA7-47AB-91D5-1EA858B644D3>
+WARC-Record-ID: <urn:uuid:DD9D7D6D-19C4-4DE6-8318-41D2F9EF0D32>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
+WARC-Concurrent-To: <urn:uuid:450B7F93-791E-4056-89B0-9A5FA52B7FFE>
 WARC-Target-URI: http://www.fiscalitefrg.com/services.html
-WARC-Date: 2012-09-14T02:28:29Z
+WARC-Date: 2012-09-14T02:55:23Z
 WARC-IP-Address: 64.34.145.145
-WARC-Block-Digest: sha1:6K7MUKBJ62VDQLWAHUAEXZG476HSBBUU
+WARC-Block-Digest: sha1:DRZS6XJJKJRDC62PVRDZ4N6AHZAUJSDE
 WARC-Payload-Digest: sha1:IBFKPJKH566CPZMJFXLPLDRK27RGBB2H
 Content-Type: application/http;msgtype=response
 Content-Length: 4076
 
 HTTP/1.1 200 OK
-Date: Fri, 14 Sep 2012 02:28:29 GMT
+Date: Fri, 14 Sep 2012 02:55:23 GMT
 Server: Apache/2.2.11 (Ubuntu) PHP/5.2.6-3ubuntu4.6 with Suhosin-Patch mod_ssl/2.2.11 OpenSSL/0.9.8g Phusion_Passenger/2.2.5
 Last-Modified: Mon, 09 May 2011 00:38:03 GMT
 ETag: "633d8-e44-4a2cd0d5c70c0"
@@ -858,10 +858,10 @@ WARC/1.0
 WARC-Type: request
 WARC-Target-URI: http://www.fiscalitefrg.com/a-propos.html
 Content-Type: application/http;msgtype=request
-WARC-Date: 2012-09-14T02:28:29Z
-WARC-Record-ID: <urn:uuid:0CAD7E29-0AFB-4B41-83E9-000AD4A32AFA>
+WARC-Date: 2012-09-14T02:55:23Z
+WARC-Record-ID: <urn:uuid:03EE8D7A-2C4C-481E-A972-6F4E8FCA2816>
 WARC-IP-Address: 64.34.145.145
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
 WARC-Block-Digest: sha1:WXJHHRBTIUIOVJGHGKLX3Q22YAGQSNMH
 Content-Length: 173
 
@@ -876,19 +876,19 @@ Connection: Keep-Alive
 
 WARC/1.0
 WARC-Type: response
-WARC-Record-ID: <urn:uuid:22C8B50F-611D-4C22-AF63-7EA753A31BBB>
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
-WARC-Concurrent-To: <urn:uuid:0CAD7E29-0AFB-4B41-83E9-000AD4A32AFA>
+WARC-Record-ID: <urn:uuid:2C9BAB14-DF29-49D5-B2B9-05CC3D4C41DF>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
+WARC-Concurrent-To: <urn:uuid:03EE8D7A-2C4C-481E-A972-6F4E8FCA2816>
 WARC-Target-URI: http://www.fiscalitefrg.com/a-propos.html
-WARC-Date: 2012-09-14T02:28:29Z
+WARC-Date: 2012-09-14T02:55:23Z
 WARC-IP-Address: 64.34.145.145
-WARC-Block-Digest: sha1:MCTMM7H5VHLX4LII34JBJ7VV65I5FLAF
+WARC-Block-Digest: sha1:PMZW3YBF3AZ3YRBJ75OBTRJWF32INYVN
 WARC-Payload-Digest: sha1:B4QPBTBS2E4LGTVPN3VC65ENTOAC2WPH
 Content-Type: application/http;msgtype=response
 Content-Length: 5072
 
 HTTP/1.1 200 OK
-Date: Fri, 14 Sep 2012 02:28:29 GMT
+Date: Fri, 14 Sep 2012 02:55:23 GMT
 Server: Apache/2.2.11 (Ubuntu) PHP/5.2.6-3ubuntu4.6 with Suhosin-Patch mod_ssl/2.2.11 OpenSSL/0.9.8g Phusion_Passenger/2.2.5
 Last-Modified: Mon, 09 May 2011 00:37:55 GMT
 ETag: "633af-1227-4a2cd0ce25ec0"
@@ -1006,10 +1006,10 @@ WARC/1.0
 WARC-Type: request
 WARC-Target-URI: http://www.fiscalitefrg.com/client.html
 Content-Type: application/http;msgtype=request
-WARC-Date: 2012-09-14T02:28:29Z
-WARC-Record-ID: <urn:uuid:D2A1D2B8-C239-4781-84A4-275CA7683673>
+WARC-Date: 2012-09-14T02:55:23Z
+WARC-Record-ID: <urn:uuid:DB7A0EB0-3856-496E-903E-671A41E891B0>
 WARC-IP-Address: 64.34.145.145
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
 WARC-Block-Digest: sha1:QL72WTMUGO6LHE7FVIS65J3POSQO366I
 Content-Length: 171
 
@@ -1024,19 +1024,19 @@ Connection: Keep-Alive
 
 WARC/1.0
 WARC-Type: response
-WARC-Record-ID: <urn:uuid:16C4CAEE-4CC8-4B85-B28E-8E602C64F2AB>
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
-WARC-Concurrent-To: <urn:uuid:D2A1D2B8-C239-4781-84A4-275CA7683673>
+WARC-Record-ID: <urn:uuid:F43383F9-FEC2-4A8F-927B-E8A2AE0C0A02>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
+WARC-Concurrent-To: <urn:uuid:DB7A0EB0-3856-496E-903E-671A41E891B0>
 WARC-Target-URI: http://www.fiscalitefrg.com/client.html
-WARC-Date: 2012-09-14T02:28:29Z
+WARC-Date: 2012-09-14T02:55:23Z
 WARC-IP-Address: 64.34.145.145
-WARC-Block-Digest: sha1:4PHTJMXUBMUKNJFKWMV76QYXQ7PPL4BK
+WARC-Block-Digest: sha1:KKPL5AMVFSH4R2UWFBHAPZUJ5HGXKVXV
 WARC-Payload-Digest: sha1:MMGEJFYITDR4UHIBWDU4QS5LLJQ6IN4K
 Content-Type: application/http;msgtype=response
 Content-Length: 6490
 
 HTTP/1.1 200 OK
-Date: Fri, 14 Sep 2012 02:28:29 GMT
+Date: Fri, 14 Sep 2012 02:55:23 GMT
 Server: Apache/2.2.11 (Ubuntu) PHP/5.2.6-3ubuntu4.6 with Suhosin-Patch mod_ssl/2.2.11 OpenSSL/0.9.8g Phusion_Passenger/2.2.5
 Last-Modified: Mon, 09 May 2011 00:37:55 GMT
 ETag: "633b1-17b1-4a2cd0ce25ec0"
@@ -1225,10 +1225,10 @@ WARC/1.0
 WARC-Type: request
 WARC-Target-URI: http://www.fiscalitefrg.com/contact.html
 Content-Type: application/http;msgtype=request
-WARC-Date: 2012-09-14T02:28:29Z
-WARC-Record-ID: <urn:uuid:A9587B65-91DA-499C-9F1A-9FCA4379123F>
+WARC-Date: 2012-09-14T02:55:23Z
+WARC-Record-ID: <urn:uuid:E9DF4FCE-4A59-4FEA-9846-C71652F6F636>
 WARC-IP-Address: 64.34.145.145
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
 WARC-Block-Digest: sha1:B5JAXV5OFE26U74TKGJ5JCCMPYTRRQ6T
 Content-Length: 172
 
@@ -1243,19 +1243,19 @@ Connection: Keep-Alive
 
 WARC/1.0
 WARC-Type: response
-WARC-Record-ID: <urn:uuid:5CFA3C84-B340-4E94-B5A0-DFB42E70B04C>
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
-WARC-Concurrent-To: <urn:uuid:A9587B65-91DA-499C-9F1A-9FCA4379123F>
+WARC-Record-ID: <urn:uuid:3B272A1A-47CE-447E-9AE8-0B546FF96A9D>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
+WARC-Concurrent-To: <urn:uuid:E9DF4FCE-4A59-4FEA-9846-C71652F6F636>
 WARC-Target-URI: http://www.fiscalitefrg.com/contact.html
-WARC-Date: 2012-09-14T02:28:29Z
+WARC-Date: 2012-09-14T02:55:23Z
 WARC-IP-Address: 64.34.145.145
-WARC-Block-Digest: sha1:J66RUFAI75HPHVR3LTWD4Y6DQM46BE72
+WARC-Block-Digest: sha1:A2ITCTMZEZWOUJCBXALDPU2K2A25R24Q
 WARC-Payload-Digest: sha1:KD3ULSP4LLPYXTKV53QIBTOZ4PONLITA
 Content-Type: application/http;msgtype=response
 Content-Length: 5177
 
 HTTP/1.1 200 OK
-Date: Fri, 14 Sep 2012 02:28:29 GMT
+Date: Fri, 14 Sep 2012 02:55:23 GMT
 Server: Apache/2.2.11 (Ubuntu) PHP/5.2.6-3ubuntu4.6 with Suhosin-Patch mod_ssl/2.2.11 OpenSSL/0.9.8g Phusion_Passenger/2.2.5
 Last-Modified: Mon, 09 May 2011 00:37:55 GMT
 ETag: "633b2-1290-4a2cd0ce25ec0"
@@ -1424,10 +1424,10 @@ WARC/1.0
 WARC-Type: request
 WARC-Target-URI: http://www.fiscalitefrg.com/services/declaration-impot.html
 Content-Type: application/http;msgtype=request
-WARC-Date: 2012-09-14T02:28:29Z
-WARC-Record-ID: <urn:uuid:91E8C07B-AAA4-45B3-BDC3-724888CAA5CD>
+WARC-Date: 2012-09-14T02:55:23Z
+WARC-Record-ID: <urn:uuid:07819030-E044-4013-B66B-CCCB8E665E1B>
 WARC-IP-Address: 64.34.145.145
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
 WARC-Block-Digest: sha1:QLHO3N3VMHNQG7A73M7CR74INUARIC5R
 Content-Length: 191
 
@@ -1442,19 +1442,19 @@ Connection: Keep-Alive
 
 WARC/1.0
 WARC-Type: response
-WARC-Record-ID: <urn:uuid:3982F51F-EF13-47A3-9099-D4E255193D4F>
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
-WARC-Concurrent-To: <urn:uuid:91E8C07B-AAA4-45B3-BDC3-724888CAA5CD>
+WARC-Record-ID: <urn:uuid:9B632BC2-2E6A-48FE-8F73-439E88C575E6>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
+WARC-Concurrent-To: <urn:uuid:07819030-E044-4013-B66B-CCCB8E665E1B>
 WARC-Target-URI: http://www.fiscalitefrg.com/services/declaration-impot.html
-WARC-Date: 2012-09-14T02:28:29Z
+WARC-Date: 2012-09-14T02:55:23Z
 WARC-IP-Address: 64.34.145.145
-WARC-Block-Digest: sha1:IWWRX3JHCUASYSMPDFKCDIN4H4T2D4ZI
+WARC-Block-Digest: sha1:B3PDSC2L2SYWIWUQRY246QWIRAIVPFA3
 WARC-Payload-Digest: sha1:C7256PO4Z5QMWHYNJENKQSNLE5VLYRBJ
 Content-Type: application/http;msgtype=response
 Content-Length: 4826
 
 HTTP/1.1 200 OK
-Date: Fri, 14 Sep 2012 02:28:29 GMT
+Date: Fri, 14 Sep 2012 02:55:23 GMT
 Server: Apache/2.2.11 (Ubuntu) PHP/5.2.6-3ubuntu4.6 with Suhosin-Patch mod_ssl/2.2.11 OpenSSL/0.9.8g Phusion_Passenger/2.2.5
 Last-Modified: Mon, 09 May 2011 00:38:03 GMT
 ETag: "633d3-1131-4a2cd0d5c70c0"
@@ -1565,10 +1565,10 @@ WARC/1.0
 WARC-Type: request
 WARC-Target-URI: http://www.fiscalitefrg.com/services/fiscalite.html
 Content-Type: application/http;msgtype=request
-WARC-Date: 2012-09-14T02:28:29Z
-WARC-Record-ID: <urn:uuid:02BAEA92-BC13-4A6B-AB3A-F009FEADED96>
+WARC-Date: 2012-09-14T02:55:23Z
+WARC-Record-ID: <urn:uuid:59D5AA17-F2AB-418D-9B9C-AAB4245AACA5>
 WARC-IP-Address: 64.34.145.145
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
 WARC-Block-Digest: sha1:KTECD3VD456VDZER6TMX56V5ABRNSHJ3
 Content-Length: 183
 
@@ -1583,19 +1583,19 @@ Connection: Keep-Alive
 
 WARC/1.0
 WARC-Type: response
-WARC-Record-ID: <urn:uuid:30342D77-C717-47E4-A39C-1DD6AF94FAB3>
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
-WARC-Concurrent-To: <urn:uuid:02BAEA92-BC13-4A6B-AB3A-F009FEADED96>
+WARC-Record-ID: <urn:uuid:295D0BE0-07CB-45A5-AAF5-D60DACB5F338>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
+WARC-Concurrent-To: <urn:uuid:59D5AA17-F2AB-418D-9B9C-AAB4245AACA5>
 WARC-Target-URI: http://www.fiscalitefrg.com/services/fiscalite.html
-WARC-Date: 2012-09-14T02:28:29Z
+WARC-Date: 2012-09-14T02:55:23Z
 WARC-IP-Address: 64.34.145.145
-WARC-Block-Digest: sha1:ACV34OJ2SUSCTS2XQKUDEEYYH4WDL7Y3
+WARC-Block-Digest: sha1:NMHQO2NK7T4AQMH2YWHFFZ5XVJHGHTSJ
 WARC-Payload-Digest: sha1:DCGOYTRAINRIAFFZPVCSNC4QHBSA6ZIY
 Content-Type: application/http;msgtype=response
 Content-Length: 6207
 
 HTTP/1.1 200 OK
-Date: Fri, 14 Sep 2012 02:28:29 GMT
+Date: Fri, 14 Sep 2012 02:55:23 GMT
 Server: Apache/2.2.11 (Ubuntu) PHP/5.2.6-3ubuntu4.6 with Suhosin-Patch mod_ssl/2.2.11 OpenSSL/0.9.8g Phusion_Passenger/2.2.5
 Last-Modified: Mon, 09 May 2011 00:38:03 GMT
 ETag: "633d5-1696-4a2cd0d5c70c0"
@@ -1719,10 +1719,10 @@ WARC/1.0
 WARC-Type: request
 WARC-Target-URI: http://www.fiscalitefrg.com/services/tenue-de-livres.html
 Content-Type: application/http;msgtype=request
-WARC-Date: 2012-09-14T02:28:29Z
-WARC-Record-ID: <urn:uuid:DBF794A2-1A5F-4EF4-9DB5-E04BAD667CDD>
+WARC-Date: 2012-09-14T02:55:23Z
+WARC-Record-ID: <urn:uuid:838549CF-92E5-41EB-B5A3-0E21B4683D03>
 WARC-IP-Address: 64.34.145.145
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
 WARC-Block-Digest: sha1:DQIHQLSQW56NOF37CRGKB3JDDHKOXO6E
 Content-Length: 189
 
@@ -1737,19 +1737,19 @@ Connection: Keep-Alive
 
 WARC/1.0
 WARC-Type: response
-WARC-Record-ID: <urn:uuid:60EFB5F9-88E8-4A2B-829A-24F5711F5F61>
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
-WARC-Concurrent-To: <urn:uuid:DBF794A2-1A5F-4EF4-9DB5-E04BAD667CDD>
+WARC-Record-ID: <urn:uuid:C295F9BB-FE01-4E1A-9BEA-5FFCBFD763CF>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
+WARC-Concurrent-To: <urn:uuid:838549CF-92E5-41EB-B5A3-0E21B4683D03>
 WARC-Target-URI: http://www.fiscalitefrg.com/services/tenue-de-livres.html
-WARC-Date: 2012-09-14T02:28:29Z
+WARC-Date: 2012-09-14T02:55:23Z
 WARC-IP-Address: 64.34.145.145
-WARC-Block-Digest: sha1:RZPP5YPNEKLYUGF3BMTONERSD34ZV4S3
+WARC-Block-Digest: sha1:DPLJZK2YYDPBIAAW7JVQ3OKTCOTRDYEE
 WARC-Payload-Digest: sha1:ZPOAFQKY6W3OX7GLGLXZZIJEKVB3PKQL
 Content-Type: application/http;msgtype=response
 Content-Length: 4736
 
 HTTP/1.1 200 OK
-Date: Fri, 14 Sep 2012 02:28:29 GMT
+Date: Fri, 14 Sep 2012 02:55:23 GMT
 Server: Apache/2.2.11 (Ubuntu) PHP/5.2.6-3ubuntu4.6 with Suhosin-Patch mod_ssl/2.2.11 OpenSSL/0.9.8g Phusion_Passenger/2.2.5
 Last-Modified: Mon, 09 May 2011 00:38:03 GMT
 ETag: "633d7-10d7-4a2cd0d5c70c0"
@@ -1864,10 +1864,10 @@ WARC/1.0
 WARC-Type: request
 WARC-Target-URI: http://www.fiscalitefrg.com/services/expertise-comptable.html
 Content-Type: application/http;msgtype=request
-WARC-Date: 2012-09-14T02:28:29Z
-WARC-Record-ID: <urn:uuid:99BD3C75-FF89-4FD7-B6D6-517A7E7B741F>
+WARC-Date: 2012-09-14T02:55:23Z
+WARC-Record-ID: <urn:uuid:753025BF-156F-4A2F-AAE5-A9E215E5262A>
 WARC-IP-Address: 64.34.145.145
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
 WARC-Block-Digest: sha1:U5WEKUPFZ46XDCG2WHPPJBI4ZXQO3LOV
 Content-Length: 193
 
@@ -1882,19 +1882,19 @@ Connection: Keep-Alive
 
 WARC/1.0
 WARC-Type: response
-WARC-Record-ID: <urn:uuid:1D44698D-3830-460E-A8DB-D7F0D93DEF59>
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
-WARC-Concurrent-To: <urn:uuid:99BD3C75-FF89-4FD7-B6D6-517A7E7B741F>
+WARC-Record-ID: <urn:uuid:B768CD20-F7FD-455D-B681-49C22334DB4F>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
+WARC-Concurrent-To: <urn:uuid:753025BF-156F-4A2F-AAE5-A9E215E5262A>
 WARC-Target-URI: http://www.fiscalitefrg.com/services/expertise-comptable.html
-WARC-Date: 2012-09-14T02:28:29Z
+WARC-Date: 2012-09-14T02:55:23Z
 WARC-IP-Address: 64.34.145.145
-WARC-Block-Digest: sha1:B7METTFVZQO756MDYH62DTE34ODRTMKO
+WARC-Block-Digest: sha1:D7S2PMYO3J46N6BXB7MQDGPL5G4UPYXC
 WARC-Payload-Digest: sha1:234SI2TXVJCXP22QT4RJMSQ6HD3WYHFR
 Content-Type: application/http;msgtype=response
 Content-Length: 4854
 
 HTTP/1.1 200 OK
-Date: Fri, 14 Sep 2012 02:28:29 GMT
+Date: Fri, 14 Sep 2012 02:55:23 GMT
 Server: Apache/2.2.11 (Ubuntu) PHP/5.2.6-3ubuntu4.6 with Suhosin-Patch mod_ssl/2.2.11 OpenSSL/0.9.8g Phusion_Passenger/2.2.5
 Last-Modified: Mon, 09 May 2011 00:38:03 GMT
 ETag: "633d4-114d-4a2cd0d5c70c0"
@@ -2009,10 +2009,10 @@ WARC/1.0
 WARC-Type: request
 WARC-Target-URI: http://www.fiscalitefrg.com/services/services-conseils-affaires.html
 Content-Type: application/http;msgtype=request
-WARC-Date: 2012-09-14T02:28:29Z
-WARC-Record-ID: <urn:uuid:E2FAE923-9BA1-4279-9180-EA68C42E14E6>
+WARC-Date: 2012-09-14T02:55:23Z
+WARC-Record-ID: <urn:uuid:601AB528-715A-4ED6-9AEB-C37BED98AAEE>
 WARC-IP-Address: 64.34.145.145
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
 WARC-Block-Digest: sha1:4XPP5TREHHK25JVOYHLWNCEJZF5U6LEZ
 Content-Length: 200
 
@@ -2027,19 +2027,19 @@ Connection: Keep-Alive
 
 WARC/1.0
 WARC-Type: response
-WARC-Record-ID: <urn:uuid:65B48C9F-3F5B-4DE9-83F2-36FFE0E32981>
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
-WARC-Concurrent-To: <urn:uuid:E2FAE923-9BA1-4279-9180-EA68C42E14E6>
+WARC-Record-ID: <urn:uuid:A93DABC0-5E18-416E-9E6E-9C582A202009>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
+WARC-Concurrent-To: <urn:uuid:601AB528-715A-4ED6-9AEB-C37BED98AAEE>
 WARC-Target-URI: http://www.fiscalitefrg.com/services/services-conseils-affaires.html
-WARC-Date: 2012-09-14T02:28:29Z
+WARC-Date: 2012-09-14T02:55:23Z
 WARC-IP-Address: 64.34.145.145
-WARC-Block-Digest: sha1:RA7NSVFQON2LKLU23CA7ZNHL4R533GMU
+WARC-Block-Digest: sha1:IPUHWEG45KWFXNG6AYHRMTDDQZ7SJFHP
 WARC-Payload-Digest: sha1:R6EBHNKWULG5B2KDVP773ZPKPL2LQL5Y
 Content-Type: application/http;msgtype=response
 Content-Length: 4992
 
 HTTP/1.1 200 OK
-Date: Fri, 14 Sep 2012 02:28:29 GMT
+Date: Fri, 14 Sep 2012 02:55:23 GMT
 Server: Apache/2.2.11 (Ubuntu) PHP/5.2.6-3ubuntu4.6 with Suhosin-Patch mod_ssl/2.2.11 OpenSSL/0.9.8g Phusion_Passenger/2.2.5
 Last-Modified: Mon, 09 May 2011 00:38:03 GMT
 ETag: "633d6-11d7-4a2cd0d5c70c0"
@@ -2157,10 +2157,10 @@ WARC/1.0
 WARC-Type: request
 WARC-Target-URI: http://www.fiscalitefrg.com/img/fiscalitefrg_background1.jpg
 Content-Type: application/http;msgtype=request
-WARC-Date: 2012-09-14T02:28:29Z
-WARC-Record-ID: <urn:uuid:9870C09F-4469-49D0-B9A5-083B6DDE03CF>
+WARC-Date: 2012-09-14T02:55:23Z
+WARC-Record-ID: <urn:uuid:A2A77695-CAFE-4ACF-A0C3-1171DB9ED74D>
 WARC-IP-Address: 64.34.145.145
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
 WARC-Block-Digest: sha1:LUXHD7UCPM4CFCU7XYKMZEDV3DQYW7DK
 Content-Length: 203
 
@@ -2175,19 +2175,19 @@ Connection: Keep-Alive
 
 WARC/1.0
 WARC-Type: response
-WARC-Record-ID: <urn:uuid:EC91F745-F9C8-4069-A0D1-5310070BAF4F>
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
-WARC-Concurrent-To: <urn:uuid:9870C09F-4469-49D0-B9A5-083B6DDE03CF>
+WARC-Record-ID: <urn:uuid:9EA025E4-55F2-482B-9DB9-248731603DF9>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
+WARC-Concurrent-To: <urn:uuid:A2A77695-CAFE-4ACF-A0C3-1171DB9ED74D>
 WARC-Target-URI: http://www.fiscalitefrg.com/img/fiscalitefrg_background1.jpg
-WARC-Date: 2012-09-14T02:28:29Z
+WARC-Date: 2012-09-14T02:55:23Z
 WARC-IP-Address: 64.34.145.145
-WARC-Block-Digest: sha1:PIBHQ3ICX7GMWHWV3KN3Z3WCV4PXNGSX
+WARC-Block-Digest: sha1:3JNNYA22QQUIIOUOOUQJBR3N66PPWH2P
 WARC-Payload-Digest: sha1:C2HLKJ6YX3COLJMYB2COKTQVVQMDYQ6G
 Content-Type: application/http;msgtype=response
 Content-Length: 301783
 
 HTTP/1.1 200 OK
-Date: Fri, 14 Sep 2012 02:28:29 GMT
+Date: Fri, 14 Sep 2012 02:55:23 GMT
 Server: Apache/2.2.11 (Ubuntu) PHP/5.2.6-3ubuntu4.6 with Suhosin-Patch mod_ssl/2.2.11 OpenSSL/0.9.8g Phusion_Passenger/2.2.5
 Last-Modified: Mon, 09 May 2011 00:37:58 GMT
 ETag: "633ba-49950-4a2cd0d102580"
@@ -2305,10 +2305,10 @@ WARC/1.0
 WARC-Type: request
 WARC-Target-URI: http://www.fiscalitefrg.com/img/footer.png
 Content-Type: application/http;msgtype=request
-WARC-Date: 2012-09-14T02:28:30Z
-WARC-Record-ID: <urn:uuid:D815C5CD-B8A3-466F-9940-6405598931EC>
+WARC-Date: 2012-09-14T02:55:24Z
+WARC-Record-ID: <urn:uuid:89BF2E60-2B1E-493E-8A79-2C4BE41273D3>
 WARC-IP-Address: 64.34.145.145
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
 WARC-Block-Digest: sha1:U5XJ2WR4FODVKSSJ4F2N4Z5RITVNEONF
 Content-Length: 185
 
@@ -2323,19 +2323,19 @@ Connection: Keep-Alive
 
 WARC/1.0
 WARC-Type: response
-WARC-Record-ID: <urn:uuid:0739668C-C5A2-4065-BED5-A2E304C58FC2>
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
-WARC-Concurrent-To: <urn:uuid:D815C5CD-B8A3-466F-9940-6405598931EC>
+WARC-Record-ID: <urn:uuid:945399BF-271B-4A2F-9240-4B5B46CB9E3D>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
+WARC-Concurrent-To: <urn:uuid:89BF2E60-2B1E-493E-8A79-2C4BE41273D3>
 WARC-Target-URI: http://www.fiscalitefrg.com/img/footer.png
-WARC-Date: 2012-09-14T02:28:30Z
+WARC-Date: 2012-09-14T02:55:24Z
 WARC-IP-Address: 64.34.145.145
-WARC-Block-Digest: sha1:CSRKK4FGJZOTVVY66X3G73ZDPJATP4QA
+WARC-Block-Digest: sha1:MHGDSXMYDZWUU5TDIZCDH5BITSVK3RSB
 WARC-Payload-Digest: sha1:24UIAQIXPIAFRCZDIPTF2SGBOMW2TYGM
 Content-Type: application/http;msgtype=response
 Content-Length: 535
 
 HTTP/1.1 200 OK
-Date: Fri, 14 Sep 2012 02:28:30 GMT
+Date: Fri, 14 Sep 2012 02:55:24 GMT
 Server: Apache/2.2.11 (Ubuntu) PHP/5.2.6-3ubuntu4.6 with Suhosin-Patch mod_ssl/2.2.11 OpenSSL/0.9.8g Phusion_Passenger/2.2.5
 Last-Modified: Mon, 09 May 2011 00:38:00 GMT
 ETag: "633bd-97-4a2cd0d2eaa00"
@@ -2353,10 +2353,10 @@ WARC/1.0
 WARC-Type: request
 WARC-Target-URI: http://www.fiscalitefrg.com/img/header.png
 Content-Type: application/http;msgtype=request
-WARC-Date: 2012-09-14T02:28:30Z
-WARC-Record-ID: <urn:uuid:805493E4-7665-4CC1-841C-2325840D024E>
+WARC-Date: 2012-09-14T02:55:24Z
+WARC-Record-ID: <urn:uuid:33A78AC1-F074-44EE-BD33-79D98A748CA0>
 WARC-IP-Address: 64.34.145.145
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
 WARC-Block-Digest: sha1:JZXZ6PGCIATEKJ5KV5A3JL72U3UJZIUT
 Content-Length: 185
 
@@ -2371,19 +2371,19 @@ Connection: Keep-Alive
 
 WARC/1.0
 WARC-Type: response
-WARC-Record-ID: <urn:uuid:27C61EFA-1F34-4AF8-AADF-404A002AB7E5>
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
-WARC-Concurrent-To: <urn:uuid:805493E4-7665-4CC1-841C-2325840D024E>
+WARC-Record-ID: <urn:uuid:21FC6C24-9770-4685-A0E0-267830ACE6F1>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
+WARC-Concurrent-To: <urn:uuid:33A78AC1-F074-44EE-BD33-79D98A748CA0>
 WARC-Target-URI: http://www.fiscalitefrg.com/img/header.png
-WARC-Date: 2012-09-14T02:28:30Z
+WARC-Date: 2012-09-14T02:55:24Z
 WARC-IP-Address: 64.34.145.145
-WARC-Block-Digest: sha1:TL3XKVITWGUWZU27T7E6HJOOJLSO6SQV
+WARC-Block-Digest: sha1:WF2VCIYWO4CB3P6VZP2AZJ2D4DCI524Z
 WARC-Payload-Digest: sha1:NROW4XQF3DNMV2RE4C7DXUDZAGVSKUJJ
 Content-Type: application/http;msgtype=response
 Content-Length: 536
 
 HTTP/1.1 200 OK
-Date: Fri, 14 Sep 2012 02:28:30 GMT
+Date: Fri, 14 Sep 2012 02:55:24 GMT
 Server: Apache/2.2.11 (Ubuntu) PHP/5.2.6-3ubuntu4.6 with Suhosin-Patch mod_ssl/2.2.11 OpenSSL/0.9.8g Phusion_Passenger/2.2.5
 Last-Modified: Mon, 09 May 2011 00:38:00 GMT
 ETag: "633be-98-4a2cd0d2eaa00"
@@ -2401,10 +2401,10 @@ WARC/1.0
 WARC-Type: request
 WARC-Target-URI: http://www.fiscalitefrg.com/img/stripe.png
 Content-Type: application/http;msgtype=request
-WARC-Date: 2012-09-14T02:28:31Z
-WARC-Record-ID: <urn:uuid:4895CCEB-B7BE-4E74-8FBC-7C493CCFA605>
+WARC-Date: 2012-09-14T02:55:24Z
+WARC-Record-ID: <urn:uuid:CA05EE6F-5183-4F6E-9BAA-FAAB00C34A48>
 WARC-IP-Address: 64.34.145.145
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
 WARC-Block-Digest: sha1:3LBPO2XGNDNXJCBRE7ORSHEBDAAPLXEO
 Content-Length: 185
 
@@ -2419,19 +2419,19 @@ Connection: Keep-Alive
 
 WARC/1.0
 WARC-Type: response
-WARC-Record-ID: <urn:uuid:3DE8BAA3-D75B-42C4-9123-CB34F7E35153>
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
-WARC-Concurrent-To: <urn:uuid:4895CCEB-B7BE-4E74-8FBC-7C493CCFA605>
+WARC-Record-ID: <urn:uuid:497862CD-EC61-4C94-AD3B-50043D8ABFA0>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
+WARC-Concurrent-To: <urn:uuid:CA05EE6F-5183-4F6E-9BAA-FAAB00C34A48>
 WARC-Target-URI: http://www.fiscalitefrg.com/img/stripe.png
-WARC-Date: 2012-09-14T02:28:31Z
+WARC-Date: 2012-09-14T02:55:24Z
 WARC-IP-Address: 64.34.145.145
-WARC-Block-Digest: sha1:IKU6DUW3BW5NAUWLPAELSQCZFENO3YGP
+WARC-Block-Digest: sha1:ZGUWDMX5AVR2MXELACJQOEZMJ5MS5XTF
 WARC-Payload-Digest: sha1:GGGF44NU4GOLILPKP46KMU2RXA5U75WR
 Content-Type: application/http;msgtype=response
 Content-Length: 480
 
 HTTP/1.1 200 OK
-Date: Fri, 14 Sep 2012 02:28:31 GMT
+Date: Fri, 14 Sep 2012 02:55:24 GMT
 Server: Apache/2.2.11 (Ubuntu) PHP/5.2.6-3ubuntu4.6 with Suhosin-Patch mod_ssl/2.2.11 OpenSSL/0.9.8g Phusion_Passenger/2.2.5
 Last-Modified: Mon, 09 May 2011 00:38:02 GMT
 ETag: "633c9-61-4a2cd0d4d2e80"
@@ -2449,10 +2449,10 @@ WARC/1.0
 WARC-Type: request
 WARC-Target-URI: http://www.fiscalitefrg.com/img/phone.png
 Content-Type: application/http;msgtype=request
-WARC-Date: 2012-09-14T02:28:31Z
-WARC-Record-ID: <urn:uuid:8CB4F3E6-49B3-4472-82A7-06C7020BDB1D>
+WARC-Date: 2012-09-14T02:55:24Z
+WARC-Record-ID: <urn:uuid:3064FB01-B9DA-4DFF-ACCA-6DA763ECF9C8>
 WARC-IP-Address: 64.34.145.145
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
 WARC-Block-Digest: sha1:AS7A2QE6F6AMIDAXODS7HNPKODAZSMWS
 Content-Length: 184
 
@@ -2467,19 +2467,19 @@ Connection: Keep-Alive
 
 WARC/1.0
 WARC-Type: response
-WARC-Record-ID: <urn:uuid:42E2072E-E05C-407E-8A6C-934305D6E8E0>
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
-WARC-Concurrent-To: <urn:uuid:8CB4F3E6-49B3-4472-82A7-06C7020BDB1D>
+WARC-Record-ID: <urn:uuid:52BD754F-91C8-4557-BFDB-FDBF3D570E53>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
+WARC-Concurrent-To: <urn:uuid:3064FB01-B9DA-4DFF-ACCA-6DA763ECF9C8>
 WARC-Target-URI: http://www.fiscalitefrg.com/img/phone.png
-WARC-Date: 2012-09-14T02:28:31Z
+WARC-Date: 2012-09-14T02:55:24Z
 WARC-IP-Address: 64.34.145.145
-WARC-Block-Digest: sha1:ER2UI2Z7DRDEXZDEHQ5ID3MJJ3UE6XTL
+WARC-Block-Digest: sha1:OAFBKN5Y32C6DMQ2BJEUZ27BRLQ7Y4RN
 WARC-Payload-Digest: sha1:QGQCLG45I6IEXJNDYYVLYFU7QI7JZZMW
 Content-Type: application/http;msgtype=response
 Content-Length: 719
 
 HTTP/1.1 200 OK
-Date: Fri, 14 Sep 2012 02:28:31 GMT
+Date: Fri, 14 Sep 2012 02:55:24 GMT
 Server: Apache/2.2.11 (Ubuntu) PHP/5.2.6-3ubuntu4.6 with Suhosin-Patch mod_ssl/2.2.11 OpenSSL/0.9.8g Phusion_Passenger/2.2.5
 Last-Modified: Mon, 09 May 2011 00:38:02 GMT
 ETag: "633c7-14e-4a2cd0d4d2e80"
@@ -2497,10 +2497,10 @@ WARC/1.0
 WARC-Type: request
 WARC-Target-URI: http://www.fiscalitefrg.com/img/mail.png
 Content-Type: application/http;msgtype=request
-WARC-Date: 2012-09-14T02:28:31Z
-WARC-Record-ID: <urn:uuid:12C6C161-846F-4228-B635-1D0FAD54D05D>
+WARC-Date: 2012-09-14T02:55:24Z
+WARC-Record-ID: <urn:uuid:70347737-AD67-49EC-8AD9-6184410A6932>
 WARC-IP-Address: 64.34.145.145
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
 WARC-Block-Digest: sha1:5DYAPU7IPZAF3E3TVPR3ECJT374MX4SR
 Content-Length: 183
 
@@ -2515,19 +2515,19 @@ Connection: Keep-Alive
 
 WARC/1.0
 WARC-Type: response
-WARC-Record-ID: <urn:uuid:37FBCE43-FEA0-4609-BB42-994F4E33D801>
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
-WARC-Concurrent-To: <urn:uuid:12C6C161-846F-4228-B635-1D0FAD54D05D>
+WARC-Record-ID: <urn:uuid:AAC90B85-8B45-4744-B4DF-23747C07E3A8>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
+WARC-Concurrent-To: <urn:uuid:70347737-AD67-49EC-8AD9-6184410A6932>
 WARC-Target-URI: http://www.fiscalitefrg.com/img/mail.png
-WARC-Date: 2012-09-14T02:28:31Z
+WARC-Date: 2012-09-14T02:55:24Z
 WARC-IP-Address: 64.34.145.145
-WARC-Block-Digest: sha1:DVSVTPT3R2EOJX4F636YRPEKCIBS2MGI
+WARC-Block-Digest: sha1:KQ6W4FX4A7WYVUIJXR4Y3U3QFHIXM34V
 WARC-Payload-Digest: sha1:NQZ2PRXROJ4BCQHLUGTX4DRHTTIQ2CCR
 Content-Type: application/http;msgtype=response
 Content-Length: 899
 
 HTTP/1.1 200 OK
-Date: Fri, 14 Sep 2012 02:28:31 GMT
+Date: Fri, 14 Sep 2012 02:55:24 GMT
 Server: Apache/2.2.11 (Ubuntu) PHP/5.2.6-3ubuntu4.6 with Suhosin-Patch mod_ssl/2.2.11 OpenSSL/0.9.8g Phusion_Passenger/2.2.5
 Last-Modified: Mon, 09 May 2011 00:38:01 GMT
 ETag: "633c0-202-4a2cd0d3dec40"
@@ -2546,10 +2546,10 @@ WARC/1.0
 WARC-Type: request
 WARC-Target-URI: http://www.fiscalitefrg.com/img/rss.gif
 Content-Type: application/http;msgtype=request
-WARC-Date: 2012-09-14T02:28:31Z
-WARC-Record-ID: <urn:uuid:D43DCB41-661A-4B83-9D16-363573DBD6C5>
+WARC-Date: 2012-09-14T02:55:24Z
+WARC-Record-ID: <urn:uuid:3F0F1885-6E3F-41C0-B972-722B7BBA4687>
 WARC-IP-Address: 64.34.145.145
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
 WARC-Block-Digest: sha1:5ZVO3Y52H4TIB47GE2FXAUGS7EYUHLHJ
 Content-Length: 182
 
@@ -2564,19 +2564,19 @@ Connection: Keep-Alive
 
 WARC/1.0
 WARC-Type: response
-WARC-Record-ID: <urn:uuid:64761D41-2D07-4552-9227-71246B6D59DD>
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
-WARC-Concurrent-To: <urn:uuid:D43DCB41-661A-4B83-9D16-363573DBD6C5>
+WARC-Record-ID: <urn:uuid:700B552E-6E52-4543-B1AE-E41AD5D0F7FE>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
+WARC-Concurrent-To: <urn:uuid:3F0F1885-6E3F-41C0-B972-722B7BBA4687>
 WARC-Target-URI: http://www.fiscalitefrg.com/img/rss.gif
-WARC-Date: 2012-09-14T02:28:31Z
+WARC-Date: 2012-09-14T02:55:24Z
 WARC-IP-Address: 64.34.145.145
-WARC-Block-Digest: sha1:S6CLXAT6VCA3AP4RM6MPUCOXQUMCRQTW
+WARC-Block-Digest: sha1:X445YNWSG4KAJNDGRSZQGFGWWKJ4JBMR
 WARC-Payload-Digest: sha1:AWGON2HXSPBDTQ7PLTM64LXT6INCSIC5
 Content-Type: application/http;msgtype=response
 Content-Length: 2876
 
 HTTP/1.1 200 OK
-Date: Fri, 14 Sep 2012 02:28:31 GMT
+Date: Fri, 14 Sep 2012 02:55:24 GMT
 Server: Apache/2.2.11 (Ubuntu) PHP/5.2.6-3ubuntu4.6 with Suhosin-Patch mod_ssl/2.2.11 OpenSSL/0.9.8g Phusion_Passenger/2.2.5
 Last-Modified: Mon, 09 May 2011 00:38:02 GMT
 ETag: "633c8-9ba-4a2cd0d4d2e80"
@@ -2605,10 +2605,10 @@ WARC/1.0
 WARC-Type: request
 WARC-Target-URI: http://www.fiscalitefrg.com/img/mention_honneur_460.jpg
 Content-Type: application/http;msgtype=request
-WARC-Date: 2012-09-14T02:28:31Z
-WARC-Record-ID: <urn:uuid:800B2A77-9594-4F32-9055-E15FF6C7E739>
+WARC-Date: 2012-09-14T02:55:24Z
+WARC-Record-ID: <urn:uuid:A9F1FE08-46A3-488E-80C8-6450A23F45AB>
 WARC-IP-Address: 64.34.145.145
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
 WARC-Block-Digest: sha1:TEMAJNZIAFWKJSXHZ77YVKYB7PSG3TMN
 Content-Length: 200
 
@@ -2623,19 +2623,19 @@ Connection: Keep-Alive
 
 WARC/1.0
 WARC-Type: response
-WARC-Record-ID: <urn:uuid:BDFB84DB-A2BF-492D-94EB-955DAFEB45A3>
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
-WARC-Concurrent-To: <urn:uuid:800B2A77-9594-4F32-9055-E15FF6C7E739>
+WARC-Record-ID: <urn:uuid:96C7066B-D77D-42E6-A92F-7AF1E0527EE2>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
+WARC-Concurrent-To: <urn:uuid:A9F1FE08-46A3-488E-80C8-6450A23F45AB>
 WARC-Target-URI: http://www.fiscalitefrg.com/img/mention_honneur_460.jpg
-WARC-Date: 2012-09-14T02:28:31Z
+WARC-Date: 2012-09-14T02:55:24Z
 WARC-IP-Address: 64.34.145.145
-WARC-Block-Digest: sha1:VFID2N6QXYUIDLELDMKEBRV3EMO24BYF
+WARC-Block-Digest: sha1:DTRTBITCHK6KFGFVVP7QM45NOUQLXNCB
 WARC-Payload-Digest: sha1:Y5NDEDFF4SXFDX3FYFMR2YQ6B72PEFBZ
 Content-Type: application/http;msgtype=response
 Content-Length: 75669
 
 HTTP/1.1 200 OK
-Date: Fri, 14 Sep 2012 02:28:31 GMT
+Date: Fri, 14 Sep 2012 02:55:24 GMT
 Server: Apache/2.2.11 (Ubuntu) PHP/5.2.6-3ubuntu4.6 with Suhosin-Patch mod_ssl/2.2.11 OpenSSL/0.9.8g Phusion_Passenger/2.2.5
 Last-Modified: Mon, 09 May 2011 00:38:01 GMT
 ETag: "633c2-1260f-4a2cd0d3dec40"
@@ -3027,10 +3027,10 @@ WARC/1.0
 WARC-Type: request
 WARC-Target-URI: http://www.fiscalitefrg.com/img/paiement.png
 Content-Type: application/http;msgtype=request
-WARC-Date: 2012-09-14T02:28:31Z
-WARC-Record-ID: <urn:uuid:1A49170F-F772-4B0E-9BB3-851A616A1795>
+WARC-Date: 2012-09-14T02:55:25Z
+WARC-Record-ID: <urn:uuid:FEFD1E55-AC41-47C3-BD84-0E5D9BF3BC10>
 WARC-IP-Address: 64.34.145.145
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
 WARC-Block-Digest: sha1:YEGXJVI5FYEVBZX3Q2Z6CNEEEWRRQIMB
 Content-Length: 187
 
@@ -3045,19 +3045,19 @@ Connection: Keep-Alive
 
 WARC/1.0
 WARC-Type: response
-WARC-Record-ID: <urn:uuid:3C0696C4-AAC0-4DB3-BC4A-B23FEA1AA0C1>
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
-WARC-Concurrent-To: <urn:uuid:1A49170F-F772-4B0E-9BB3-851A616A1795>
+WARC-Record-ID: <urn:uuid:4128A601-052E-4BC4-ADEC-3F7D65D1A5DF>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
+WARC-Concurrent-To: <urn:uuid:FEFD1E55-AC41-47C3-BD84-0E5D9BF3BC10>
 WARC-Target-URI: http://www.fiscalitefrg.com/img/paiement.png
-WARC-Date: 2012-09-14T02:28:31Z
+WARC-Date: 2012-09-14T02:55:25Z
 WARC-IP-Address: 64.34.145.145
-WARC-Block-Digest: sha1:BAVAA5IGD5PAQHOM6QXJ7XH75U3DZE52
+WARC-Block-Digest: sha1:WPA45JPHHD62552JV55YV74TID5KKNXS
 WARC-Payload-Digest: sha1:XLUFPH5OYGCBY5GRRT5LZ3XPAQXUG2IG
 Content-Type: application/http;msgtype=response
 Content-Length: 3512
 
 HTTP/1.1 200 OK
-Date: Fri, 14 Sep 2012 02:28:31 GMT
+Date: Fri, 14 Sep 2012 02:55:25 GMT
 Server: Apache/2.2.11 (Ubuntu) PHP/5.2.6-3ubuntu4.6 with Suhosin-Patch mod_ssl/2.2.11 OpenSSL/0.9.8g Phusion_Passenger/2.2.5
 Last-Modified: Mon, 09 May 2011 00:38:02 GMT
 ETag: "633c6-c36-4a2cd0d4d2e80"
@@ -3086,10 +3086,10 @@ WARC/1.0
 WARC-Type: request
 WARC-Target-URI: http://www.fiscalitefrg.com/img/mesaffaires_logo.png
 Content-Type: application/http;msgtype=request
-WARC-Date: 2012-09-14T02:28:31Z
-WARC-Record-ID: <urn:uuid:B46C6970-BF8A-40BA-A8B7-BA20E4DD9207>
+WARC-Date: 2012-09-14T02:55:25Z
+WARC-Record-ID: <urn:uuid:47791290-499F-4C6E-A954-9FBD8DCCA0AE>
 WARC-IP-Address: 64.34.145.145
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
 WARC-Block-Digest: sha1:NGMMM2OL2LXZ5KCXPOR4LLCIBGRTUXBU
 Content-Length: 195
 
@@ -3104,19 +3104,19 @@ Connection: Keep-Alive
 
 WARC/1.0
 WARC-Type: response
-WARC-Record-ID: <urn:uuid:E60C3653-EDD6-451E-9F5C-2F9B1BCDDD3D>
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
-WARC-Concurrent-To: <urn:uuid:B46C6970-BF8A-40BA-A8B7-BA20E4DD9207>
+WARC-Record-ID: <urn:uuid:162901EC-7BF2-4619-B784-F5C2F5BBDDF8>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
+WARC-Concurrent-To: <urn:uuid:47791290-499F-4C6E-A954-9FBD8DCCA0AE>
 WARC-Target-URI: http://www.fiscalitefrg.com/img/mesaffaires_logo.png
-WARC-Date: 2012-09-14T02:28:31Z
+WARC-Date: 2012-09-14T02:55:25Z
 WARC-IP-Address: 64.34.145.145
-WARC-Block-Digest: sha1:NHV4SYRMWT7QZWDV4NLXN7MUPEMZQUI7
+WARC-Block-Digest: sha1:7L4XHRWIMYCCIEUBOL5KQCXZXP3CVQLE
 WARC-Payload-Digest: sha1:2LN2MHZ7OZ4WMCVFXWICK4YHJCXYZYXQ
 Content-Type: application/http;msgtype=response
 Content-Length: 64207
 
 HTTP/1.1 200 OK
-Date: Fri, 14 Sep 2012 02:28:31 GMT
+Date: Fri, 14 Sep 2012 02:55:25 GMT
 Server: Apache/2.2.11 (Ubuntu) PHP/5.2.6-3ubuntu4.6 with Suhosin-Patch mod_ssl/2.2.11 OpenSSL/0.9.8g Phusion_Passenger/2.2.5
 Last-Modified: Mon, 09 May 2011 00:38:02 GMT
 ETag: "633c4-f94b-4a2cd0d4d2e80"
@@ -3300,250 +3300,250 @@ c������"�Щ����H�>��x����O$��*#�@h��oWO.�qzHF���g&����:�eFԊ��0;\��
 
 WARC/1.0
 WARC-Type: resource
-WARC-Record-ID: <urn:uuid:AAD4A611-7091-467F-A2E3-75107B13B63A>
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
+WARC-Record-ID: <urn:uuid:68F74F37-E75E-45F7-9700-E41802C6EA6F>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
 WARC-Target-URI: metadata://gnu.org/software/wget/warc/MANIFEST.txt
-WARC-Date: 2012-09-14T02:28:31Z
-WARC-Block-Digest: sha1:VA7Q3C2SKXWCCIGBUQVMFVWWMK73QG6T
+WARC-Date: 2012-09-14T02:55:25Z
+WARC-Block-Digest: sha1:GCM5ROJQHAOJORYHLAFZCS5Q2C4VGWUZ
 Content-Type: text/plain
 Content-Length: 48
 
-<urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
+<urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
 
 
 WARC/1.0
 WARC-Type: resource
-WARC-Record-ID: <urn:uuid:AAD4A611-7091-467F-A2E3-75107B13B63A>
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
+WARC-Record-ID: <urn:uuid:68F74F37-E75E-45F7-9700-E41802C6EA6F>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
 WARC-Target-URI: metadata://gnu.org/software/wget/warc/wget_arguments.txt
-WARC-Date: 2012-09-14T02:28:31Z
-WARC-Block-Digest: sha1:TXXVOTQH73BE456GRHMQDFKLRBVDPNCF
+WARC-Date: 2012-09-14T02:55:25Z
+WARC-Block-Digest: sha1:3HUL6AB3GR7FSFP3TX75VHMVYUUXSEU2
 Content-Type: text/plain
-Content-Length: 94
+Content-Length: 85
 
-"http://www.fiscalitefrg.com/" "--mirror" "--warc-file=fiscalitefrg" "--no-warc-compression" 
+"http://www.fiscalitefrg.com/" "--mirror" "--warc-file=frg" "--no-warc-compression" 
 
 
 WARC/1.0
 WARC-Type: resource
-WARC-Record-ID: <urn:uuid:D23D5834-14D6-4898-97C3-3C71F452D17F>
-WARC-Warcinfo-ID: <urn:uuid:6AEA5469-31BF-481A-AC92-904577E195D1>
-WARC-Concurrent-To: <urn:uuid:AAD4A611-7091-467F-A2E3-75107B13B63A>
+WARC-Record-ID: <urn:uuid:561A1EBF-6082-4031-A71A-03B7E5A9094B>
+WARC-Warcinfo-ID: <urn:uuid:D9DEF0C8-65CD-4E95-A0EF-71875D354E46>
+WARC-Concurrent-To: <urn:uuid:68F74F37-E75E-45F7-9700-E41802C6EA6F>
 WARC-Target-URI: metadata://gnu.org/software/wget/warc/wget.log
-WARC-Date: 2012-09-14T02:28:31Z
-WARC-Block-Digest: sha1:L3FMRRMKO56QV3O4AAVIY6NGHBQ4KQY5
+WARC-Date: 2012-09-14T02:55:25Z
+WARC-Block-Digest: sha1:LYBYWWSKW3YVBHVP6FSVMMM427YC34OF
 Content-Type: text/plain
-Content-Length: 12216
+Content-Length: 12203
 
-Opening WARC file ‘fiscalitefrg.warc’.
+Opening WARC file ‘frg.warc’.
 
---2012-09-13 22:28:27--  http://www.fiscalitefrg.com/
+--2012-09-13 22:55:21--  http://www.fiscalitefrg.com/
 Resolving www.fiscalitefrg.com... 64.34.145.145
 Connecting to www.fiscalitefrg.com|64.34.145.145|:80... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 5228 (5.1K) [text/html]
 Saving to: ‘www.fiscalitefrg.com/index.html’
 
-     0K .....                                                 100% 84.7K=0.06s
+     0K .....                                                 100% 85.8K=0.06s
 
-2012-09-13 22:28:28 (84.7 KB/s) - ‘www.fiscalitefrg.com/index.html’ saved [5228/5228]
+2012-09-13 22:55:22 (85.8 KB/s) - ‘www.fiscalitefrg.com/index.html’ saved [5228/5228]
 
 Loading robots.txt; please ignore errors.
---2012-09-13 22:28:28--  http://www.fiscalitefrg.com/robots.txt
+--2012-09-13 22:55:22--  http://www.fiscalitefrg.com/robots.txt
 Reusing existing connection to www.fiscalitefrg.com:80.
 HTTP request sent, awaiting response... 404 Not Found
 
-     0K                                                       100% 28.4M=0s
+     0K                                                       100% 30.8M=0s
 
-2012-09-13 22:28:28 ERROR 404: Not Found.
+2012-09-13 22:55:22 ERROR 404: Not Found.
 
---2012-09-13 22:28:28--  http://www.fiscalitefrg.com/accueil.xml
+--2012-09-13 22:55:22--  http://www.fiscalitefrg.com/accueil.xml
 Reusing existing connection to www.fiscalitefrg.com:80.
 HTTP request sent, awaiting response... 200 OK
 Length: 694 [application/xml]
 Saving to: ‘www.fiscalitefrg.com/accueil.xml’
 
-     0K                                                       100% 44.1M=0s
+     0K                                                       100% 25.5M=0s
 
-2012-09-13 22:28:28 (44.1 MB/s) - ‘www.fiscalitefrg.com/accueil.xml’ saved [694/694]
+2012-09-13 22:55:22 (25.5 MB/s) - ‘www.fiscalitefrg.com/accueil.xml’ saved [694/694]
 
---2012-09-13 22:28:28--  http://www.fiscalitefrg.com/css/app.css
+--2012-09-13 22:55:22--  http://www.fiscalitefrg.com/css/app.css
 Reusing existing connection to www.fiscalitefrg.com:80.
 HTTP request sent, awaiting response... 200 OK
 Length: 4904 (4.8K) [text/css]
 Saving to: ‘www.fiscalitefrg.com/css/app.css’
 
-     0K ....                                                  100%  860K=0.006s
+     0K ....                                                  100%  187M=0s
 
-2012-09-13 22:28:28 (860 KB/s) - ‘www.fiscalitefrg.com/css/app.css’ saved [4904/4904]
+2012-09-13 22:55:22 (187 MB/s) - ‘www.fiscalitefrg.com/css/app.css’ saved [4904/4904]
 
---2012-09-13 22:28:28--  http://www.fiscalitefrg.com/js/app.js
+--2012-09-13 22:55:22--  http://www.fiscalitefrg.com/js/app.js
 Reusing existing connection to www.fiscalitefrg.com:80.
 HTTP request sent, awaiting response... 200 OK
 Length: 87229 (85K) [application/javascript]
 Saving to: ‘www.fiscalitefrg.com/js/app.js’
 
-     0K .......... .......... .......... .......... .......... 58%  212K 0s
-    50K .......... .......... .......... .....                100%  262K=0.4s
+     0K .......... .......... .......... .......... .......... 58%  243K 0s
+    50K .......... .......... .......... .....                100%  446K=0.3s
 
-2012-09-13 22:28:29 (230 KB/s) - ‘www.fiscalitefrg.com/js/app.js’ saved [87229/87229]
+2012-09-13 22:55:23 (299 KB/s) - ‘www.fiscalitefrg.com/js/app.js’ saved [87229/87229]
 
---2012-09-13 22:28:29--  http://www.fiscalitefrg.com/img/fiscalitefrg_logo.png
+--2012-09-13 22:55:23--  http://www.fiscalitefrg.com/img/fiscalitefrg_logo.png
 Reusing existing connection to www.fiscalitefrg.com:80.
 HTTP request sent, awaiting response... 200 OK
 Length: 17162 (17K) [image/png]
 Saving to: ‘www.fiscalitefrg.com/img/fiscalitefrg_logo.png’
 
-     0K .......... ......                                     100%  303K=0.06s
+     0K .......... ......                                     100%  620K=0.03s
 
-2012-09-13 22:28:29 (303 KB/s) - ‘www.fiscalitefrg.com/img/fiscalitefrg_logo.png’ saved [17162/17162]
+2012-09-13 22:55:23 (620 KB/s) - ‘www.fiscalitefrg.com/img/fiscalitefrg_logo.png’ saved [17162/17162]
 
---2012-09-13 22:28:29--  http://www.fiscalitefrg.com/index.html
+--2012-09-13 22:55:23--  http://www.fiscalitefrg.com/index.html
 Reusing existing connection to www.fiscalitefrg.com:80.
 HTTP request sent, awaiting response... 200 OK
 Length: 5228 (5.1K) [text/html]
 Saving to: ‘www.fiscalitefrg.com/index.html’
 
-     0K .....                                                 100%  686K=0.007s
+     0K .....                                                 100%  760K=0.007s
 
-2012-09-13 22:28:29 (686 KB/s) - ‘www.fiscalitefrg.com/index.html’ saved [5228/5228]
+2012-09-13 22:55:23 (760 KB/s) - ‘www.fiscalitefrg.com/index.html’ saved [5228/5228]
 
---2012-09-13 22:28:29--  http://www.fiscalitefrg.com/services.html
+--2012-09-13 22:55:23--  http://www.fiscalitefrg.com/services.html
 Reusing existing connection to www.fiscalitefrg.com:80.
 HTTP request sent, awaiting response... 200 OK
 Length: 3652 (3.6K) [text/html]
 Saving to: ‘www.fiscalitefrg.com/services.html’
 
-     0K ...                                                   100%  889K=0.004s
+     0K ...                                                   100%  863K=0.004s
 
-2012-09-13 22:28:29 (889 KB/s) - ‘www.fiscalitefrg.com/services.html’ saved [3652/3652]
+2012-09-13 22:55:23 (863 KB/s) - ‘www.fiscalitefrg.com/services.html’ saved [3652/3652]
 
---2012-09-13 22:28:29--  http://www.fiscalitefrg.com/a-propos.html
+--2012-09-13 22:55:23--  http://www.fiscalitefrg.com/a-propos.html
 Reusing existing connection to www.fiscalitefrg.com:80.
 HTTP request sent, awaiting response... 200 OK
 Length: 4647 (4.5K) [text/html]
 Saving to: ‘www.fiscalitefrg.com/a-propos.html’
 
-     0K ....                                                  100%  773K=0.006s
+     0K ....                                                  100%  815K=0.006s
 
-2012-09-13 22:28:29 (773 KB/s) - ‘www.fiscalitefrg.com/a-propos.html’ saved [4647/4647]
+2012-09-13 22:55:23 (815 KB/s) - ‘www.fiscalitefrg.com/a-propos.html’ saved [4647/4647]
 
---2012-09-13 22:28:29--  http://www.fiscalitefrg.com/client.html
+--2012-09-13 22:55:23--  http://www.fiscalitefrg.com/client.html
 Reusing existing connection to www.fiscalitefrg.com:80.
 HTTP request sent, awaiting response... 200 OK
 Length: 6065 (5.9K) [text/html]
 Saving to: ‘www.fiscalitefrg.com/client.html’
 
-     0K .....                                                 100%  658K=0.009s
+     0K .....                                                 100%  772K=0.008s
 
-2012-09-13 22:28:29 (658 KB/s) - ‘www.fiscalitefrg.com/client.html’ saved [6065/6065]
+2012-09-13 22:55:23 (772 KB/s) - ‘www.fiscalitefrg.com/client.html’ saved [6065/6065]
 
---2012-09-13 22:28:29--  http://www.fiscalitefrg.com/contact.html
+--2012-09-13 22:55:23--  http://www.fiscalitefrg.com/contact.html
 Reusing existing connection to www.fiscalitefrg.com:80.
 HTTP request sent, awaiting response... 200 OK
 Length: 4752 (4.6K) [text/html]
 Saving to: ‘www.fiscalitefrg.com/contact.html’
 
-     0K ....                                                  100%  924K=0.005s
+     0K ....                                                  100%  821K=0.006s
 
-2012-09-13 22:28:29 (924 KB/s) - ‘www.fiscalitefrg.com/contact.html’ saved [4752/4752]
+2012-09-13 22:55:23 (821 KB/s) - ‘www.fiscalitefrg.com/contact.html’ saved [4752/4752]
 
---2012-09-13 22:28:29--  http://www.fiscalitefrg.com/services/declaration-impot.html
+--2012-09-13 22:55:23--  http://www.fiscalitefrg.com/services/declaration-impot.html
 Reusing existing connection to www.fiscalitefrg.com:80.
 HTTP request sent, awaiting response... 200 OK
 Length: 4401 (4.3K) [text/html]
 Saving to: ‘www.fiscalitefrg.com/services/declaration-impot.html’
 
-     0K ....                                                  100%  924K=0.005s
+     0K ....                                                  100%  872K=0.005s
 
-2012-09-13 22:28:29 (924 KB/s) - ‘www.fiscalitefrg.com/services/declaration-impot.html’ saved [4401/4401]
+2012-09-13 22:55:23 (872 KB/s) - ‘www.fiscalitefrg.com/services/declaration-impot.html’ saved [4401/4401]
 
---2012-09-13 22:28:29--  http://www.fiscalitefrg.com/services/fiscalite.html
+--2012-09-13 22:55:23--  http://www.fiscalitefrg.com/services/fiscalite.html
 Reusing existing connection to www.fiscalitefrg.com:80.
 HTTP request sent, awaiting response... 200 OK
 Length: 5782 (5.6K) [text/html]
 Saving to: ‘www.fiscalitefrg.com/services/fiscalite.html’
 
-     0K .....                                                 100%  812K=0.007s
+     0K .....                                                 100%  780K=0.007s
 
-2012-09-13 22:28:29 (812 KB/s) - ‘www.fiscalitefrg.com/services/fiscalite.html’ saved [5782/5782]
+2012-09-13 22:55:23 (780 KB/s) - ‘www.fiscalitefrg.com/services/fiscalite.html’ saved [5782/5782]
 
---2012-09-13 22:28:29--  http://www.fiscalitefrg.com/services/tenue-de-livres.html
+--2012-09-13 22:55:23--  http://www.fiscalitefrg.com/services/tenue-de-livres.html
 Reusing existing connection to www.fiscalitefrg.com:80.
 HTTP request sent, awaiting response... 200 OK
 Length: 4311 (4.2K) [text/html]
 Saving to: ‘www.fiscalitefrg.com/services/tenue-de-livres.html’
 
-     0K ....                                                  100%  843K=0.005s
+     0K ....                                                  100% 1.04M=0.004s
 
-2012-09-13 22:28:29 (843 KB/s) - ‘www.fiscalitefrg.com/services/tenue-de-livres.html’ saved [4311/4311]
+2012-09-13 22:55:23 (1.04 MB/s) - ‘www.fiscalitefrg.com/services/tenue-de-livres.html’ saved [4311/4311]
 
---2012-09-13 22:28:29--  http://www.fiscalitefrg.com/services/expertise-comptable.html
+--2012-09-13 22:55:23--  http://www.fiscalitefrg.com/services/expertise-comptable.html
 Reusing existing connection to www.fiscalitefrg.com:80.
 HTTP request sent, awaiting response... 200 OK
 Length: 4429 (4.3K) [text/html]
 Saving to: ‘www.fiscalitefrg.com/services/expertise-comptable.html’
 
-     0K ....                                                  100% 1.06M=0.004s
+     0K ....                                                  100%  971K=0.004s
 
-2012-09-13 22:28:29 (1.06 MB/s) - ‘www.fiscalitefrg.com/services/expertise-comptable.html’ saved [4429/4429]
+2012-09-13 22:55:23 (971 KB/s) - ‘www.fiscalitefrg.com/services/expertise-comptable.html’ saved [4429/4429]
 
---2012-09-13 22:28:29--  http://www.fiscalitefrg.com/services/services-conseils-affaires.html
+--2012-09-13 22:55:23--  http://www.fiscalitefrg.com/services/services-conseils-affaires.html
 Reusing existing connection to www.fiscalitefrg.com:80.
 HTTP request sent, awaiting response... 200 OK
 Length: 4567 (4.5K) [text/html]
 Saving to: ‘www.fiscalitefrg.com/services/services-conseils-affaires.html’
 
-     0K ....                                                  100%  911K=0.005s
+     0K ....                                                  100%  986K=0.005s
 
-2012-09-13 22:28:29 (911 KB/s) - ‘www.fiscalitefrg.com/services/services-conseils-affaires.html’ saved [4567/4567]
+2012-09-13 22:55:23 (986 KB/s) - ‘www.fiscalitefrg.com/services/services-conseils-affaires.html’ saved [4567/4567]
 
---2012-09-13 22:28:29--  http://www.fiscalitefrg.com/img/fiscalitefrg_background1.jpg
+--2012-09-13 22:55:23--  http://www.fiscalitefrg.com/img/fiscalitefrg_background1.jpg
 Reusing existing connection to www.fiscalitefrg.com:80.
 HTTP request sent, awaiting response... 200 OK
 Length: 301392 (294K) [image/jpeg]
 Saving to: ‘www.fiscalitefrg.com/img/fiscalitefrg_background1.jpg’
 
-     0K .......... .......... .......... .......... .......... 16%  335K 1s
-    50K .......... .......... .......... .......... .......... 33%  304K 1s
-   100K .......... .......... .......... .......... .......... 50%  307K 0s
-   150K .......... .......... .......... .......... .......... 67%  337K 0s
-   200K .......... .......... .......... .......... .......... 84%  318K 0s
-   250K .......... .......... .......... .......... ....      100%  316K=0.9s
+     0K .......... .......... .......... .......... .......... 16%  347K 1s
+    50K .......... .......... .......... .......... .......... 33%  800K 0s
+   100K .......... .......... .......... .......... .......... 50%  552K 0s
+   150K .......... .......... .......... .......... .......... 67%  568K 0s
+   200K .......... .......... .......... .......... .......... 84%  577K 0s
+   250K .......... .......... .......... .......... ....      100%  571K=0.5s
 
-2012-09-13 22:28:30 (319 KB/s) - ‘www.fiscalitefrg.com/img/fiscalitefrg_background1.jpg’ saved [301392/301392]
+2012-09-13 22:55:24 (536 KB/s) - ‘www.fiscalitefrg.com/img/fiscalitefrg_background1.jpg’ saved [301392/301392]
 
---2012-09-13 22:28:30--  http://www.fiscalitefrg.com/img/footer.png
+--2012-09-13 22:55:24--  http://www.fiscalitefrg.com/img/footer.png
 Reusing existing connection to www.fiscalitefrg.com:80.
 HTTP request sent, awaiting response... 200 OK
 Length: 151 [image/png]
 Saving to: ‘www.fiscalitefrg.com/img/footer.png’
 
-     0K                                                       100% 6.26M=0s
+     0K                                                       100% 13.1M=0s
 
-2012-09-13 22:28:30 (6.26 MB/s) - ‘www.fiscalitefrg.com/img/footer.png’ saved [151/151]
+2012-09-13 22:55:24 (13.1 MB/s) - ‘www.fiscalitefrg.com/img/footer.png’ saved [151/151]
 
---2012-09-13 22:28:30--  http://www.fiscalitefrg.com/img/header.png
+--2012-09-13 22:55:24--  http://www.fiscalitefrg.com/img/header.png
 Reusing existing connection to www.fiscalitefrg.com:80.
 HTTP request sent, awaiting response... 200 OK
 Length: 152 [image/png]
 Saving to: ‘www.fiscalitefrg.com/img/header.png’
 
-     0K                                                       100% 4.83M=0s
+     0K                                                       100% 8.53M=0s
 
-2012-09-13 22:28:31 (4.83 MB/s) - ‘www.fiscalitefrg.com/img/header.png’ saved [152/152]
+2012-09-13 22:55:24 (8.53 MB/s) - ‘www.fiscalitefrg.com/img/header.png’ saved [152/152]
 
---2012-09-13 22:28:31--  http://www.fiscalitefrg.com/img/stripe.png
+--2012-09-13 22:55:24--  http://www.fiscalitefrg.com/img/stripe.png
 Reusing existing connection to www.fiscalitefrg.com:80.
 HTTP request sent, awaiting response... 200 OK
 Length: 97 [image/png]
 Saving to: ‘www.fiscalitefrg.com/img/stripe.png’
 
-     0K                                                       100% 5.44M=0s
+     0K                                                       100% 11.6M=0s
 
-2012-09-13 22:28:31 (5.44 MB/s) - ‘www.fiscalitefrg.com/img/stripe.png’ saved [97/97]
+2012-09-13 22:55:24 (11.6 MB/s) - ‘www.fiscalitefrg.com/img/stripe.png’ saved [97/97]
 
---2012-09-13 22:28:31--  http://www.fiscalitefrg.com/img/phone.png
+--2012-09-13 22:55:24--  http://www.fiscalitefrg.com/img/phone.png
 Reusing existing connection to www.fiscalitefrg.com:80.
 HTTP request sent, awaiting response... 200 OK
 Length: 334 [image/png]
@@ -3551,62 +3551,62 @@ Saving to: ‘www.fiscalitefrg.com/img/phone.png’
 
      0K                                                       100% 29.0M=0s
 
-2012-09-13 22:28:31 (29.0 MB/s) - ‘www.fiscalitefrg.com/img/phone.png’ saved [334/334]
+2012-09-13 22:55:24 (29.0 MB/s) - ‘www.fiscalitefrg.com/img/phone.png’ saved [334/334]
 
---2012-09-13 22:28:31--  http://www.fiscalitefrg.com/img/mail.png
+--2012-09-13 22:55:24--  http://www.fiscalitefrg.com/img/mail.png
 Reusing existing connection to www.fiscalitefrg.com:80.
 HTTP request sent, awaiting response... 200 OK
 Length: 514 [image/png]
 Saving to: ‘www.fiscalitefrg.com/img/mail.png’
 
-     0K                                                       100% 44.6M=0s
+     0K                                                       100% 32.7M=0s
 
-2012-09-13 22:28:31 (44.6 MB/s) - ‘www.fiscalitefrg.com/img/mail.png’ saved [514/514]
+2012-09-13 22:55:24 (32.7 MB/s) - ‘www.fiscalitefrg.com/img/mail.png’ saved [514/514]
 
---2012-09-13 22:28:31--  http://www.fiscalitefrg.com/img/rss.gif
+--2012-09-13 22:55:24--  http://www.fiscalitefrg.com/img/rss.gif
 Reusing existing connection to www.fiscalitefrg.com:80.
 HTTP request sent, awaiting response... 200 OK
 Length: 2490 (2.4K) [image/gif]
 Saving to: ‘www.fiscalitefrg.com/img/rss.gif’
 
-     0K ..                                                    100% 1.14M=0.002s
+     0K ..                                                    100% 1.63M=0.001s
 
-2012-09-13 22:28:31 (1.14 MB/s) - ‘www.fiscalitefrg.com/img/rss.gif’ saved [2490/2490]
+2012-09-13 22:55:24 (1.63 MB/s) - ‘www.fiscalitefrg.com/img/rss.gif’ saved [2490/2490]
 
---2012-09-13 22:28:31--  http://www.fiscalitefrg.com/img/mention_honneur_460.jpg
+--2012-09-13 22:55:24--  http://www.fiscalitefrg.com/img/mention_honneur_460.jpg
 Reusing existing connection to www.fiscalitefrg.com:80.
 HTTP request sent, awaiting response... 200 OK
 Length: 75279 (74K) [image/jpeg]
 Saving to: ‘www.fiscalitefrg.com/img/mention_honneur_460.jpg’
 
-     0K .......... .......... .......... .......... .......... 68%  354K 0s
-    50K .......... .......... ...                             100%  353K=0.2s
+     0K .......... .......... .......... .......... .......... 68%  331K 0s
+    50K .......... .......... ...                             100%  843K=0.2s
 
-2012-09-13 22:28:31 (353 KB/s) - ‘www.fiscalitefrg.com/img/mention_honneur_460.jpg’ saved [75279/75279]
+2012-09-13 22:55:25 (411 KB/s) - ‘www.fiscalitefrg.com/img/mention_honneur_460.jpg’ saved [75279/75279]
 
---2012-09-13 22:28:31--  http://www.fiscalitefrg.com/img/paiement.png
+--2012-09-13 22:55:25--  http://www.fiscalitefrg.com/img/paiement.png
 Reusing existing connection to www.fiscalitefrg.com:80.
 HTTP request sent, awaiting response... 200 OK
 Length: 3126 (3.1K) [image/png]
 Saving to: ‘www.fiscalitefrg.com/img/paiement.png’
 
-     0K ...                                                   100% 1.08M=0.003s
+     0K ...                                                   100% 1.73M=0.002s
 
-2012-09-13 22:28:31 (1.08 MB/s) - ‘www.fiscalitefrg.com/img/paiement.png’ saved [3126/3126]
+2012-09-13 22:55:25 (1.73 MB/s) - ‘www.fiscalitefrg.com/img/paiement.png’ saved [3126/3126]
 
---2012-09-13 22:28:31--  http://www.fiscalitefrg.com/img/mesaffaires_logo.png
+--2012-09-13 22:55:25--  http://www.fiscalitefrg.com/img/mesaffaires_logo.png
 Reusing existing connection to www.fiscalitefrg.com:80.
 HTTP request sent, awaiting response... 200 OK
 Length: 63819 (62K) [image/png]
 Saving to: ‘www.fiscalitefrg.com/img/mesaffaires_logo.png’
 
-     0K .......... .......... .......... .......... .......... 80%  367K 0s
-    50K .......... ..                                         100%  614K=0.2s
+     0K .......... .......... .......... .......... .......... 80%  204K 0s
+    50K .......... ..                                         100%  613K=0.3s
 
-2012-09-13 22:28:31 (398 KB/s) - ‘www.fiscalitefrg.com/img/mesaffaires_logo.png’ saved [63819/63819]
+2012-09-13 22:55:25 (235 KB/s) - ‘www.fiscalitefrg.com/img/mesaffaires_logo.png’ saved [63819/63819]
 
-FINISHED --2012-09-13 22:28:31--
-Total wall clock time: 4.2s
-Downloaded: 25 files, 596K in 1.8s (324 KB/s)
+FINISHED --2012-09-13 22:55:25--
+Total wall clock time: 3.5s
+Downloaded: 25 files, 596K in 1.4s (419 KB/s)
 
 
