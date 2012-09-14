@@ -8,9 +8,9 @@ module Warc
    
    def file_handle
      if gzip?
-       ::Zlib::GzipReader.new(::File.new(@path))
+       ::Zlib::GzipReader.new(::File.new(@path,'r'))
      else
-       ::File.new(@path)
+       ::File.new(@path,'r')
      end
    end
    

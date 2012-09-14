@@ -5,7 +5,7 @@ require "warc/header"
 require "warc/reader"
 require "warc/writer"
 require "warc/exceptions"
-require "movie_bot/cli"
+require "warc/cli"
 
 module Warc
 

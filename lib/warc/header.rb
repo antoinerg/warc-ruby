@@ -49,9 +49,11 @@ class Header < HashWithIndifferentAccess
   end
   
   def to_s
+    str = String.new
     each do |k,v|
-      puts "#{k}: #{v}"
+      str << "#{k}: #{v}\r\n"
     end
+    return str
   end
 
   # WARC field names are case-insensitive
