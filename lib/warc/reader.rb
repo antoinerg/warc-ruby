@@ -17,18 +17,23 @@ module Warc
      fh.close
    end
    end
+   
+   def read_content(record)
+     
+   end
   
    def next_record(fh)
     seek_next(fh)
-
+    offset = IO::SEEK_CUR
     # Prepare to read headers
     header = Warc::Header.new
 
     while m = /^(.*): (.*)/.match(fh.readline)
        header[m.captures[0]] = m.captures[1].chomp("\r")
     end
+    record = Warc::Record.new(header)    
+    record.content = fh.read(record.header.content_length)
     
-    record = Warc::Record.new(header)
     #@fh.seek(record.header["content-length"].to_i,IO::SEEK_CUR)
     return record
    end

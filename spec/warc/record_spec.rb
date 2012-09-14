@@ -1,13 +1,12 @@
 require 'spec_helper.rb'
 
 describe Warc::Record do
-  it "should check for warc-record-id field" do
-    rec = Warc::Record.new({"content-length" => "254"})
-    rec.valid?
+  before(:each) do
+    @warc=Warc::File.new(fixture('criterion.warc'))
+    @rec = @warc.first
   end
   
-  it "should assume a content-lenght of 0 if unspecified" do
-    rec = Warc::Record.new({"WARC-Type" => "Resouce"})
-    rec.header.content_length.should eq 0
+  it "should have a header" do
+    @rec.respond_to?(:header).should eq true
   end
 end
