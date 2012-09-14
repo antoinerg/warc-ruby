@@ -1,0 +1,643 @@
+WARC/1.0
+WARC-Type: warcinfo
+Content-Type: application/warc-fields
+WARC-Date: 2012-09-13T22:53:20Z
+WARC-Record-ID: <urn:uuid:CF5083F4-FEB1-4C63-B3CB-B450AB609875>
+WARC-Filename: criterion.warc
+WARC-Block-Digest: sha1:XGSXIX3L7RQGXFU6XJ32NCHXCKN6BBMK
+Content-Length: 258
+
+software: Wget/1.14 (darwin10.8.0)
+format: WARC File Format 1.0
+conformsTo: http://bibnum.bnf.fr/WARC/WARC_ISO_28500_version1_latestdraft.pdf
+robots: classic
+wget-arguments: "http://www.criterion.com/" "--warc-file=criterion" "--no-warc-compression" 
+
+
+
+WARC/1.0
+WARC-Type: request
+WARC-Target-URI: http://www.criterion.com/
+Content-Type: application/http;msgtype=request
+WARC-Date: 2012-09-13T22:53:20Z
+WARC-Record-ID: <urn:uuid:708AB187-7721-4D85-A718-AA22209CDAA3>
+WARC-IP-Address: 50.19.219.54
+WARC-Warcinfo-ID: <urn:uuid:CF5083F4-FEB1-4C63-B3CB-B450AB609875>
+WARC-Block-Digest: sha1:RFYWN7T3NXBUIS6FP2K6QP5E4KPRF2ML
+Content-Length: 118
+
+GET / HTTP/1.1
+User-Agent: Wget/1.14 (darwin10.8.0)
+Accept: */*
+Host: www.criterion.com
+Connection: Keep-Alive
+
+
+
+WARC/1.0
+WARC-Type: response
+WARC-Record-ID: <urn:uuid:E37CF4E7-4FEF-42B5-AEFA-356EB127D1B0>
+WARC-Warcinfo-ID: <urn:uuid:CF5083F4-FEB1-4C63-B3CB-B450AB609875>
+WARC-Concurrent-To: <urn:uuid:708AB187-7721-4D85-A718-AA22209CDAA3>
+WARC-Target-URI: http://www.criterion.com/
+WARC-Date: 2012-09-13T22:53:20Z
+WARC-IP-Address: 50.19.219.54
+WARC-Block-Digest: sha1:DX4P57GJSUDWWACJMIWFRCM7QWT4TQOO
+WARC-Payload-Digest: sha1:HFUQCZ5YFOB2KBQHSJCEP7I46PJEKOI6
+Content-Type: application/http;msgtype=response
+Content-Length: 44023
+
+HTTP/1.1 200 OK
+Cache-Control: max-age=0, private, must-revalidate
+Content-Type: text/html; charset=utf-8
+Etag: "83945bc28f3c1193efd8eb8928538a04"
+Server: thin 1.4.1 codename Chromeo
+Set-Cookie: flash=%7B%7D; path=/
+Set-Cookie: _criterion_session=BAh7CEkiD3Nlc3Npb25faWQGOgZFRiIlYTBkMjNkMGQ5MTU2ZjYwNzQ4NDY1YWExY2RkMzY5YWNJIhZpbnB1dF9kZXZpY2VfdHlwZQY7AEZJIgpNT1VTRQY7AEZJIhRob3Zlcl9zdXBwb3J0ZWQGOwBGVA%3D%3D--5051813a973f4283cfd4e4345d6281c96faa91e6; path=/; HttpOnly
+Vary: Accept-Encoding
+X-Runtime: 0.007891
+X-Ua-Compatible: IE=Edge
+Content-Length: 43429
+Connection: keep-alive
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml">
+  <head><script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>
+    <title>The Criterion Collection</title>
+    <meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8" />
+      <meta name="robots" content="index, follow" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="verify-v1" content="EBSm1BxBx51dV3m3IFQboA6AYGbl5t/q/eqRdYvmBDc=" />
+    <meta name="y_key" content="8523162f29232e98" />
+    <meta name="csrf-param" content="authenticity_token"/>
+<meta name="csrf-token" content="qkWRHf9powbqUBefWZChHO2vpPdpBZlQ0Ib7DSRt50Q="/>
+    <meta property="fb:app_id" content="121335962047" />
+    <meta property="fb:admins" content="801630,502024" />
+      <meta property='og:title' content='The Criterion Collection' />
+<meta property='og:site_name' content='The Criterion Collection' />
+<meta property='og:image' content='http://www.criterion.com/images/cc-logo.jpg' />
+<meta property='og:url' content='http://www.criterion.com' />
+<meta property='og:type' content='website' />
+<meta property='og:description' content='Since 1984, we’ve dedicated ourselves to gathering the greatest films from around the world and publishing them in editions of the highest technical quality.' />
+
+    <link rel="alternate" href="http://feeds.feedburner.com/TheCriterionCollection-TheCurrent" title="RSS Feed" type="application/rss+xml" />
+    <link href="/images/favicon.png" rel="shortcut icon" type="image/png" />
+    <link href="/images/favicon.png" rel="icon" type="image/png" />
+    
+    <script type="text/javascript" charset="utf-8">
+      CC = {}; // Define the Criterion namespace
+      var _sf_startpt=(new Date()).getTime();
+    </script>
+  
+    <link href="http://criterion-production-assets.s3.amazonaws.com/assets/main_packaged.css?1347309619" media="screen, projection" rel="stylesheet" type="text/css" />
+    <link href="http://criterion-production-assets.s3.amazonaws.com/stylesheets/print.css?1347309619" media="print" rel="stylesheet" type="text/css" />
+    
+    <!--[if IE 6]><link rel="stylesheet" href="/stylesheets/styles/ie6.css" type="text/css" /><![endif]-->
+    <!--[if IE 7]><link rel="stylesheet" href="/stylesheets/styles/ie7.css" type="text/css" /><![endif]-->
+      <link href="http://criterion-production-assets.s3.amazonaws.com/assets/homepage_packaged.css?1347309619" media="screen" rel="stylesheet" type="text/css" />
+    
+      <script src="http://criterion-production-assets.s3.amazonaws.com/assets/main_packaged.js?1347309619" type="text/javascript"></script>
+    
+    
+      <script src="http://criterion-production-assets.s3.amazonaws.com/assets/homepage_packaged.js?1347309619" type="text/javascript"></script>
+        <script type="text/javascript">
+  var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-1852531-1']);
+  _gaq.push(['_trackPageview']);
+  _gaq.push(['_trackPageLoadTime']);
+
+  
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+  </head>  <body>
+    <div id="wrap">
+      <ul id="statusnav">
+  <!--<li><img src="/images/ajax-loader.gif" class="ajax-loader" /></li>-->
+  <li>&nbsp;</li>
+</ul> <!-- END STATUSNAV -->
+
+
+  
+      <div id="header">
+        <h1><a href="/" title="The Criterion Collection"><span>The Criterion Collection</span></a></h1>
+        <div id="navbar">
+
+  <ul id="nav" class="clear">
+    <li class="films"><a href="/library" title="Films">Films</a>/</li>
+    <li class="explore"><a href="/explore" title="Explore">Explore</a>/</li>
+    <li class="current"><a href="/current/posts" title="Current">Current</a>/</li>
+    <li class="shop"><a href="/shop" title="Shop">Shop</a></li>
+  </ul>
+
+  <div id="ff_autocomplete_container" class="autocomplete_list">
+    <div id="search">
+    <form action="/search/results" id="cse-search-box">
+      <div>
+        <input type="hidden" name="cx" value="015536958783835185649:m0a2kgqd__m" />
+        <input type="hidden" name="cof" value="FORID:9" />
+        <input type="hidden" name="ie" value="UTF-8" />
+        <div id="ff_autocomplete_errors" class="autocomplete_errors" style="display: none;"></div>
+        <input autocomplete="off" class="field" id="ff_autocomplete_input" name="q" onfocus='this.value=""; this.setAttribute("class", "field black");' size="31" type="text" value="SEARCH" />
+        <input type="image" class="searchbutton" src="http://criterion-production-assets.s3.amazonaws.com/images/blank.gif?1347309619" alt="Search" />
+        <div id="ff_autocomplete_results" class="search_results"></div>
+      </div>
+    </form>
+    </div>
+  </div>
+  
+</div> <!-- END #NAVBAR -->
+
+      </div> <!-- END HEADER -->
+
+      <div class="headerpadding">
+        <div id="flash">
+          <p id="error_div" class="flash flash_error" style="display:none;"></p>
+          <p id="notice_div" class="flash flash_notice" style="display:none;"></p>
+        </div>
+      </div>
+      
+      <!--<div id="banner-promo">
+        <a href="/library"><img id="valentines-day-sale-banner" src="https://criterion-production.s3.amazonaws.com/ads/valentines-day-sale-2012-banner.jpg" alt="Valentine's Day Sale" /></a>
+      </div>-->
+      
+      
+
+
+<div id="newhome" class="clear">
+<div class="newhome_spotlight">
+	<ul class="spotlight_left">
+  		<li class="slide1">
+  			<h6>Spotlight</h6>
+  			<h2><a href="http://www.criterion.com/current/posts/2464-the-dazzling-dietrich-in-the-scarlet-empress">Dazzling Dietrich</a></h2>
+  			<p>Travis Banton designed costumes for many beauties of Hollywood’s golden age, including Clara Bow, Mae West, and Rita Hayworth. Check out his gorgeous creations for Marlene Dietrich in <i>The Scarlet Empress.</i></p>
+  			<a href="http://www.criterion.com/current/posts/2464-the-dazzling-dietrich-in-the-scarlet-empress" class="readmore" title="Read more">View gallery</a>
+  			<a href="http://www.criterion.com/current/posts/2464-the-dazzling-dietrich-in-the-scarlet-empress" class="spotlight_link">&nbsp;</a>
+  		</li>
+  		<li class="slide2">
+  			<h6>Spotlight</h6>
+  			<h2><a href="http://www.criterion.com/current/posts/2461-three-reasons-children-of-paradise">Three Reasons: <i>Children of Paradise</i></a></h2>
+  			<p>Coming next week in new Blu-ray and <span class="caps">DVD</span> editions is Marcel Carné’s epic portrait of theater, thievery, and tragic love.</p>
+  			<a href="http://www.criterion.com/current/posts/2461-three-reasons-children-of-paradise" class="readmore" title="Read more">Watch video</a>
+  			<a href="http://www.criterion.com/current/posts/2461-three-reasons-children-of-paradise" class="spotlight_link">&nbsp;</a>
+  		</li>
+  		<li class="slide3">
+  			<h6>Spotlight</h6>
+  			<h2><a href="http://www.criterion.com/explore/183-classic-hollywood">Explore Classic Hollywood Cinema</a></h2>
+  			<p>From stylish early silents by Sternberg to comedies with the Lubitsch touch to Sirk sudsers, Criterion offers a wide selection of great American movies from Hollywood’s golden years.</p>
+  			<a href="http://www.criterion.com/explore/183-classic-hollywood" class="readmore" title="Read more">Learn more</a>
+  			<a href="http://www.criterion.com/explore/183-classic-hollywood" class="spotlight_link">&nbsp;</a>
+  		</li>
+  		<li class="slide4">
+  			<h6>Spotlight</h6>
+  			<h2><a href="http://www.criterion.com/current/posts/2459-a-whole-new-quadrophenia">A Whole New <i>Quadrophenia</i></a></h2>
+  			<p>Watch a clip of the Who’s sound engineer, Bob Pridden, explaining the process behind our revelatory new audio restoration of <i>Quadrophenia.</i></p>
+  			<a href="http://www.criterion.com/current/posts/2459-a-whole-new-quadrophenia" class="readmore" title="Read more">Read more</a>
+  			<a href="http://www.criterion.com/current/posts/2459-a-whole-new-quadrophenia" class="spotlight_link">&nbsp;</a>
+  		</li>
+	</ul>
+	<ul class="spotlight_right">
+	    <li><a href="http://www.criterion.com/current/posts/2464-the-dazzling-dietrich-in-the-scarlet-empress"><img alt="Large_marlene_spotlight" height="385" src="http://s3.amazonaws.com/criterion-production/spotlights/809/large_Marlene_Spotlight.jpg" width="602" /></a></li>
+	    <li><a href="http://www.criterion.com/current/posts/2461-three-reasons-children-of-paradise"><img alt="Large_cop_spotlight" height="385" src="http://s3.amazonaws.com/criterion-production/spotlights/808/large_CoP_Spotlight.jpg" width="602" /></a></li>
+	    <li><a href="http://www.criterion.com/explore/183-classic-hollywood"><img alt="Large_hollywood_spotlight" height="385" src="http://s3.amazonaws.com/criterion-production/spotlights/807/large_Hollywood_Spotlight.jpg" width="602" /></a></li>
+	    <li><a href="http://www.criterion.com/current/posts/2459-a-whole-new-quadrophenia"><img alt="Large_quad_spotlight" height="385" src="http://s3.amazonaws.com/criterion-production/spotlights/806/large_Quad_Spotlight.jpg" width="602" /></a></li>
+	</ul>
+	<div class="spotlight_prev">&nbsp;</div>
+	<div class="spotlight_next">&nbsp;</div>
+	<div class="spotlight_nav">
+		<div class="spotlight_bg">&nbsp;</div>
+		<ul class="spotlight_timer">
+			<li class="slide1"><div class="progress">&nbsp;</div></li>
+			<li class="slide2"><div class="progress">&nbsp;</div></li>
+			<li class="slide3"><div class="progress">&nbsp;</div></li>
+			<li class="slide4"><div class="progress">&nbsp;</div></li>
+		</ul>
+		<ul class="spotlight_slides">
+			  <li class="slide1"><img alt="Large_marlene_spotlight" height="91" src="http://s3.amazonaws.com/criterion-production/spotlights/809/large_Marlene_Spotlight.jpg" width="142" /><div class="highlight">&nbsp;</div><div class="darken">&nbsp;</div></li>
+			  <li class="slide2"><img alt="Large_cop_spotlight" height="91" src="http://s3.amazonaws.com/criterion-production/spotlights/808/large_CoP_Spotlight.jpg" width="142" /><div class="highlight">&nbsp;</div><div class="darken">&nbsp;</div></li>
+			  <li class="slide3"><img alt="Large_hollywood_spotlight" height="91" src="http://s3.amazonaws.com/criterion-production/spotlights/807/large_Hollywood_Spotlight.jpg" width="142" /><div class="highlight">&nbsp;</div><div class="darken">&nbsp;</div></li>
+			  <li class="slide4"><img alt="Large_quad_spotlight" height="91" src="http://s3.amazonaws.com/criterion-production/spotlights/806/large_Quad_Spotlight.jpg" width="142" /><div class="highlight">&nbsp;</div><div class="darken">&nbsp;</div></li>
+		</ul>
+	</div>
+</div><!--end .newhome_spotlight-->
+
+<div class="newhome_comingsoon">
+	<div class="comingsoon_top">
+		<h3><a href="/library/expanded_view?f=1&s=release_date" title="Coming Soon">Coming Soon</a></h3>
+		<div class="comingsoon_nav">
+			<a href="/library/expanded_view?f=1&s=release_date" class="seeall" title="See All">See all</a>
+			<div class="prev" title="Prev">Prev</div>
+			<div class="next" title="Next">Next</div>
+		</div>
+	</div>
+	<div class="comingsoon_body">
+		<ul>
+			<li><img alt="Eclipse Series 37: When Horror Came to Shochiku (Eclipse DVD)" height="141" src="http://s3.amazonaws.com/criterion-production/release_images/3997/eclipse_shochikuhorror_3D_w100.png?1345055789" width="100" /><h4>Eclipse Series 37: When Horror Came to Shochiku</h4><p></p><a href='http://www.criterion.com/boxsets/928-eclipse-series-37-when-horror-came-to-shochiku'>&nbsp;</a></li><li><img alt="Eating Raoul (Criterion Blu-Ray)" height="141" src="http://s3.amazonaws.com/criterion-production/release_images/3970/625_BD_box_348x490_w100.jpg?1339786491" width="100" /><h4>Eating Raoul</h4><p>Paul Bartel</p><a href='http://www.criterion.com/films/27767-eating-raoul'>&nbsp;</a></li><li><img alt="The Forgiveness of Blood (Criterion Blu-Ray)" height="141" src="http://s3.amazonaws.com/criterion-production/release_images/3987/628_BD_box_348x490_w100.jpg?1342470319" width="100" /><h4>The Forgiveness of Blood</h4><p>Joshua Marston</p><a href='http://www.criterion.com/films/28379-the-forgiveness-of-blood'>&nbsp;</a></li><li><img alt="Heaven’s Gate (Criterion Blu-Ray)" height="141" src="http://s3.amazonaws.com/criterion-production/release_images/3993/636_BD_box_348x490_w100.jpg?1345055105" width="100" /><h4>Heaven’s Gate</h4><p>Michael Cimino</p><a href='http://www.criterion.com/films/28036-heaven-s-gate'>&nbsp;</a></li><li><img alt="The Game (Criterion Blu-Ray)" height="141" src="http://s3.amazonaws.com/criterion-production/release_images/3968/627_box_348x490_BD_w100.jpg?1339786418" width="100" /><h4>The Game</h4><p>David Fincher</p><a href='http://www.criterion.com/films/28058-the-game'>&nbsp;</a></li><li><img alt="Les visiteurs du soir (Criterion Blu-Ray)" height="141" src="http://s3.amazonaws.com/criterion-production/release_images/3966/626_BD_box_348x490_w100.jpg?1339786376" width="100" /><h4>Les visiteurs du soir</h4><p>Marcel Carné</p><a href='http://www.criterion.com/films/27685-les-visiteurs-du-soir'>&nbsp;</a></li><li><img alt="Trilogy of Life (Criterion Blu-Ray)" height="141" src="http://s3.amazonaws.com/criterion-production/release_images/3995/631_BD_box_348x490_w100.jpg?1345055645" width="100" /><h4>Trilogy of Life</h4><p>Pier Paolo Pasolini</p><a href='http://www.criterion.com/boxsets/916-trilogy-of-life'>&nbsp;</a></li><li><img alt="Weekend (Criterion Blu-Ray)" height="141" src="http://s3.amazonaws.com/criterion-production/release_images/3998/635_BD_box_348x490_w100.jpg?1345055876" width="100" /><h4>Weekend</h4><p>Jean-Luc Godard</p><a href='http://www.criterion.com/films/28441-weekend'>&nbsp;</a></li><li><img alt="Sunday Bloody Sunday (Criterion Blu-Ray)" height="141" src="http://s3.amazonaws.com/criterion-production/release_images/3990/629_BD_box_348x490_w100.jpg?1343979420" width="100" /><h4>Sunday Bloody Sunday</h4><p>John Schlesinger</p><a href='http://www.criterion.com/films/28025-sunday-bloody-sunday'>&nbsp;</a></li><li><img alt="Children of Paradise (Criterion Blu-Ray)" height="141" src="http://s3.amazonaws.com/criterion-production/release_images/3963/141_BD_box_348x490_w100.jpg?1339786172" width="100" /><h4>Children of Paradise</h4><p>Marcel Carné</p><a href='http://www.criterion.com/films/683-children-of-paradise'>&nbsp;</a></li><li><img alt="In the Mood for Love (Criterion Blu-Ray)" height="141" src="http://s3.amazonaws.com/criterion-production/release_images/3989/147_BD_box_348x490_w100.jpg?1342470481" width="100" /><h4>In the Mood for Love</h4><p>Wong Kar-wai</p><a href='http://www.criterion.com/films/198-in-the-mood-for-love'>&nbsp;</a></li><li><img alt="Eclipse Series 36: Three Wicked Melodramas from Gainsborough Pictures (Eclipse DVD)" height="141" src="http://s3.amazonaws.com/criterion-production/release_images/3974/Gainsborough_3D_slipcase_w100.png?1342416711" width="100" /><h4>Eclipse Series 36: Gainsborough Melodramas</h4><p></p><a href='http://www.criterion.com/boxsets/921-eclipse-series-36-three-wicked-melodramas-from-gainsborough-pictures'>&nbsp;</a></li><li><img alt="Rosemary’s Baby (Criterion Blu-Ray)" height="141" src="http://s3.amazonaws.com/criterion-production/release_images/3984/634_BD_box_348x490_w100.jpg?1342461588" width="100" /><h4>Rosemary’s Baby</h4><p>Roman Polanski</p><a href='http://www.criterion.com/films/27927-rosemary-s-baby'>&nbsp;</a></li><li><img alt="Rashomon (Criterion Blu-Ray)" height="141" src="http://s3.amazonaws.com/criterion-production/release_images/4000/138_BD_box_348x490_w100.jpg?1345058710" width="100" /><h4>Rashomon</h4><p>Akira Kurosawa</p><a href='http://www.criterion.com/films/307-rashomon'>&nbsp;</a></li><li class='empty'>&nbsp;</li><li class='empty'>&nbsp;</li><li class='empty'>&nbsp;</li><li class='empty'>&nbsp;</li>
+		</ul>
+	</div>
+</div><!--end .newhome_comingsoon-->
+
+<div class="newhome_releases">
+	<div class="releases_top">
+		<h3><a href="/library/expanded_view?f=2&s=release_date" title="New Releases">New Releases</a></h3>
+		<div class="releases_nav">
+			<a href="/library/expanded_view?f=2&s=release_date" class="seeall" title="See All">See all</a>
+			<div class="prev" title="Prev">Prev</div>
+			<div class="next" title="Next">Next</div>
+		</div>
+	</div>
+	<div class="releases_body">
+		<ul>
+      <li><img alt="Quadrophenia (Criterion Blu-Ray)" height="141" src="http://s3.amazonaws.com/criterion-production/release_images/3952/624_BD_box_348x490_w100.jpg?1337108923" width="100" /><h4>Quadrophenia</h4><p>Franc Roddam</p><a href='http://www.criterion.com/films/27775-quadrophenia'>&nbsp;</a></li><li><img alt="Le Havre (Criterion Blu-Ray)" height="141" src="http://s3.amazonaws.com/criterion-production/release_images/3935/xxx_BD_box_348x490_w100.jpg?1334594508" width="100" /><h4>Le Havre</h4><p>Aki Kaurismäki</p><a href='http://www.criterion.com/films/28352-le-havre'>&nbsp;</a></li><li><img alt="The Last Days of Disco (Criterion Blu-Ray)" height="141" src="http://s3.amazonaws.com/criterion-production/release_images/3933/485_BD_box_348x490_w100.jpg?1334594364" width="100" /><h4>The Last Days of Disco</h4><p>Whit Stillman</p><a href='http://www.criterion.com/films/2954-the-last-days-of-disco'>&nbsp;</a></li><li><img alt="La promesse (Criterion Blu-Ray)" height="141" src="http://s3.amazonaws.com/criterion-production/release_images/3947/620_BD_box_348x490_w100.jpg?1337108840" width="100" /><h4>La promesse</h4><p>Luc Dardenne&hellip;</p><a href='http://www.criterion.com/films/28073-la-promesse'>&nbsp;</a></li><li><img alt="Rosetta (Criterion Blu-Ray)" height="141" src="http://s3.amazonaws.com/criterion-production/release_images/3945/621_BD_box_348x490_w100.jpg?1337108773" width="100" /><h4>Rosetta</h4><p>Luc Dardenne&hellip;</p><a href='http://www.criterion.com/films/28056-rosetta'>&nbsp;</a></li><li><img alt="The 39 Steps (Criterion Blu-Ray)" height="141" src="http://s3.amazonaws.com/criterion-production/release_images/3955/56_BD_box_348x490_w100.jpg?1337672092" width="100" /><h4>The 39 Steps</h4><p>Alfred Hitchcock</p><a href='http://www.criterion.com/films/234-the-39-steps'>&nbsp;</a></li><li><img alt="Metropolitan (Criterion Blu-Ray)" height="141" src="http://s3.amazonaws.com/criterion-production/release_images/3934/326_BD_box_348x490_w100.jpg?1334594484" width="100" /><h4>Metropolitan</h4><p>Whit Stillman</p><a href='http://www.criterion.com/films/774-metropolitan'>&nbsp;</a></li><li><img alt="Gray’s Anatomy (Criterion Blu-Ray)" height="141" src="http://s3.amazonaws.com/criterion-production/release_images/3919/618_BD_box_348x490_w100.jpg?1331929447" width="100" /><h4>Gray’s Anatomy</h4><p>Steven Soderbergh</p><a href='http://www.criterion.com/films/28351-gray-s-anatomy'>&nbsp;</a></li><li><img alt="Down by Law (Criterion Blu-Ray)" height="141" src="http://s3.amazonaws.com/criterion-production/release_images/3932/166_BD_box_348x490_w100.jpg?1334594188" width="100" /><h4>Down by Law</h4><p>Jim Jarmusch</p><a href='http://www.criterion.com/films/719-down-by-law'>&nbsp;</a></li><li><img alt="Eclipse Series 35: Maidstone and Other Films by Norman Mailer (Eclipse DVD)" height="141" src="http://s3.amazonaws.com/criterion-production/release_images/3954/Mailer_3D_slipcase_w100.png?1337109122" width="100" /><h4>Eclipse Series 35: Norman Mailer</h4><p>Norman Mailer</p><a href='http://www.criterion.com/boxsets/907-eclipse-series-35-i-maidstone-i-and-other-films-by-norman-mailer'>&nbsp;</a></li><li><img alt="Eclipse Series 34: Jean Grémillon During the Occupation (Eclipse DVD)" height="141" src="http://s3.amazonaws.com/criterion-production/release_images/3937/Gremillon_3D_slipcase_w100.png?1334595947" width="100" /><h4>Jean Grémillon</h4><p>Jean Grémillon</p><a href='http://www.criterion.com/boxsets/897-eclipse-series-34-jean-gremillon-during-the-occupation'>&nbsp;</a></li><li><img alt="Lonesome (Criterion Blu-Ray)" height="141" src="http://s3.amazonaws.com/criterion-production/release_images/3943/623_BD_box_348x3490_w100.jpg?1337108719" width="100" /><h4>Lonesome</h4><p>Paul Fejos</p><a href='http://www.criterion.com/films/28212-lonesome'>&nbsp;</a></li><li><img alt="The Samurai Trilogy (Criterion Blu-Ray)" height="141" src="http://s3.amazonaws.com/criterion-production/release_images/3925/14_15_16_BD_box_348x490_w100.jpg?1332359290" width="100" /><h4>The Samurai Trilogy</h4><p>Hiroshi Inagaki</p><a href='http://www.criterion.com/boxsets/40-the-samurai-trilogy'>&nbsp;</a></li><li><img alt="And Everything Is Going Fine (Criterion Blu-Ray)" height="141" src="http://s3.amazonaws.com/criterion-production/release_images/3917/617_BD_box_348x490_w100.jpg?1331929389" width="100" /><h4>And Everything Is Going Fine</h4><p>Steven Soderbergh</p><a href='http://www.criterion.com/films/27874-and-everything-is-going-fine'>&nbsp;</a></li><li><img alt="The Royal Tenenbaums (Criterion Blu-Ray)" height="141" src="http://s3.amazonaws.com/criterion-production/release_images/3941/157_BD_box_348x490_w100.jpg?1337108590" width="100" /><h4>The Royal Tenenbaums</h4><p>Wes Anderson</p><a href='http://www.criterion.com/films/230-the-royal-tenenbaums'>&nbsp;</a></li><li><img alt="Umberto D. (Criterion Blu-Ray)" height="141" src="http://s3.amazonaws.com/criterion-production/release_images/3972/201_BD_box_348x490_w100.jpg?1339803382" width="100" /><h4>Umberto D.</h4><p>Vittorio De Sica</p><a href='http://www.criterion.com/films/371-umberto-d'>&nbsp;</a></li><li><img alt="Weekend (Criterion Blu-Ray)" height="141" src="http://s3.amazonaws.com/criterion-production/release_images/3950/622_BD_box_348x490_w100.jpg?1337108891" width="100" /><h4>Weekend</h4><p>Andrew Haigh</p><a href='http://www.criterion.com/films/27783-weekend'>&nbsp;</a></li><li class='empty'>&nbsp;</li>
+		</ul>
+	</div>
+</div><!--end .newhome_releases-->
+
+<div class="newhome_social">
+	<div class="social_twitter">
+	  <a href="http://twitter.com/criterion" class="twitter-follow-button" data-show-count="false">Follow @criterion</a>
+		<h3><a href="http://twitter.com/criterion" class="grey">Twitter</a></h3>
+		<div id="tweet"></div>
+	</div>
+	
+	<div class="social_facebook">
+		<a href="http://www.facebook.com/CriterionCollection" class="link_facebook">Facebook</a>
+		<h3><a href="http://www.facebook.com/CriterionCollection" class="grey">Facebook</a></h3>
+		<p>Join us on Facebook for announcements, sneak peeks, and contests.</p>
+    <fb:like href="www.facebook.com/CriterionCollection" notify="true" ref="homepage" send="false" width="250" height="40" show_faces="false" font="arial"></fb:like>
+	</div>
+	
+	<div class="social_newsletter">
+		<h3>Newsletter</h3>
+		<div class="newsletter_form">
+		  <form accept-charset="UTF-8" action="http://www.criterion.com/users/newsletter_signup" class="new_user" id="new_user" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="qkWRHf9powbqUBefWZChHO2vpPdpBZlQ0Ib7DSRt50Q=" /></div>
+			  <input class="input" name="email" value="Enter E-mail Address" type="text" onfocus="this.value=''" />
+			  <input class="submit" name="subscribe" type="submit" value="Subscribe" />
+</form>		</div>
+		<p><strong>Sign Up</strong> to receive new release info, top ten lists, contests, giveaways, and other special offers.</p>
+	</div>
+</div><!--end .newhome_social-->
+
+<div class="newhome_feeds">
+	<div class="feeds_current feeds_col">
+		<div class="feeds_current_top">
+			<h3><a href="/current/posts?category=Film+Essays" class="grey">Film Essays</a></h3>
+			<ul>
+				<li><a href="/current/posts?category=Film+Essays" title="Read More Film Essays">Read more</a></li>
+			</ul>
+			<div class="break"></div>
+		</div>
+		<ul class="feeds_current_list">
+  			<li>
+            <a href="http://www.criterion.com/current/posts/2437-the-travels-of-paul-fejos"><img alt="Thumbnail_currenthumb_28212id_034" src="http://s3.amazonaws.com/criterion-production/post_images/2437/thumbnail_currenthumb_28212id_034.jpg?1346347586" /></a>
+  				<h4><a href="http://www.criterion.com/current/posts/2437-the-travels-of-paul-fejos">The Travels of Paul Fejos</a></h4>
+  				<p>By <strong>Graham Petrie</strong> &bull; 31 August 2012 &bull; <a href="http://www.criterion.com/current/posts/2437-the-travels-of-paul-fejos#comments">1 Comment</a><br />
+  				He was a doctor, explorer, and anthropologist in addition to being a director. Learn more about the fascinating man who made Lonesome. <a href="http://www.criterion.com/current/posts/2437-the-travels-of-paul-fejos" title="Read more">Read more &raquo;</a></p>
+  			</li>
+  			<li>
+            <a href="http://www.criterion.com/current/posts/2440-eclipse-series-35-maidstone-and-other-films-by-norman-mailer"><img alt="Thumbnail_mailer_feature_current" src="http://s3.amazonaws.com/criterion-production/post_images/2440/thumbnail_Mailer_Feature_Current.jpg?1346966139" /></a>
+  				<h4><a href="http://www.criterion.com/current/posts/2440-eclipse-series-35-maidstone-and-other-films-by-norman-mailer">Eclipse Series 35: <i>Maidstone</i> and Other Films by Norman Mailer  </a></h4>
+  				<p>By <strong>Michael Chaiken</strong> &bull; 30 August 2012 &bull; <a href="http://www.criterion.com/current/posts/2440-eclipse-series-35-maidstone-and-other-films-by-norman-mailer#comments">0 Comments</a><br />
+  				In the 1960s, Mailer was inspired by the avant-garde film movement to take a stab at his own underground cinema. <a href="http://www.criterion.com/current/posts/2440-eclipse-series-35-maidstone-and-other-films-by-norman-mailer" title="Read more">Read more &raquo;</a></p>
+  			</li>
+  			<li>
+            <a href="http://www.criterion.com/current/posts/2438-quadrophenia-jimmy-vs-world"><img alt="Thumbnail_currentthumb_1530_002" src="http://s3.amazonaws.com/criterion-production/post_images/2438/thumbnail_currentthumb_1530_002.jpg?1346251028" /></a>
+  				<h4><a href="http://www.criterion.com/current/posts/2438-quadrophenia-jimmy-vs-world"><i>Quadrophenia:</i> Jimmy vs. World</a></h4>
+  				<p>By <strong>Howard Hampton</strong> &bull; 29 August 2012 &bull; <a href="http://www.criterion.com/current/posts/2438-quadrophenia-jimmy-vs-world#comments">2 Comments</a><br />
+  				With humor and melancholy, Franc Roddam’s coming-of-age drama, based on the Who’s iconic album, shows us a g-g-generation on the edge. <a href="http://www.criterion.com/current/posts/2438-quadrophenia-jimmy-vs-world" title="Read more">Read more &raquo;</a></p>
+  			</li>
+		</ul>
+	</div>
+	
+	<div class="feeds_quicklinks feeds_col">
+		<div class="feeds_quicklinks_top">
+			<h3><a href="/current/posts" class="grey">Current Posts</a></h3>
+			<ul>
+				<li><a href="http://feeds.feedburner.com/TheCriterionCollection-TheCurrent" class="rss" title="RSS"><RSS><img alt="Icon_rss" src="http://criterion-production-assets.s3.amazonaws.com/images/icon_rss.gif?1347309619" /></a></li>
+			</ul>
+			<div class="break"></div>
+		</div>
+		<ul class="feeds_quicklinks_list">
+			  <li><p><a href="http://www.criterion.com/current/posts/2462-sight-sound-poll-2012-breathless" class="title"><i>Sight & Sound</i> Poll 2012: <i>Breathless</i></a><br /> Posted in <a href="http://www.criterion.com/current/posts?category=Video">Video</a> &bull; 13 September 2012</p></li>
+			  <li><p><a href="http://www.criterion.com/current/posts/2465-repertory-pick-in-the-fog-with-powell-and-pressburger" class="title">Repertory Pick: In the Fog with Powell and Pressburger</a><br /> Posted in <a href="http://www.criterion.com/current/posts?category=Big+Screen">Big Screen</a> &bull; 13 September 2012</p></li>
+			  <li><p><a href="http://www.criterion.com/current/posts/2464-the-dazzling-dietrich-in-the-scarlet-empress" class="title">The Dazzling Dietrich in<br> <i>The Scarlet Empress</i></a><br /> Posted in <a href="http://www.criterion.com/current/posts?category=Photo+Galleries">Photo Galleries</a> &bull; 13 September 2012</p></li>
+			  <li><p><a href="http://www.criterion.com/current/posts/2459-a-whole-new-quadrophenia" class="title">A Whole New <i>Quadrophenia</i></a><br /> Posted in <a href="http://www.criterion.com/current/posts?category=Video">Video</a> &bull; 10 September 2012</p></li>
+		</ul>
+		<div class="feeds_quicklinks_btm">
+			<ul>
+				<li>Browse :</li>
+				<li><a href="/current/posts?category=On+Five" title="On Five">On Five</a></li>
+				<li>/</li>
+				<li><a href="/current/posts?category=Three+Reasons" title="On Five">Three Reasons</a></li>
+				<li>/</li>
+				<li><a href="/current/posts?category=News" title="News">News</a></li>
+			</ul>
+		</div>
+	</div>
+</div><!--end .newhome_feeds-->
+
+<!--
+<div class="newhome_ads">
+	<ul>
+		<li></li>
+		<li><a href="http://www.criterion.com/boxsets/678-ak-100-25-films-by-akira-kurosawa"><img src="http://criterion_images.s3.amazonaws.com/banner_ads/AK100homepage.jpg" width="288" height="157" alt="25 Films By Akira Kurosawa" /></a></li>
+		<li class="last"></li>
+	</ul>
+</div>
+-->
+
+  <div id="my-criterion">
+    <div class="my-criterion_top">
+      <h3><a href="/my_criterion" class="grey">My Criterion</a></h3>
+    </div>
+
+    <div id="featured-lists">
+        <div class="spotlight-list">
+          <a href="http://www.criterion.com/lists/89442-10-visually-remarkable-films" class="spotlight-list-photo hover"><img alt="Film_542w_antichrist" height="252" src="http://s3.amazonaws.com/criterion-production/stills/130241/Film_542w_Antichrist.jpg?1328128303" width="448" /></a>
+          <div class="spotlight-list-right my-criterion_lists">
+            <p class="featured-lists-label">Featured Lists:</p>
+            <a href="http://www.criterion.com/lists/89442-10-visually-remarkable-films" class="spotlight-list-title">10 Visually Remarkable Films</a>
+            <a href="http://www.criterion.com/my_criterion/32747-mylomook" class="featured-list-titles author">By Mylomook</a>
+            <ul class="meta">
+              <li>1 favorite</li>
+                <li>|</li>
+                <li>3 comments</li>
+            </ul>
+          </div>
+        </div>
+      
+      <div class="item list">
+  	 	    <div class="featured-list hover">
+  		      <a href="http://www.criterion.com/lists/50620-my-favorite-criterion-films-of-all-time" class="featured-list-photo hover"><img alt="Film_51w_brazil_w160" height="90" src="http://s3.amazonaws.com/criterion-production/stills/130569/Film_51w_Brazil_w160.jpg?1328128303" width="160" /></a>
+  		      <a href="http://www.criterion.com/lists/50620-my-favorite-criterion-films-of-all-time" class="featured-list-titles hover">My Favorite Criterion Films of All Time</a>
+  	 	    </div>
+  	 	    <div class="featured-list hover">
+  		      <a href="http://www.criterion.com/lists/84850-the-endless-struggles-of-an-artist" class="featured-list-photo hover"><img alt="Film_154w_horsesmouth_new_w160" height="90" src="http://s3.amazonaws.com/criterion-production/stills/129897/Film_154w_HorsesMouth_new_w160.jpg?1328128302" width="160" /></a>
+  		      <a href="http://www.criterion.com/lists/84850-the-endless-struggles-of-an-artist" class="featured-list-titles hover">The Endless Struggles of an Artist</a>
+  	 	    </div>
+  	 	    <div class="featured-list hover">
+  		      <a href="http://www.criterion.com/lists/85896-out-of-print-but-not-out-of-mind" class="featured-list-photo hover"><img alt="Film_7w_hardboiled_w160" height="90" src="http://s3.amazonaws.com/criterion-production/stills/132033/Film_7w_HardBoiled_w160.jpg?1345578937" width="160" /></a>
+  		      <a href="http://www.criterion.com/lists/85896-out-of-print-but-not-out-of-mind" class="featured-list-titles hover">Out of Print, but not Out of Mind</a>
+  	 	    </div>
+  	 	    <div class="featured-list hover">
+  		      <a href="http://www.criterion.com/lists/50116-scotch-and-cynicism" class="featured-list-photo hover"><img alt="Film_555w_sweetsmell_w160" height="90" src="http://s3.amazonaws.com/criterion-production/stills/130457/Film_555w_SweetSmell_w160.jpg?1328128303" width="160" /></a>
+  		      <a href="http://www.criterion.com/lists/50116-scotch-and-cynicism" class="featured-list-titles hover">Scotch and cynicism </a>
+  	 	    </div>
+      </div>
+    </div><!-- END featured-lists -->
+
+    <div id="mycri-tout">
+      <div id="mycri-tout-inner">
+        <p class="mycri-tout-headline">Create a profile, <br/>build your collection, <br/>make a wish (list).</p>
+        <p class="mycri-tout-body"><strong>My Criterion</strong> is a free way to build your virtual collection, make lists, and share them. It’s your new home on Criterion.com.</p>
+        <a href="/my_criterion/signup" class="mycri-tout-button green_button">Get Started</a>
+      </div>
+    </div>
+  
+
+      <div class="newhome_my_criterion_notes">
+    	  <p class="featured-lists-label">What you’re saying:</p>
+          <div class="my-criterion-note-bg" style="background-image:url('http://s3.amazonaws.com/criterion-production/stills/2702/P.jpg?1328128293');">
+            <div class="my-criterion-note">
+              <div class="note-arrow"></div>
+              <a href="http://www.criterion.com/films/209-l-avventura" class="note-link">&nbsp;</a>
+              <p class="note-body"><a href="http://www.criterion.com/my_criterion/4577-olderhultgren/collection?open_item=350675">“The best Antonioni”</a></p>
+              <a href="http://www.criterion.com/my_criterion/4577-olderhultgren" class="note-author">OlderHultgren</a>
+            </div>
+          </div>
+          <div class="my-criterion-note-bg" style="background-image:url('http://s3.amazonaws.com/criterion-production/stills/9311/ScarlketEmpressw.jpg?1328128298');">
+            <div class="my-criterion-note">
+              <div class="note-arrow"></div>
+              <a href="http://www.criterion.com/films/431-the-scarlet-empress" class="note-link">&nbsp;</a>
+              <p class="note-body"><a href="http://www.criterion.com/my_criterion/26286-futurestar/collection?open_item=309107">“josef von sternberg and his # 1 muse - marlene dietrich join hands in her role as Catherine the Great. ”</a></p>
+              <a href="http://www.criterion.com/my_criterion/26286-futurestar" class="note-author">futurestar</a>
+            </div>
+          </div>
+          <div class="my-criterion-note-bg" style="background-image:url('http://s3.amazonaws.com/criterion-production/stills/18127/481_Film_made.jpg?1328128300');">
+            <div class="my-criterion-note">
+              <div class="note-arrow"></div>
+              <a href="http://www.criterion.com/films/2109-made-in-u-s-a" class="note-link">&nbsp;</a>
+              <p class="note-body"><a href="http://www.criterion.com/my_criterion/62643-justinr/collection?open_item=265228">“Such a quirky, off-beat Godard picture - he at his most stylized, & Anna Karina at her most beautiful.  And they both pull no punches - a sharp film.”</a></p>
+              <a href="http://www.criterion.com/my_criterion/62643-justinr" class="note-author">JustinR</a>
+            </div>
+          </div>
+        <div class="clear"></div>
+      </div>
+  </div>
+
+</div><!-- END NEWHOME -->
+
+      <div id="footer" class="clear">
+  <ul class="sections">
+    <li><a href="/library" title="Films" class="header">Films</a></li>
+    <li><a href="/library/expanded_view?f=2&s=release_date" title="New Releases" class="inner">New Releases</a></li>
+    <li><a href="/library/expanded_view?f=1&s=release_date" title="Coming Soon" class="inner">Coming Soon</a></li>
+    <li><a href="/library/expanded_view?f=3" title="Collector's Sets" class="inner">Collector’s Sets</a></li>
+    <li><a href="/library/expanded_view?b=Eclipse&s=spine&f=3" title="Eclipse" class="inner">Eclipse</a></li>
+  </ul>
+  
+  <ul class="sections">
+    <li><a href="/explore" title="Explore" class="header">Explore</a></li>
+    <li><a href="/explore/top10" title="Top 10s" class="inner">Top 10 Lists</a></li>
+    <li><a href="/explore/people" title="People" class="inner">People</a></li>
+    <li><a href="/explore/themes" title="Themes" class="inner">Themes</a></li>
+    <!-- until user lists are ready>	<li><a href="/explore" title="TBD Lists" class="inner">TBD Lists</a></li> <-->
+  </ul>
+  
+  <ul class="sections">
+    <li><a href="/current/posts" title="Current" class="header">Current</a></li>
+    <li><a href="/current/posts?category=Film+Essays" title="Film Essays" class="inner">Film Essays</a></li>
+    <li><a href="/current/posts?category=Video" title="Video" class="inner">Video</a></li>
+    <li><a href="/current/posts?category=Photo+Galleries" title="Photo Galleries" class="inner">Photo Galleries</a></li>
+    <li><a href="/current/posts?category=On+Five" title="On Five" class="inner">On Five</a></li>
+  </ul>
+  
+  <ul class="sections">
+    <li><a href="/shop" title="Films" class="header">Shop</a></li>
+    <li><a href="/library" title="Blu-rays and DVDs" class="inner">Blu-rays and DVDs</a></li>
+    <li><a href="/shop/clothing" title="Clothing" class="inner">Clothing</a></li>
+    <li><a href="/shop/artwork" title="Artwork and Posters" class="inner">Artwork and Posters</a></li>
+    <li><a href="/shop/gift_certificates" title="Gift Certificates" class="inner">Gift Certificates</a></li>
+  </ul>
+  
+  <ul class="sections-user">
+    <li><a href="/account" title="My Account" class="header">My Account</a></li>
+    <li class="cart-present-only"><a href="/cart/show" title="View Cart" class="inner cart-present-only" rel="nofollow">View Cart</a></li>
+    <li class="admin-only"><a href="/admin" class="inner admin-only" title="Admin" rel="nofollow">Admin</a></li>
+    <li class="signed-in-only"><a href="/account" class="inner signed-in-only" title="Account Info" rel="nofollow">Account Info</a></li>
+    <li class="signed-in-only"><a href="/orders" class="inner signed-in-only" title="Orders" rel="nofollow">Orders</a></li>
+    <li class="signed-in-only"><a href="/logout" class="inner signed-in-only" title="Log Out" rel="nofollow">Log Out</a></li>
+    <li class="signed-out-only"><a href="/signup" class="inner signed-out-only" title="Sign Up">Sign Up</a></li>
+    <li class="signed-out-only"><a href="/login" class="inner signed-out-only" title="Log In">Log In</a></li>
+    <li><a href="/help" title="Help" class="inner">Help</a></li>
+  </ul>  
+  
+  
+  <ul class="sections-user">
+    <li><a href="/my_criterion" title="My Criterion" class="header">My Criterion</a></li>
+    <li class="signed-in-only"><a href="/my_criterion" class="inner signed-in-only" title="My Profile"  rel="nofollow">My Profile</a></li>
+    <li class="signed-in-only"><a href="/my_wish_list" class="inner signed-in-only" title="My Wish List" rel="nofollow">My Wish List</a></li>
+    <li class="signed-in-only"><a href="/my_collection" class="inner signed-in-only" title="My Collection" rel="nofollow">My Collection</a></li>
+    <li class="signed-out-only"><a href="/my_criterion" class="inner signed-out-only" title="Get Started">Get Started</a></li>
+  </ul>
+  
+  <div id="aboutjoin">
+    <p id="aboutus">The Criterion Collection &copy; 2012 <a href="/about_us" title="About Us" class="contactjoin">About Us</a> <a href="/contact_us" title="Contact Us" class="contactjoin">Contact Us</a> <a href="http://www.janusfilms.com" title="Janus Films" class="contactjoin">Janus Films</a> </p>
+    <p id="joinus">Join us on: <a href="http://www.facebook.com/criterioncollection" title="Facebook" class="contactjoin">Facebook</a> <a href="http://www.twitter.com/criterion" title="Twitter" class="contactjoin">Twitter</a> <a href="http://www.youtube.com/criterioncollection" title="YouTube" class="contactjoin">YouTube</a></p>
+  </div>
+
+ <!--
+    <li><a href="/terms" title="Terms">Terms</a></li>
+    <li><a href="/privacy" title="Privacy">Privacy</a></li>
+    -->
+</div> <!-- END FOOTER -->
+    </div> <!-- END WRAP -->
+    
+    <div id="fb-root"></div>
+
+<script type="text/javascript">
+  // only if fb:like elements exist on the page
+  if ($j("fb\\:like").length > 0){
+    // Load FB js
+    var f = document.createElement('script');
+    f.async = true;
+    f.src = document.location.protocol + '//connect.facebook.net/en_US/all.js';
+    document.getElementById('fb-root').appendChild(f);
+
+    window.fbAsyncInit = function() {
+      FB.init({xfbml: true});
+    
+      // Facebook event tracking on Google Analytics
+      FB.Event.subscribe('edge.create', function(targetUrl) {
+        _gaq.push(['_trackSocial', 'facebook', 'like', targetUrl]);
+      });
+      FB.Event.subscribe('edge.remove', function(targetUrl) {
+        _gaq.push(['_trackSocial', 'facebook', 'unlike', targetUrl]);
+      });
+      FB.Event.subscribe('message.send', function(targetUrl) {
+        _gaq.push(['_trackSocial', 'facebook', 'send', targetUrl]);
+      });
+    };
+  };
+  
+  // Only if tweet element exists on the page
+  if ($j("#tweet").length > 0 || $j(".twitter-share-button").length > 0 || $j(".drop_wishlist").length > 0){
+    // Load Twitter js
+    var e = document.createElement('script');
+    e.type="text/javascript";
+    e.async = true; 
+    e.src = 'http://platform.twitter.com/widgets.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(e);
+
+    // Twitter event tracking on Google Analytics
+    // http://null-uk.com/55090968
+    $j(e).load(function() {
+      function tweetIntentToAnalytics(intent_event) {
+        if (intent_event) {
+          var label = intent_event.data.tweet_id;
+          _gaq.push(['_trackSocial', 'twitter', intent_event.type, label]);
+        };      
+      }
+      function followIntentToAnalytics(intent_event) {
+        if (intent_event) {
+          var label = intent_event.data.user_id + " (" + intent_event.data.screen_name + ")";
+          _gaq.push(['_trackSocial', 'twitter', intent_event.type, label]);
+        };      
+      }
+      twttr.events.bind('tweet', tweetIntentToAnalytics);
+      twttr.events.bind('follow', followIntentToAnalytics);
+    });
+  };
+</script>
+    	<script type="text/javascript">
+  var _sf_async_config={uid:5334,domain:"criterion.com"};
+  (function(){
+    function loadChartbeat() {
+      window._sf_endpt=(new Date()).getTime();
+      var e = document.createElement('script');
+      e.setAttribute('language', 'javascript');
+      e.setAttribute('type', 'text/javascript');
+      e.setAttribute('src',
+         (("https:" == document.location.protocol) ? "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" : "http://static.chartbeat.com/") +
+         "js/chartbeat.js");
+      document.body.appendChild(e);
+    }
+    var oldonload = window.onload;
+    window.onload = (typeof window.onload != 'function') ?
+       loadChartbeat : function() { oldonload(); loadChartbeat(); };
+  })();
+
+  </script>
+
+  <script type="text/javascript">if (!NREUMQ.f) { NREUMQ.f=function() {
+NREUMQ.push(["load",new Date().getTime()]);
+var e=document.createElement("script");
+e.type="text/javascript";e.async=true;e.src="https://d1ros97qkrwjf5.cloudfront.net/42/eum/rum.js";
+document.body.appendChild(e);
+if(NREUMQ.a)NREUMQ.a();
+};
+NREUMQ.a=window.onload;window.onload=NREUMQ.f;
+};
+NREUMQ.push(["nrfj","beacon-1.newrelic.com","5f9f1cd0f4",509801,"dF8LQUEMCV1UQ0xSAkRYB1pSEQEeWF8HUxs=",0.0,5,new Date().getTime(),"","","","",""])</script></body>
+</html>
+
+<!-- Environment: production -->
+
+
+WARC/1.0
+WARC-Type: resource
+WARC-Record-ID: <urn:uuid:A37BB144-B8D3-4B97-A336-FB0B0D6B4698>
+WARC-Warcinfo-ID: <urn:uuid:CF5083F4-FEB1-4C63-B3CB-B450AB609875>
+WARC-Target-URI: metadata://gnu.org/software/wget/warc/MANIFEST.txt
+WARC-Date: 2012-09-13T22:53:21Z
+WARC-Block-Digest: sha1:7EES3YRJUA4DYG5PT5PNHJEFBRICOE5F
+Content-Type: text/plain
+Content-Length: 48
+
+<urn:uuid:CF5083F4-FEB1-4C63-B3CB-B450AB609875>
+
+
+WARC/1.0
+WARC-Type: resource
+WARC-Record-ID: <urn:uuid:A37BB144-B8D3-4B97-A336-FB0B0D6B4698>
+WARC-Warcinfo-ID: <urn:uuid:CF5083F4-FEB1-4C63-B3CB-B450AB609875>
+WARC-Target-URI: metadata://gnu.org/software/wget/warc/wget_arguments.txt
+WARC-Date: 2012-09-13T22:53:21Z
+WARC-Block-Digest: sha1:7IFKTTSBXP2R4SNQQRZZOWWBBIZRQS6O
+Content-Type: text/plain
+Content-Length: 77
+
+"http://www.criterion.com/" "--warc-file=criterion" "--no-warc-compression" 
+
+
+WARC/1.0
+WARC-Type: resource
+WARC-Record-ID: <urn:uuid:058FE920-F4F9-4CDF-B437-12CD9BE9565D>
+WARC-Warcinfo-ID: <urn:uuid:CF5083F4-FEB1-4C63-B3CB-B450AB609875>
+WARC-Concurrent-To: <urn:uuid:A37BB144-B8D3-4B97-A336-FB0B0D6B4698>
+WARC-Target-URI: metadata://gnu.org/software/wget/warc/wget.log
+WARC-Date: 2012-09-13T22:53:21Z
+WARC-Block-Digest: sha1:BXY5LAJRXG6STLFFHLM4N5IEQ3IY7HA3
+Content-Type: text/plain
+Content-Length: 491
+
+Opening WARC file ‘criterion.warc’.
+
+--2012-09-13 18:53:20--  http://www.criterion.com/
+Resolving www.criterion.com... 50.19.219.54, 107.20.238.230, 23.21.85.13
+Connecting to www.criterion.com|50.19.219.54|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 43429 (42K) [text/html]
+Saving to: ‘index.html.1’
+
+     0K .......... .......... .......... .......... ..        100% 94.5K=0.4s
+
+2012-09-13 18:53:21 (94.5 KB/s) - ‘index.html.1’ saved [43429/43429]
+
+
+
