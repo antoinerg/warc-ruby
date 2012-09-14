@@ -37,7 +37,7 @@ class Header < HashWithIndifferentAccess
   end    
   
   def date=(d)
-    self["WARC-Date"] = Time.parse(d).iso8601
+    self["warc-date"] = Time.parse(d).iso8601
   end
   
   def type
@@ -46,6 +46,12 @@ class Header < HashWithIndifferentAccess
   
   def record_id
     self["warc-record-id"]
+  end
+  
+  def to_s
+    each do |k,v|
+      puts "#{k}: #{v}"
+    end
   end
 
   # WARC field names are case-insensitive

@@ -1,27 +1,39 @@
+require 'zlib'
+
 module Warc
   class Reader
    def initialize(path)
-     # TODO check fh is file handle
      @path = path
+   end
+   
+   def file_handle
+     if gzip?
+       ::Zlib::GzipReader.new(::File.new(@path))
+     else
+       ::File.new(@path)
+     end
+   end
+   
+   def gzip?
+     return Pathname.new(@path).extname == '.gz'
    end
    
    def each_record(&block)
      begin
-     fh = ::File.new(@path)
+     fh = file_handle
      while rec=next_record(fh)
        yield(rec)
      end
    rescue EOFError
      
+   rescue Exception => e
+     puts e.message
+     puts e.backtrace
    ensure
      fh.close
    end
    end
    
-   def read_content(record)
-     
-   end
-  
    def next_record(fh)
     seek_next(fh)
     offset = IO::SEEK_CUR
