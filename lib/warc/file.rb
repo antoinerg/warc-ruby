@@ -7,7 +7,7 @@ module Warc
     
     def initialize(path)
       @path = path
-      @parser = Warc::Reader.new(path)
+      @parser = Warc::Reader.parse(path)
     end
     
     def each &block  

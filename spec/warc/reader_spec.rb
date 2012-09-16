@@ -39,7 +39,7 @@ describe Warc::Reader do
     
   end
   
-  context "compressed file" do
+  context "compressed file single entry" do
     before(:each) do
       @warc=Warc::File.new(fixture('criterion.warc.gz'))
       @record = @warc.first
@@ -62,4 +62,17 @@ describe Warc::Reader do
     end
     
   end 
+  
+  context "compressed file mutliple entries" do
+    before(:each) do
+      @warc=Warc::File.new(fixture('frg.warc.gz'))
+    end
+    
+    it "should find all record" do
+      @warc.each do |rec|
+        puts rec.header
+      end
+      @warc.count.should eq 56
+    end
+  end
 end
