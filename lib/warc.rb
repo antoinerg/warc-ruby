@@ -1,13 +1,21 @@
 require "warc/version"
-require "warc/file"
-require "warc/record"
-require "warc/header"
-require "warc/reader"
-require "warc/reader/plain"
-require "warc/reader/gzip"
-require "warc/writer"
-require "warc/exceptions"
 require "warc/cli"
+# Stream
+require "warc/stream"
+require "warc/stream/plain"
+require "warc/stream/gzip"
+
+# Record
+require "warc/record"
+require "warc/record/validator"
+require "warc/record/header"
+
+# Parser
+require "warc/parser"
+
+# Exception
+require "warc/exceptions"
+
 
 module Warc
 

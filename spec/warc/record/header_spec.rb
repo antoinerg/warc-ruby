@@ -1,7 +1,8 @@
 require 'spec_helper.rb'
-describe Warc::Header do
+
+describe Warc::Record::Header do
   before(:each) do
-    @header=Warc::Header.new({
+    @header=Warc::Record::Header.new({
             "WARC-Type"=> "response",
             "WARC-Record-ID" => "<record-1>",
             "WARC-Date" => "2000-01-02T03:04:05Z",
@@ -23,7 +24,7 @@ describe Warc::Header do
   end
 
   it "should assume a content-lenght of 0 if unspecified" do
-    rec = Warc::Record.new({"WARC-Type" => "Resouce"})
-    rec.header.content_length.should eq 0
+    h = Warc::Record::Header.new({"WARC-Type" => "Resouce"})
+    h.content_length.should eq 0
   end
 end

@@ -1,9 +1,10 @@
 require "active_support/hash_with_indifferent_access"
 require "active_model"
+
 module Warc
-class Header < HashWithIndifferentAccess
+class Record::Header < HashWithIndifferentAccess
   include ::ActiveModel::Validations
-  validates_with Validator
+  validates_with ::Warc::Record::Validator
   
   # Set of field names defined in the spec
   NAMED_FIELDS = [

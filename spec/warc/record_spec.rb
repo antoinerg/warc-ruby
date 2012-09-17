@@ -2,8 +2,8 @@ require 'spec_helper.rb'
 
 describe Warc::Record do
   before(:each) do
-    @warc=Warc::File.new(fixture('criterion.warc'))
-    @rec = @warc.first
+    @warc_header = Warc::Record::Header.new({:content_length => "200"})
+    @rec=Warc::Record.new(@warc_header)
   end
   
   it "should have a header" do
