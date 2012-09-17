@@ -5,7 +5,7 @@ module Warc
   class CLI < Thor
     desc "dump", "Dump record headers from file"
     def dump(path)
-      w=Warc::File.new(path)
+      w=Warc.open_stream(path)
       w.each do |record|
         puts "-" * 10
         puts record.header

@@ -9,11 +9,11 @@ module Warc
       begin
 	gz = ::Zlib::GzipReader.new(self.file_handle)
         rec = self.parser.parse(gz)
-	loop {gz.readline}
-      rescue EOFError
-        @file_handle.pos -= gz.unused.length unless gz.unused.nil?
-	return rec
-      rescue ::Zlib::Error
+	loop {gz.readline} # Make sure we read the whole gzip
+      rescue EOFError # End of gzipped record
+        @file_handle.pos -= gz.unused.length unless gz.unused.nil? # We move the cursor back if extra bytes were read
+	return rec # We return the record
+      rescue ::Zlib::Error # Raised when there's no more gzipped data to read
         return nil
       end
     end

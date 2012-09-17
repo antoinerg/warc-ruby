@@ -35,12 +35,6 @@ describe Warc::Stream::Gzip do
     end
     
     it "should find all record" do
-	i=0
-      @warc.each do |rec|
-	i+=1
-        puts rec.header
-      end
-	puts "Total #{i}"
       @warc.count.should eq 56
     end
   end

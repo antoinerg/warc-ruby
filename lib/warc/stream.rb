@@ -1,3 +1,5 @@
+require 'pathname'
+
 module Warc
   def self.open_stream(path)
      fh = ::File.new(path,'r')
