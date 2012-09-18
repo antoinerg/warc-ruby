@@ -1,3 +1,4 @@
+require "uuid"
 require "active_support/hash_with_indifferent_access"
 require "active_model"
 
@@ -28,7 +29,9 @@ module Warc
       "WARC-Segment-Number",
       "WARC-Segment-Total-Length" #continuation only
     ]
-
+    
+    REQUIRED_FIELDS = ["WARC-Record-ID","Content-Length","WARC-Date","WARC-Type"]
+    
     def content_length
       self["content-length"].to_i || 0
     end
@@ -46,13 +49,14 @@ module Warc
     end
 
     def record_id
-      self["warc-record-id"]
+      self["warc-record-id"] || self["warc-record-id"] = sprintf("<urn:uuid:%s>",uuid.generate)
     end
 
     def to_s
       str = String.new
+
       each do |k,v|
-        str << "#{k}: #{v}\r\n"
+        str << "#{k}: #{v}\r\n" unless REQUIRED_FIELDS.map(&:downcase).include?(k)
       end
       return str
     end

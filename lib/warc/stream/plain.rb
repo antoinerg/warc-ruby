@@ -11,6 +11,9 @@ module Warc
         return nil
       end
     end
-
+    
+    def write_record(record)
+      record.dump_to(@file_handle)
+    end
   end
 end

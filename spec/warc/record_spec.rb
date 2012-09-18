@@ -4,7 +4,6 @@ describe Warc::Record do
   before(:each) do
     header=Warc::Record::Header.new({
       "WARC-Type"=> "response",
-      "WARC-Record-ID" => "<record-1>",
       "WARC-Date" => "2000-01-02T03:04:05Z",
       "Content-Length" => "10"
     })
