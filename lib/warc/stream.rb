@@ -2,44 +2,40 @@ require 'pathname'
 
 module Warc
   def self.open_stream(path)
-     fh = ::File.new(path,'r')
-     if Pathname.new(path).extname == '.gz'
+    fh = ::File.new(path,'r')
+    if Pathname.new(path).extname == '.gz'
       Stream::Gzip.new(fh)
-     else
+    else
       Stream::Plain.new(fh)
-     end
+    end
   end
 
-
   class Stream
-   include Enumerable
-   attr_reader :file_handle, :parser
-   def initialize(fh)
-     @file_handle = fh
-     @parser = ::Warc::Parser.new
-   end
-   
-   def each(&block)
-    loop do
-       rec = self.read_record
-	if rec
-       	  if block_given?
+    include Enumerable
+    attr_reader :parser
+    def initialize(fh)
+      @file_handle = fh
+      @parser = ::Warc::Parser.new
+    end
+
+    def each(&block)
+      loop do
+        rec = self.read_record
+        if rec
+          if block_given?
             block.call(rec)
-          else  
+          else
             yield rec
           end
-	else
-	  break
+        else
+          break
         end
-   end
+      end
 
-   def read_record
-	raise Exception
-   end
+      def read_record
+        raise Exception
+      end
 
-   def gzip?
-     return Pathname.new(@path).extname == '.gz'
-   end
-end
-end
+    end
+  end
 end

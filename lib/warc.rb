@@ -1,5 +1,6 @@
 require "warc/version"
 require "warc/cli"
+
 # Stream
 require "warc/stream"
 require "warc/stream/plain"
@@ -15,7 +16,6 @@ require "warc/parser"
 
 # Exception
 require "warc/exceptions"
-
 
 module Warc
 

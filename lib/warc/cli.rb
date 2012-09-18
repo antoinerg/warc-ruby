@@ -11,6 +11,6 @@ module Warc
         puts record.header
       end
     end
-    
+
   end
 end
