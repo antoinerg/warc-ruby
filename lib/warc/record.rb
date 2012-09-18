@@ -7,6 +7,7 @@ module Warc
  
     def initialize(header)
       @header = header
+      @header.record = self
     end
 
     def dump_to(out)

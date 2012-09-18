@@ -4,6 +4,7 @@ require "active_model"
 
 module Warc
   class Record::Header < HashWithIndifferentAccess
+    attr_accessor :record
     include ::ActiveModel::Validations
     validates_with ::Warc::Record::Validator
 
@@ -33,7 +34,7 @@ module Warc
     REQUIRED_FIELDS = ["WARC-Record-ID","Content-Length","WARC-Date","WARC-Type"]
     
     def content_length
-      self["content-length"].to_i || 0
+      self["content-length"].to_i || self.record.content.length
     end
 
     def date
@@ -49,18 +50,22 @@ module Warc
     end
 
     def record_id
-      self["warc-record-id"] || self["warc-record-id"] = sprintf("<urn:uuid:%s>",uuid.generate)
+      self["warc-record-id"] || self["warc-record-id"] = sprintf("<urn:uuid:%s>",UUID.generate)
     end
 
     def to_s
+      crfl="\r\n"
       str = String.new
-
+      str << "WARC-Type: #{self.type}" + crfl
+      str << "WARC-Date: #{self.date}" + crfl
+      str << "WARC-Record-ID: #{self.record_id}" + crfl
+      str << "Content-Length: #{self.content_length}" + crfl
       each do |k,v|
-        str << "#{k}: #{v}\r\n" unless REQUIRED_FIELDS.map(&:downcase).include?(k)
+        str << "#{k}: #{v}#{crfl}" unless REQUIRED_FIELDS.map(&:downcase).include?(k)
       end
       return str
     end
-
+    
     # WARC field names are case-insensitive
     # header["content-length"] == header["Content-Length"]
 

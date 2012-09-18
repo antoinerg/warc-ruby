@@ -33,11 +33,11 @@ module Warc
       end
 
       def read_record
-        raise Exception
+        raise StandardError
       end
       
       def write_record(record)
-        raise StandardError unless record.valid?
+        raise StandardError
       end
     end
   end
