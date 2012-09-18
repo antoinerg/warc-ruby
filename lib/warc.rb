@@ -14,6 +14,9 @@ require "warc/record/header"
 # Parser
 require "warc/parser"
 
+# Proxy server
+require "warc/proxy"
+
 # Exception
 require "warc/exceptions"
 

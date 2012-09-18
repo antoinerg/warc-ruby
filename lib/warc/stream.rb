@@ -31,14 +31,14 @@ module Warc
           break
         end
       end
-
-      def read_record
-        raise StandardError
-      end
+    end
       
-      def write_record(record)
-        raise StandardError
-      end
+    def read_record
+      raise StandardError
+    end
+      
+    def write_record(record)
+      raise StandardError
     end
   end
 end
