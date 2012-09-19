@@ -16,6 +16,12 @@ describe Warc::Record::Header do
     @header.date.should eq "2000-01-02T03:04:05Z"
     @header.content_length.should eq 10
   end
+  
+  it "should have a record accesor" do
+    w=Warc::Record.new
+    @header.record = w
+    @header.record.should eq(w)
+  end
 
   it "should be case-insensitive to field names" do
     ["WARC-Type", "warc-type", "WARC-TYPE"].each do |key|

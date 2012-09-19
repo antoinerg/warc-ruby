@@ -36,7 +36,7 @@ module Warc
     def content_length
       self["content-length"].to_i || self.record.content.length
     end
-
+    
     def date
       self["warc-date"]
     end

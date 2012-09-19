@@ -2,12 +2,14 @@ require 'spec_helper.rb'
 
 describe Warc::Record do
   before(:each) do
+    @rec = Warc::Record.new
+    @rec.content = "asdfa sdf asdfasdf <asdasdf <asdf asdfasdf"
     header=Warc::Record::Header.new({
       "WARC-Type"=> "response",
       "WARC-Date" => "2000-01-02T03:04:05Z",
     })
-    @rec = Warc::Record.new(header)
-    @rec.content = "asdfa sdf asdfasdf <asdasdf <asdf asdfasdf"
+    @rec.header = header
+    header.record = @rec
   end
 
   it "should have a header" do
@@ -15,6 +17,7 @@ describe Warc::Record do
   end
 
   it "should dump record to IO" do
+    $stdout.write("\n")
     @rec.dump_to($stdout)
   end
 end

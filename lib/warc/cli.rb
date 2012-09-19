@@ -1,6 +1,5 @@
 require 'warc'
 require 'thor'
-require 'rack'
 
 module Warc
   class CLI < Thor
@@ -15,7 +14,7 @@ module Warc
 
     desc "proxy", "Start a web proxy serving a WARC file"
     def proxy()
-      Rack::Handler::WEBrick.run Warc::Proxy.new
+      Warc::Proxy.start
     end
   end
 end

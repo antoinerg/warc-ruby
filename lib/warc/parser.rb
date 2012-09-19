@@ -16,7 +16,8 @@ module Warc
 
       #puts header
 
-      record = Warc::Record.new(header)
+      record = Warc::Record.new
+      record.header = header
       record.content = stream.read(record.header.content_length)
 
       #@fh.seek(record.header["content-length"].to_i,IO::SEEK_CUR)

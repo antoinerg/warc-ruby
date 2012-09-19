@@ -2,12 +2,9 @@ module Warc
   class Record
     VERSION = "WARC/1.0"
     
-    attr_reader :version, :header
-    attr_accessor :content
+    attr_accessor :content, :header
  
-    def initialize(header)
-      @header = header
-      @header.record = self
+    def initialize
     end
 
     def dump_to(out)
