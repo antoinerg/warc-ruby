@@ -9,11 +9,8 @@ module Warc
     end
     
     def call(env)
-      req = ::Rack::Request.new(env)
-      puts req.fullpath
-      puts req.url
       record = @warc.detect do |rec|
-        rec.header["warc-target-uri"] == req.url && rec.header["warc-type"] == "response"
+        rec.header["warc-target-uri"] == env["REQUEST_URI"] && rec.header["warc-type"] == "response"
       end
       if record
         return http_response(record)
