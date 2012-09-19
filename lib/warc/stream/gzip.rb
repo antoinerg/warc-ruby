@@ -22,9 +22,14 @@ module Warc
     end
     
     def write_record(record)
+      # Go to end of file
+      @file_handle.seek(0,::IO::SEEK_END)
+      
+      # Prepare gzip IO object
       gz = ::Zlib::GzipWriter.new(@file_handle)
       record.dump_to(gz)
-      gz.close
+      gz.close # Needed to close for gzip to write the gzip footer
+      @file_handle.reopen('r+') # Work on this file might not be done
     end
   end
 end

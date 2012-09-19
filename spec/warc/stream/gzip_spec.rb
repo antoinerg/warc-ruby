@@ -38,4 +38,9 @@ describe Warc::Stream::Gzip do
       @warc.count.should eq 56
     end
   end
+  
+  context "writing record" do
+    before(:each) do
+    end
+  end
 end

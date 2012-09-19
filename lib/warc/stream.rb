@@ -2,7 +2,7 @@ require 'pathname'
 
 module Warc
   def self.open_stream(path)
-    fh = ::File.new(path,'r')
+    fh = ::File.new(path,'r+')
     if Pathname.new(path).extname == '.gz'
       Stream::Gzip.new(fh)
     else
@@ -14,7 +14,13 @@ module Warc
     include Enumerable
     attr_reader :parser
     def initialize(fh)
-      @file_handle = fh
+      fh = case fh
+      when ::File 
+        file_handle = fh
+      when String
+        ::File.new(fh,'a+')
+      end
+      @file_handle=fh
       @parser = ::Warc::Parser.new
     end
 
@@ -31,6 +37,10 @@ module Warc
           break
         end
       end
+    end
+    
+    def close
+      @file_handle.close
     end
       
     def read_record

@@ -2,9 +2,15 @@ module Warc
   class Record
     VERSION = "WARC/1.0"
     
-    attr_accessor :content, :header
+    attr_accessor :content
+    attr_reader :header
  
     def initialize
+    end
+    
+    def header=(h)
+      @header=h
+      h.record = self
     end
 
     def dump_to(out)
@@ -22,7 +28,7 @@ module Warc
       
       out.write(VERSION + crfl)
       out.write(self.header.to_s)
-      out.write("\r\n")
+      out.write(crfl)
       out.write(self.content + crfl*2)
     end
   end
