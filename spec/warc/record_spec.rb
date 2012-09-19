@@ -9,7 +9,6 @@ describe Warc::Record do
       "WARC-Type"=> "response",
       "WARC-Date" => "2000-01-02T03:04:05Z",
     })
-    @rec.header = header
   end
 
   it "should have a header" do

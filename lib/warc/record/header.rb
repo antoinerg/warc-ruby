@@ -4,7 +4,7 @@ require "active_model"
 
 module Warc
   class Record::Header < HashWithIndifferentAccess
-    attr_accessor :record
+    attr_reader :record
     include ::ActiveModel::Validations
     validates_with ::Warc::Record::Validator
 
@@ -32,9 +32,14 @@ module Warc
     ]
     
     REQUIRED_FIELDS = ["WARC-Record-ID","Content-Length","WARC-Date","WARC-Type"]
+      
+    def initialize(h={},record)
+      super(h)
+      @record=record
+    end
     
     def content_length
-      self["content-length"].to_i || self.record.content.length
+      (self["content-length"] ||= self.record.content.length).to_i
     end
     
     def date

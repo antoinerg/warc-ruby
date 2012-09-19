@@ -8,20 +8,18 @@ module Warc
       end
 
       # Prepare to read headers
-      header = Warc::Record::Header.new
+      rec = Warc::Record.new
 
       while m = /^(.*): (.*)/.match(stream.readline)
-        header[m.captures[0]] = m.captures[1].chomp("\r")
+        rec.header[m.captures[0]] = m.captures[1].chomp("\r")
       end
 
       #puts header
 
-      record = Warc::Record.new
-      record.header = header
-      record.content = stream.read(record.header.content_length)
+      rec.content = stream.read(rec.header.content_length)
 
       #@fh.seek(record.header["content-length"].to_i,IO::SEEK_CUR)
-      return record
+      return rec
     end
   end
 end

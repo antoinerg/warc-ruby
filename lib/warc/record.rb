@@ -5,14 +5,11 @@ module Warc
     attr_accessor :content
     attr_reader :header
  
-    def initialize
+    def initialize(h={},content="")
+      @content = content
+      @header = Header.new(h,self)
     end
     
-    def header=(h)
-      @header=h
-      h.record = self
-    end
-
     def dump_to(out)
       #    
       #      warc-file    = 1*warc-record
