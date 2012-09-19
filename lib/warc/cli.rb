@@ -13,8 +13,8 @@ module Warc
     end
 
     desc "proxy", "Start a web proxy serving a WARC file"
-    def proxy()
-      Warc::Proxy.start
+    def proxy(warc)
+      Warc::Proxy.start(warc)
     end
   end
 end

@@ -14,4 +14,10 @@ Gem::Specification.new do |gem|
   gem.name          = "warc"
   gem.require_paths = ["lib"]
   gem.version       = Warc::VERSION
+  
+  gem.add_dependency("uuid")
+  gem.add_dependency("activemodel")
+  gem.add_dependency("rack")
+  gem.add_dependency("thor")
+  gem.add_dependency("rack-contrib")
 end
