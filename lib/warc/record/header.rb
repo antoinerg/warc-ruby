@@ -57,6 +57,10 @@ module Warc
     def record_id
       self["warc-record-id"] || self["warc-record-id"] = sprintf("<urn:uuid:%s>",UUID.generate)
     end
+    
+    def uri
+      self["WARC-Target-URI"]
+    end
 
     def to_s
       crfl="\r\n"

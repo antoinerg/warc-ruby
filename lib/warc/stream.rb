@@ -24,7 +24,8 @@ module Warc
       @parser = ::Warc::Parser.new
     end
 
-    def each(&block)
+    def each(offset=0,&block)
+      @file_handle.seek(offset,::IO::SEEK_SET)
       loop do
         rec = self.read_record
         if rec

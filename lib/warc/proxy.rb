@@ -10,14 +10,16 @@ module Warc
     
     def call(env)
       req = ::Rack::Request.new(env)
-      page = @warc.detect do |rec|
-        rec.header["warc-target-uri"] == req.url &&
-        rec.header["warc-type"] == "response"
+      puts req.fullpath
+      puts req.url
+      record = @warc.detect do |rec|
+        rec.header["warc-target-uri"] == req.url && rec.header["warc-type"] == "response"
       end
-      if page
-        return http_response(page)
+      if record
+        return http_response(record)
       else
-        [200,{"Content-Type" => "text/html"},["Not found"]]
+        records = @warc.collect {|rec| "<a href='#{rec.header.uri}'>#{rec.header.uri}</a><br/>"}
+        return [200,{"Content-Type" => "text/html"},records]
       end
     end
     
@@ -34,7 +36,7 @@ module Warc
     def self.start(warc)
       app = ::Rack::Builder.new {
         use ::Rack::ShowExceptions
-        #use ::Rack::Lint
+        use ::Rack::Lint
         use ::Rack::CommonLogger
         
         map "/" do

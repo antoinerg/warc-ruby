@@ -21,4 +21,12 @@ describe Warc::Stream do
     s.write_record(@rec)
     s.close    
   end
+  
+  it "should find record" do
+    stream = ::Warc.open_stream(fixture('arg.warc'))
+    uri = "http://antoineroygobeil.com/"
+    record = stream.detect do |rec|
+      rec.header["warc-target-uri"] == uri && rec.header["warc-type"] == "response"
+    end
+  end
 end
