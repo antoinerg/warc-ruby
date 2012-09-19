@@ -29,7 +29,7 @@ module Warc
       gz = ::Zlib::GzipWriter.new(@file_handle)
       record.dump_to(gz)
       gz.close # Needed to close for gzip to write the gzip footer
-      @file_handle.reopen('r+') # Work on this file might not be done
+      @file_handle = ::File.open(@file_handle.path,'r+') # Work on this file might not be done
     end
   end
 end
