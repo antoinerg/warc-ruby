@@ -6,18 +6,25 @@ module Warc
   class Proxy
     def initialize(warc)
       @warc = ::Warc.open_stream(warc)
+      @records = @warc.find_all
     end
     
     def call(env)
-      record = @warc.detect do |rec|
-        rec.header["warc-target-uri"] == env["REQUEST_URI"] && rec.header["warc-type"] == "response"
+      uri = env["REQUEST_URI"]
+      return homepage if uri == "http://warc/"
+      record = @records.detect do |rec|
+        rec.header["warc-target-uri"] == uri && rec.header["warc-type"] == "response"
       end
       if record
         return http_response(record)
       else
-        records = @warc.collect {|rec| "<a href='#{rec.header.uri}'>#{rec.header.uri}</a><br/>"}
-        return [200,{"Content-Type" => "text/html"},records]
+        return [404,{"Content-Type" => "text/html"},["not found"]]
       end
+    end
+    
+    def homepage
+      @index ||= @records.collect {|rec| "<a href='#{rec.header.uri}'>#{rec.header.uri}</a><br/>"}
+      return [200,{"Content-Type" => "text/html"},@index]
     end
     
     def http_response(page)
