@@ -1,4 +1,5 @@
 require "uuid"
+require "base32"
 require "active_support/hash_with_indifferent_access"
 require "active_model"
 
@@ -56,6 +57,14 @@ module Warc
 
     def record_id
       self["warc-record-id"] || self["warc-record-id"] = sprintf("<urn:uuid:%s>",UUID.generate)
+    end
+    
+    def block_digest
+      self["warc-block-digest"] ||= compute_digest(self.record.content)
+    end
+    
+    def compute_digest(content)
+      "sha1:" + Base32.encode(Digest::SHA1.hexdigest(content))
     end
 
     def to_s
