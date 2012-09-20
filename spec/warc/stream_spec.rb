@@ -4,10 +4,11 @@ describe Warc::Stream do
   before(:each) do
     @rec = Warc::Record.new
     @rec.content = "asdf asdf"
-    header=Warc::Record::Header.new({
+    @rec.header.replace({
       "WARC-Type"=> "response",
       "WARC-Date" => "2000-01-02T03:04:05Z",
     })
+    header = @rec.header
   end
   
   it "should dump record to file" do

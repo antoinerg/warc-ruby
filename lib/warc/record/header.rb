@@ -33,7 +33,7 @@ module Warc
     
     REQUIRED_FIELDS = ["WARC-Record-ID","Content-Length","WARC-Date","WARC-Type"]
       
-    def initialize(h={},record)
+    def initialize(h,record)
       super(h)
       @record=record
     end
@@ -56,10 +56,6 @@ module Warc
 
     def record_id
       self["warc-record-id"] || self["warc-record-id"] = sprintf("<urn:uuid:%s>",UUID.generate)
-    end
-    
-    def uri
-      self["WARC-Target-URI"]
     end
 
     def to_s
