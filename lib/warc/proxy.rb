@@ -42,10 +42,7 @@ module Warc
         use ::Rack::ShowExceptions
         use ::Rack::Lint
         use ::Rack::CommonLogger
-        
-        map "/" do
-          run ::Warc::Proxy.new(warc)
-        end
+        run ::Warc::Proxy.new(warc)
       }
       ::Rack::Server.start(:app => app,:Port => 9292)
     end

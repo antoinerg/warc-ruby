@@ -2,7 +2,6 @@ module Warc
   class Parser
     def parse(stream)
       # Find next item
-      offset=stream.tell
       loop do
         offset = stream.tell
         version_line = stream.readline
@@ -11,7 +10,6 @@ module Warc
 
       # Prepare to read headers
       rec = Warc::Record.new
-      rec.offset=offset
 
       while m = /^(.*): (.*)/.match(stream.readline)
         rec.header[m.captures[0]] = m.captures[1].chomp("\r")
