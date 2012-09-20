@@ -66,6 +66,10 @@ module Warc
     def compute_digest(content)
       "sha1:" + Base32.encode(Digest::SHA1.hexdigest(content))
     end
+    
+    def uri
+      self["warc-target-uri"]
+    end
 
     def to_s
       crfl="\r\n"
