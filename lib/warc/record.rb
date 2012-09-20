@@ -2,7 +2,7 @@ module Warc
   class Record
     VERSION = "WARC/1.0"
     
-    attr_accessor :content
+    attr_accessor :content, :offset
     attr_reader :header
  
     def initialize(h={},content="")

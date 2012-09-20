@@ -4,9 +4,10 @@ require 'thor'
 module Warc
   class CLI < Thor
     desc "dump", "Dump record headers from file"
+    method_option :offset, :default => 0, :type => :numeric
     def dump(path)
       w=Warc.open_stream(path)
-      w.each do |record|
+      w.each(options[:offset]) do |record|
         puts "-" * 10
         puts record.header
       end

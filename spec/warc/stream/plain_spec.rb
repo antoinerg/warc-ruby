@@ -32,7 +32,7 @@ describe Warc::Stream::Plain do
     before(:each) do
       @warc=Warc.open_stream(fixture('frg.warc'))
     end
-
+    
     it "should find all record" do
       @warc.count.should eq 56
     end

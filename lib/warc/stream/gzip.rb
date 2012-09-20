@@ -16,7 +16,7 @@ module Warc
         @file_handle.pos -= gz.unused.length unless gz.unused.nil? # We move the cursor back if extra bytes were read
         return rec # We return the record
       
-      rescue ::Zlib::Error # Raised when there's no more gzipped data to read
+      rescue ::Zlib::Error => e # Raised when there's no more gzipped data to read
         return nil
       end
     end
@@ -28,8 +28,7 @@ module Warc
       # Prepare gzip IO object
       gz = ::Zlib::GzipWriter.new(@file_handle)
       record.dump_to(gz)
-      gz.close # Needed to close for gzip to write the gzip footer
-      @file_handle = ::File.open(@file_handle.path,'r+') # Work on this file might not be done
+      gz.finish # Needed to close for gzip to write the gzip footer
     end
   end
 end
