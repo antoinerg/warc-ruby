@@ -12,8 +12,8 @@ module Warc
       record.header["warc-target-uri"] = url.to_s
       
       headers = String.new
-      headers << "HTTP/#{net_res.http_version} #{net_res.code} #{net_res.message}\n"
-      net_res.to_hash.each {|key,value| headers << "#{key}: #{value[0].to_s}\n"}
+      headers << "HTTP/#{net_res.http_version} #{net_res.code} #{net_res.message}\r\n"
+      net_res.to_hash.each {|key,value| headers << "#{key}: #{value[0].to_s}\r\n"}
       
       record.content = "#{headers}#{net_res.body}"
       return record,net_res
