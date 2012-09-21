@@ -1,7 +1,7 @@
 require 'spec_helper.rb'
 
 describe Warc::Record::Header do
-  context "Simple record" do
+  context "when instansiated with some value" do
     before(:each) do
       @header=Warc::Record.new({
         "WARC-Type"=> "response",
@@ -10,7 +10,10 @@ describe Warc::Record::Header do
         "Content-Length" => "10"
       }).header
     end
+    
+    subject {@header}
 
+    its(:type) { should eq "response"}
     it "should have attributes for mandatory fields" do
       @header.type.should eq "response"
       @header.record_id.should eq "<record-1>"
@@ -24,9 +27,11 @@ describe Warc::Record::Header do
       end
     end
 
-    it "should assume a content-lenght of 0 if unspecified" do
-      h = Warc::Record.new({"WARC-Type" => "Resouce"}).header
-      h.content_length.should eq 0
+    context "when warc-content-length empty" do
+      before {@header.delete("content-length")}
+      it "should assume a content-lenght of 0" do
+        @header.content_length.should eq 0
+      end
     end
   end
 
