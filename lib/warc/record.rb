@@ -5,7 +5,7 @@ module Warc
     attr_accessor :content, :offset
     attr_reader :header
  
-    def initialize(h={},content="")
+    def initialize(h={},content=nil)
       @content=content
       case h
       when Hash

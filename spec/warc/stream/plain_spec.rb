@@ -13,13 +13,13 @@ describe Warc::Stream::Plain do
 
     it "should return the headers as an hash" do
       @record.header.should eq({
-        "warc-type" => "warcinfo",
-        "content-type" => "application/warc-fields",
-        "warc-date" => "2012-09-13T22:53:20Z",
-        "warc-record-id" => "<urn:uuid:CF5083F4-FEB1-4C63-B3CB-B450AB609875>",
-        "warc-filename" => "criterion.warc",
-        "warc-block-digest" => "sha1:XGSXIX3L7RQGXFU6XJ32NCHXCKN6BBMK",
-        "content-length" => "258"
+        "WARC-Type" => "warcinfo",
+        "Content-Type" => "application/warc-fields",
+        "WARC-Date" => "2012-09-13T22:53:20Z",
+        "WARC-Record-ID" => "<urn:uuid:CF5083F4-FEB1-4C63-B3CB-B450AB609875>",
+        "WARC-Filename" => "criterion.warc",
+        "WARC-Block-Digest" => "sha1:XGSXIX3L7RQGXFU6XJ32NCHXCKN6BBMK",
+        "Content-Length" => "258"
       })
     end
 

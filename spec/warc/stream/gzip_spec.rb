@@ -17,13 +17,13 @@ describe Warc::Stream::Gzip do
 
     it "should return the headers as an hash" do
       @record.header.should eq({
-        "warc-type" => "warcinfo",
-        "content-type" => "application/warc-fields",
-        "warc-date" => "2012-09-13T22:52:52Z",
-        "warc-record-id" => "<urn:uuid:671787C3-3C00-4256-8C5C-386A4D8F7468>",
-        "warc-filename" => "criterion.warc.gz",
-        "warc-block-digest" => "sha1:OX3R5RVY4LFQ6WIPTDCLTY3ABKWLXUBU",
-        "content-length" => "234"
+        "WARC-Type" => "warcinfo",
+        "Content-Type" => "application/warc-fields",
+        "WARC-Date" => "2012-09-13T22:52:52Z",
+        "WARC-Record-ID" => "<urn:uuid:671787C3-3C00-4256-8C5C-386A4D8F7468>",
+        "WARC-Filename" => "criterion.warc.gz",
+        "WARC-Block-Digest" => "sha1:OX3R5RVY4LFQ6WIPTDCLTY3ABKWLXUBU",
+        "Content-Length" => "234"
       })
     end
 

@@ -1,9 +1,10 @@
 require "uuid"
-require "active_support/hash_with_indifferent_access"
-require "active_model"
 
 module Warc
-  class Record::Header < HashWithIndifferentAccess
+  class Record::Header < Record::HeaderHash
+    # WARC field names are case-insensitive
+    # header["content-length"] == header["Content-Length"]
+    
     attr_reader :record
     include ::ActiveModel::Validations
     validates_with ::Warc::Record::Validator
@@ -34,8 +35,8 @@ module Warc
     REQUIRED_FIELDS = ["WARC-Record-ID","Content-Length","WARC-Date","WARC-Type"]
       
     def initialize(record,h={})
-      super(h)
       @record=record
+      super(h)
     end
     
     def content_length
@@ -81,23 +82,6 @@ module Warc
         str << "#{k}: #{v}#{crfl}" unless REQUIRED_FIELDS.map(&:downcase).include?(k)
       end
       return str
-    end
-    
-    # WARC field names are case-insensitive
-    # header["content-length"] == header["Content-Length"]
-
-    # To achieve this behavior, the following is used
-    # http://stackoverflow.com/questions/2030336/how-do-i-create-a-hash-in-ruby-that-compares-strings-ignoring-case
-
-    # This method shouldn't need an override, but my tests say otherwise.
-    def [](key)
-      super convert_key(key)
-    end
-
-    protected
-
-    def convert_key(key)
-      key.respond_to?(:downcase) ? key.downcase : key
     end
   end
 end
