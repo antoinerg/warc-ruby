@@ -1,5 +1,4 @@
 require "uuid"
-require "base32"
 require "active_support/hash_with_indifferent_access"
 require "active_model"
 
@@ -34,13 +33,13 @@ module Warc
     
     REQUIRED_FIELDS = ["WARC-Record-ID","Content-Length","WARC-Date","WARC-Type"]
       
-    def initialize(h,record)
+    def initialize(record,h={})
       super(h)
       @record=record
     end
     
     def content_length
-      (self["content-length"] ||= self.record.content.length).to_i
+    (self["content-length"] ||= self.record.content.length rescue 0).to_i
     end
     
     def date
@@ -56,7 +55,7 @@ module Warc
     end
 
     def record_id
-      self["warc-record-id"] || self["warc-record-id"] = sprintf("<urn:uuid:%s>",UUID.generate)
+      self["warc-record-id"] ||= sprintf("<urn:uuid:%s>",UUID.generate)
     end
     
     def block_digest
@@ -64,7 +63,7 @@ module Warc
     end
     
     def compute_digest(content)
-      "sha1:" + Base32.encode(Digest::SHA1.hexdigest(content))
+      "sha256:" + (Digest::SHA256.hexdigest(content))
     end
     
     def uri

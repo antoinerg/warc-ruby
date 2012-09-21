@@ -18,5 +18,7 @@ describe Warc::Record do
   it "should compute content-length" do
     @rec.header.content_length.should eq(4)
   end
-
+  
+  it "should initialize from WEBrick::HTTPResponse"
+    record = Warc::Record.new()
 end

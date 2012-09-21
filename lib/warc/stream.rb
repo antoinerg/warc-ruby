@@ -42,6 +42,11 @@ module Warc
       end
     end
     
+    def record(offset=0)
+      @file_handle.seek(offset,::IO::SEEK_SET)
+      self.read_record
+    end
+    
     def close
       @file_handle.close
     end

@@ -6,8 +6,24 @@ module Warc
     attr_reader :header
  
     def initialize(h={},content="")
-      @content = content
-      @header = Header.new(h,self)
+      @content=content
+      case h
+      when Hash
+        @header = Header.new(self,h)
+      when WEBrick::HTTPResponse
+        @header = Header.new(self)
+        @header["WARC-Type"] = "response"
+        @header["WARC-Target-URI"] = h.request_uri
+        @header["Content-Type"] = "application/http; msgtype=response"
+        body,crfl = String.new,"\r\n"
+        body << h.status_line
+        h.header.each do |k,v|
+          body << "#{k}: #{v}" + crfl
+        end
+        body << crfl + h.body
+        self.content = body
+      end
+
     end
     
     def dump_to(out)

@@ -35,9 +35,5 @@ describe Warc::Record::Header do
       @warc = Warc.open_stream(fixture('arg.warc'))
       @record = @warc.first
     end
-    
-    it "should have the right block digest" do
-      @record.header["warc-block-digest"].should eq @record.header.compute_digest(@record.content)
-    end
   end
 end

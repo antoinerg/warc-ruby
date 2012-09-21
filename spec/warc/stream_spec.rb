@@ -30,4 +30,9 @@ describe Warc::Stream do
       rec.header["warc-target-uri"] == uri && rec.header["warc-type"] == "response"
     end
   end
+  
+  it "should read record at given offset" do
+    stream = ::Warc.open_stream(fixture('arg.warc'))
+    stream.record(8287).header.record_id.should eq("<urn:uuid:5D799C11-D46C-4AC8-B598-5DC9F4205C6E>")
+  end
 end

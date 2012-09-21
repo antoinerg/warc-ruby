@@ -13,9 +13,14 @@ module Warc
       end
     end
 
-    desc "proxy", "Start a web proxy serving a WARC file"
+    desc "replay", "Start a web proxy serving a WARC file"
+    def replay(warc)
+      Warc::Proxy::Replay.start(warc)
+    end
+    
+    desc "proxy", "Start a web proxy to intercept and archive communications"
     def proxy(warc)
-      Warc::Proxy.start(warc)
+      Warc::Proxy::Capture.start(warc)
     end
   end
 end
