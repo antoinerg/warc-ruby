@@ -75,8 +75,8 @@ module Warc
       crfl="\r\n"
       str = String.new
       str << "WARC-Type: #{self.type}" + crfl
-      str << "WARC-Date: #{self.date}" + crfl
       str << "WARC-Record-ID: #{self.record_id}" + crfl
+      str << "WARC-Date: #{self.date}" + crfl
       str << "Content-Length: #{self.content_length}" + crfl
       each do |k,v|
         str << "#{k}: #{v}#{crfl}" unless REQUIRED_FIELDS.map(&:downcase).include?(k)

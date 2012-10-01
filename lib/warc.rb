@@ -1,6 +1,13 @@
 require "warc/version"
 require "warc/cli"
 
+# Updated NET library (will be included in 2.0)
+#require "warc/ext/net_http"
+
+# http tools
+require "warc/proxy"
+require "warc/http"
+
 # Stream
 require "warc/stream"
 require "warc/stream/plain"
@@ -14,10 +21,6 @@ require "warc/record/header"
 
 # Parser
 require "warc/parser"
-
-# http tools
-require "warc/proxy"
-require "warc/http"
 
 # Exception
 require "warc/exceptions"
