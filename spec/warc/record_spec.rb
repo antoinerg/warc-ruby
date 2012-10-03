@@ -1,5 +1,4 @@
 require 'spec_helper.rb'
-require 'tempfile'
 
 describe Warc::Record do
   before(:each) do
@@ -7,7 +6,7 @@ describe Warc::Record do
     @rec.content = "asdf"
     @rec.header.replace({
       "WARC-Type"=> "response",
-      "WARC-Date" => "2000-01-02T03:04:05Z",
+      "WARC-Date" => "2000-01-02T03:04:05Z"
     })
   end
 
@@ -21,5 +20,10 @@ describe Warc::Record do
   
   it "should initialize from WEBrick::HTTPResponse" do
     record = Warc::Record.new()
+  end
+  
+  it "should return a Net::HTTPResponse" do
+    record = Warc.open_stream(fixture('ssd.warc.gz')).to_a[1]
+    puts record.to_http.body
   end
 end

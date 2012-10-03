@@ -2,7 +2,7 @@ require "warc/version"
 require "warc/cli"
 
 # Updated NET library (will be included in 2.0)
-#require "warc/ext/net_http"
+require "warc/ext/net_http"
 
 # http tools
 require "warc/proxy"

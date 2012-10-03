@@ -32,12 +32,13 @@ module Warc
         r=Net::HTTPResponse.read_new(socket)
         r.reading_body(socket,true) {}
         
-        # Ugly hack to deal with gzipped response. Note that net library in ruby 2.0 will do that automatically  
-        if r["content-encoding"] == "gzip" && r["content-type"].include?("text/html")
-          inflater = ::Zlib::Inflate.new(32 + Zlib::MAX_WBITS)
+        # Ugly hack to deal with gzipped response. Note that net library in ruby 2.0 will handle this itself 
+        if r["content-encoding"] == "gzip" && r["content-type"].include?("text/html")          
+          inflater = ::Zlib::Inflate.new(32 - Zlib::MAX_WBITS)
           buf = inflater.inflate(r.body)
           inflater.finish
           inflater.close
+
           r.body=buf
         end
         return r
