@@ -22,28 +22,15 @@ module Warc
         body  << crfl + h.body
         self.content = body
       end
-
     end
-
+    
     def to_http
       if @header["Content-Type"] == "application/http;msgtype=response" || "application/http; msgtype=response"
         url = @header["warc-target-uri"]
         socket = Net::BufferedIO.new(content)
         r=Net::HTTPResponse.read_new(socket)
         r.reading_body(socket,true) {}
-        
-        # Ugly hack to deal with gzipped response. Note that net library in ruby 2.0 will handle this itself 
-        if r["content-encoding"] == "gzip" && r["content-type"].include?("text/html")          
-          inflater = ::Zlib::Inflate.new(32 - Zlib::MAX_WBITS)
-          buf = inflater.inflate(r.body)
-          inflater.finish
-          inflater.close
-
-          r.body=buf
-        end
         return r
-      else
-        return nil
       end
     end
 

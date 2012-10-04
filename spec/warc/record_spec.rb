@@ -17,13 +17,4 @@ describe Warc::Record do
   it "should compute content-length" do
     @rec.header.content_length.should eq(4)
   end
-  
-  it "should initialize from WEBrick::HTTPResponse" do
-    record = Warc::Record.new()
-  end
-  
-  it "should return a Net::HTTPResponse" do
-    record = Warc.open_stream(fixture('ssd.warc.gz')).to_a[1]
-    puts record.to_http.body
-  end
 end

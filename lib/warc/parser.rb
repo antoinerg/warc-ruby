@@ -15,8 +15,6 @@ module Warc
         rec.header[m.captures[0]] = m.captures[1].chomp("\r")
       end
 
-      #puts header
-
       rec.content = stream.read(rec.header.content_length)
 
       #stream.seek(rec.header["content-length"].to_i,IO::SEEK_CUR)

@@ -27,10 +27,10 @@ module Warc
     def each(offset=0,&block)
       @file_handle.seek(offset,::IO::SEEK_SET)
       loop do
-        offset = @file_handle.tell
+        position = @file_handle.tell
         rec = self.read_record
         if rec
-          rec.offset = offset
+          rec.offset = position
           if block_given?
             block.call(rec)
           else

@@ -44,7 +44,7 @@ module Warc
     end
     
     def date
-      self["warc-date"]
+      self["warc-date"] ||= Time.now.iso8601
     end
 
     def date=(d)
