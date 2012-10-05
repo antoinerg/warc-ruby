@@ -1,7 +1,7 @@
 require "uuid"
 
 module Warc
-  class Record::Header < Record::HeaderHash
+  class Record::Header < HeaderHash
     # WARC field names are case-insensitive
     # header["content-length"] == header["Content-Length"]
     

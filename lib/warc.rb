@@ -1,6 +1,9 @@
 require "warc/version"
 require "warc/cli"
 
+# Utils
+require "warc/utils/header_hash"
+
 # Updated NET library (will be included in 2.0)
 require "warc/ext/net_http"
 

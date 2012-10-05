@@ -1,5 +1,5 @@
 module Warc
-  class Record::HeaderHash < ::Hash
+  class HeaderHash < ::Hash
     def initialize(hash={})
       super()
       @names = {}
