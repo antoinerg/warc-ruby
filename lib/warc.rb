@@ -18,7 +18,6 @@ require "warc/stream/gzip"
 
 # Record
 require "warc/record"
-require "warc/record/header_hash"
 require "warc/record/validator"
 require "warc/record/header"
 

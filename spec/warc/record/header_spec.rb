@@ -34,11 +34,4 @@ describe Warc::Record::Header do
       end
     end
   end
-
-  context "" do
-    before(:each) do
-      @warc = Warc.open_stream(fixture('arg.warc'))
-      @record = @warc.first
-    end
-  end
 end

@@ -26,6 +26,7 @@ module Warc::Proxy
           end
         end
       end
+      
       # Shutdown functionality
       trap("INT"){s.shutdown;t.exit}
       s.start

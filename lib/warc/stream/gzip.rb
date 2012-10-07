@@ -2,8 +2,10 @@ require 'zlib'
 
 module Warc
   class Stream::Gzip < Stream
-    def initialize(fh)
-      super(fh)
+    public_class_method :new
+    def initialize(fh,options={},&block)
+      @ext = ".warc.gz"
+      super(fh,options,&block)
     end
 
     def read_record
@@ -22,13 +24,12 @@ module Warc
     end
     
     def write_record(record)
-      # Go to end of file
-      @file_handle.seek(0,::IO::SEEK_END)
+      super
       
       # Prepare gzip IO object
       gz = ::Zlib::GzipWriter.new(@file_handle)
       record.dump_to(gz)
-      gz.finish # Needed to close for gzip to write the gzip footer
+      gz.finish # Need to close GzipWriter for it to write the gzip footer
     end
   end
 end

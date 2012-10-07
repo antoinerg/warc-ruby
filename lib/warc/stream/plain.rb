@@ -1,7 +1,10 @@
 module Warc
   class Stream::Plain < Stream
-    def initialize(fh)
-      super(fh)
+    public_class_method :new
+    
+    def initialize(fh,options={},&block)
+      @ext = '.warc'
+      super(fh,options,&block)
     end
 
     def read_record
@@ -13,7 +16,7 @@ module Warc
     end
     
     def write_record(record)
-      @file_handle.seek(0,::IO::SEEK_END)
+      super
       record.dump_to(@file_handle)
     end
   end
