@@ -1,5 +1,4 @@
 require "warc/version"
-require "warc/cli"
 
 # Utils
 require "warc/utils/header_hash"
@@ -8,7 +7,6 @@ require "warc/utils/header_hash"
 require "warc/ext/net_http"
 
 # http tools
-require "warc/proxy"
 require "warc/http"
 
 # Stream

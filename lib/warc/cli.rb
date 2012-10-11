@@ -1,6 +1,6 @@
 require 'warc'
-require 'thor'
 require 'warc/proxy'
+require 'thor'
 
 module Warc
   class CLI < Thor
