@@ -77,6 +77,7 @@ module Warc
       @file_handle.seek(0,::IO::SEEK_END)
       expected_size = record.header.content_length + @file_handle.tell
       next_file_handle if (expected_size > @options[:max_filesize])
+      record.offset = @file_handle.tell
     end
 
     def size

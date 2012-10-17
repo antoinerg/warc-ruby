@@ -12,8 +12,9 @@ module Warc
       when WEBrick::HTTPResponse
         @header = Header.new(self)
         @header["WARC-Type"] = "response"
-        @header["WARC-Target-URI"] = h.request_uri
+        @header["WARC-Target-URI"] = h.request_uri.to_s
         @header["Content-Type"] = "application/http;msgtype=response"
+        #@header["WARC-IP-Address"]
         body,crfl = String.new,"\r\n"
         body  << h.status_line
         h.header.each do |k,v|
@@ -21,12 +22,14 @@ module Warc
         end
         body  << crfl + h.body
         self.content = body
+        self.header.block_digest
+        @header["WARC-Payload-Digest"] = self.header.compute_digest(h.body)
       end
     end
     
     def to_http
-      if @header["Content-Type"] == "application/http;msgtype=response" || "application/http; msgtype=response"
-        url = @header["warc-target-uri"]
+      if @header["Content-Type"] == "application/http;msgtype=response"
+        url = @header["WARC-Target-URI"]
         socket = Net::BufferedIO.new(content)
         r=Net::HTTPResponse.read_new(socket)
         r.reading_body(socket,true) {}

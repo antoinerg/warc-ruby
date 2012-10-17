@@ -18,10 +18,10 @@ module Warc::Proxy
       t=Thread.new do
         loop do
           req,res = q.pop
-          #req,res = a[0],a[1]
           unless res.status == 304
             record = Warc::Record.new(res)
             warc_stream.write_record(record)
+            
             puts "Saved block #{record.header.record_id} to archive"
           end
         end
