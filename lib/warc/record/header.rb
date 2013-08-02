@@ -1,4 +1,5 @@
 require "uuid"
+require "time"
 
 module Warc
   class Record::Header < HeaderHash
