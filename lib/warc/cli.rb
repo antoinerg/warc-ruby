@@ -17,7 +17,7 @@ module Warc
     desc "replay WARC_FILE", "Start a HTTP proxy serving request from WARC_FILE. Dashboard available at http://warc/"
     option :p, :default => 9292, :banner => "port"
     def replay(warc)
-      Warc::Proxy::Replay.start(warc,options[:port])
+      Warc::Proxy::Replay.start(warc,options[:p])
     end
   end
 end
