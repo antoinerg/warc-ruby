@@ -18,10 +18,5 @@ module Warc
     def replay(warc)
       Warc::Proxy::Replay.start(warc)
     end
-    
-    desc "proxy", "Start a web proxy to intercept and archive communications"
-    def proxy(warc)
-      Warc::Proxy::Capture.start(warc)
-    end
   end
 end

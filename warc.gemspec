@@ -20,4 +20,5 @@ Gem::Specification.new do |gem|
   gem.add_dependency("rack")
   gem.add_dependency("thor")
   gem.add_dependency("rack-contrib")
+  gem.add_dependency("sinatra")
 end

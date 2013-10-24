@@ -1,2 +1,1 @@
-require 'warc/proxy/capture'
-require 'warc/proxy/replay'
+require 'warc/proxy/app'
