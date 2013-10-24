@@ -1,1 +1,1 @@
-require 'warc/proxy/replay'
+require 'warc/proxy/proxy'

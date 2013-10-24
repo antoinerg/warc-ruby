@@ -34,18 +34,15 @@ module Warc
       def call(env)
         # Send to Sinatra app
         if env["HTTP_HOST"] == "warc"
-          env["REQUEST_URI"] =~ /^http\:\/\/warc([^\?]*)\??(.*)$/
-          env["PATH_INFO"] = $1
-          env["QUERY_STRING"] = $2
           super(env)
-          # Or serve from archive
+        # Or serve from archive
         else
           serve(env)
         end
       end
 
       def serve(env)
-        uri = env["REQUEST_URI"]
+        uri = "http://#{env['HTTP_HOST']}#{env['REQUEST_URI']}"
         puts env.inspect
         if @index.key?(uri)
           record = @warc.record(@index[uri])
