@@ -2,10 +2,11 @@
 <div id="header">
 <h1>WARC</h1>
 <h2>Web ARChive</h2>
-<p>Currently serving <%= @size %> records</p>
+<p>Currently serving <b><%= @size %> records</b></p>
 </div>
 
 <div>
+	<h2>Records:</h2>
 	<ul>
 		<% @index.collect do |uri,offset| %>
 		<li><a href="<%=uri%>"><%=uri%></a></li>

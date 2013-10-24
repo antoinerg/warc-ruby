@@ -14,12 +14,12 @@ h2 {
 
 ul {
 	list-style: none;
+  font-size:12px;
 }
 
 #wrapper {
 width:600px;
 margin:0px auto;
-text-align:center;
 }
 
 #editor {
@@ -30,12 +30,13 @@ text-align:center;
   background-color: black;
   color: white;
   height: 300px;
-  border-radius:400px;
-  -moz-border-radius:400px;
-  -webkit-border-radius: 400px;
+  border-radius:200px;
+  -moz-border-radius:200px;
+  -webkit-border-radius: 200px;
   width: 300px;
-  padding:50px;
+  padding:25px;
   margin:0 auto;
+  text-align:center;
 }
 
 iframe {

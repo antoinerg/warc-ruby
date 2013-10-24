@@ -18,6 +18,13 @@ module Warc
         erb :index
       end
 
+      get "/record/*" do
+        id = params[:splat].join('/')
+        record = @index.record
+        @@session[request.ip] = Time.parse(record.header["WARC-Date"])
+        redirect to(record.header["WARC-Target-URI"])
+      end
+
       def initialize(app=nil,warc=nil)
         super(app)
         @warc = ::Warc.open_stream(warc)
@@ -35,7 +42,7 @@ module Warc
         # Send to Sinatra app
         if env["HTTP_HOST"] == "warc"
           super(env)
-        # Or serve from archive
+          # Or serve from archive
         else
           serve(env)
         end
@@ -43,7 +50,6 @@ module Warc
 
       def serve(env)
         uri = "http://#{env['HTTP_HOST']}#{env['REQUEST_URI']}"
-        puts env.inspect
         if @index.key?(uri)
           record = @warc.record(@index[uri])
           return http_response(record)
@@ -64,12 +70,13 @@ module Warc
         [code,headers,io]
       end
 
-      def self.start(warc)
+      def self.start(warc,port)
         # Run the app!
         app = Rack::Builder.new {
           run Warc::Proxy::Replay.new(nil,warc)
         }
-        ::Rack::Server.start(:app => app,:Port => 9292,:server=>:thin)
+        puts "Starting proxy server on port #{port}"
+        ::Rack::Server.start(:app => app,:Port => port,:server=>:thin)
       end
     end
 

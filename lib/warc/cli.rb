@@ -4,7 +4,7 @@ require 'thor'
 
 module Warc
   class CLI < Thor
-    desc "dump", "Dump record headers from file"
+    desc "dump WARC_FILE", "Dump record headers from WARC_FILE"
     method_option :offset, :default => 0, :type => :numeric
     def dump(path)
       w=Warc.open_stream(path)
@@ -14,9 +14,10 @@ module Warc
       end
     end
 
-    desc "replay", "Start a web proxy serving a WARC file"
+    desc "replay WARC_FILE", "Start a HTTP proxy serving request from WARC_FILE. Dashboard available at http://warc/"
+    option :p, :default => 9292, :banner => "port"
     def replay(warc)
-      Warc::Proxy::Replay.start(warc)
+      Warc::Proxy::Replay.start(warc,options[:port])
     end
   end
 end
