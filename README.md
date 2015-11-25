@@ -1,6 +1,6 @@
-# Warc
+# Web ARChive for Ruby
 
-TODO: Write a gem description
+Please see this post for announcement: https://antoineroygobeil.com/blog/2013/10/25/warc-ruby/
 
 ## Installation
 
