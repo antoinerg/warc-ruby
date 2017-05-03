@@ -1,4 +1,5 @@
 require 'warc'
+require 'rspec/its'
 
 def fixture(path)
   File.expand_path(File.join(File.dirname(__FILE__),'fixtures',path))

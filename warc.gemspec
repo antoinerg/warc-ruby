@@ -16,7 +16,7 @@ Gem::Specification.new do |gem|
   gem.name          = "warc"
   gem.require_paths = ["lib"]
   gem.version       = Warc::VERSION
-  
+
   gem.add_dependency("uuid")
   gem.add_dependency("activemodel")
   gem.add_dependency("rack")
@@ -24,4 +24,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency("rack-contrib")
   gem.add_dependency("sinatra")
   gem.add_dependency("thin")
+
+  gem.add_development_dependency "rspec-core"
+  gem.add_development_dependency "rspec-its"
 end
