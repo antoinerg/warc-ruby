@@ -1,6 +1,6 @@
 # Web ARChive for Ruby
 
-Please see this post for announcement: https://antoineroygobeil.com/blog/2013/10/25/warc-ruby/
+Please see this post for announcement: https://antrg.com/blog/2013/10/25/warc-ruby/
 
 ## Installation
 
