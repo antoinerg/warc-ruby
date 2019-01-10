@@ -10,10 +10,11 @@ describe Warc::Record::Header do
         "Content-Length" => "10"
       }).header
     end
-    
-    subject {@header}
+
+    subject { @header }
 
     its(:type) { should eq "response"}
+
     it "should have attributes for mandatory fields" do
       @header.type.should eq "response"
       @header.record_id.should eq "<record-1>"
